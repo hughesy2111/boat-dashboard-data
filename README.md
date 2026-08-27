@@ -17,8 +17,8 @@ Raw data URL:
 
 ## Dashboard briefing screens
 
-1. **At a Glance** — current conditions, forecast wind and gusts, tides, alerts, thunderstorm timing, and the best weather window.
-2. **Day Ahead** — wind, gust, and rain timeline plus marine conditions and named-storm outlook.
+1. **At a Glance** — current conditions, structured forecast wind and gust values, tides, alerts, thunderstorm timing, and the best weather window.
+2. **Day Ahead** — wind speed, gust, direction, and rain timeline plus marine conditions and named-storm outlook.
 3. **Morning Headlines** — five important AI/technology, US, or world-news stories. Marine and sailing stories are not included merely to fill categories.
 4. **Story Detail** — tapping a headline opens its concise summary, source, publication time, and source URL/QR-code option.
 
@@ -34,7 +34,7 @@ The scheduled task should write valid UTF-8 JSON using this structure:
 
 ~~~json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "briefing_date": "2026-08-27",
   "generated_at": "2026-08-27T06:30:00-04:00",
   "timezone": "America/New_York",
@@ -42,8 +42,11 @@ The scheduled task should write valid UTF-8 JSON using this structure:
   "at_a_glance": {
     "condition": "Partly cloudy",
     "temperature_f": 78,
-    "forecast_wind": "SW 8–12 kt",
-    "forecast_gusts": "Up to 18 kt",
+    "forecast_wind_min_kt": 8,
+    "forecast_wind_max_kt": 15,
+    "forecast_gust_max_kt": 20,
+    "forecast_wind_direction_start": "SW",
+    "forecast_wind_direction_end": "SE",
     "storm_timing": "Risk increases after 3 PM",
     "alert_status": "No active alerts",
     "best_window": "Now–noon",
@@ -56,11 +59,11 @@ The scheduled task should write valid UTF-8 JSON using this structure:
   },
   "day_ahead": {
     "timeline": [
-      { "time": "NOW", "wind_kt": 8, "gust_kt": 12, "rain_percent": 10 },
-      { "time": "9 AM", "wind_kt": 10, "gust_kt": 15, "rain_percent": 10 },
-      { "time": "NOON", "wind_kt": 12, "gust_kt": 18, "rain_percent": 20 },
-      { "time": "3 PM", "wind_kt": 15, "gust_kt": 23, "rain_percent": 60 },
-      { "time": "6 PM", "wind_kt": 11, "gust_kt": 17, "rain_percent": 40 }
+      { "time": "NOW", "wind_kt": 8, "gust_kt": 12, "wind_direction": "SW", "rain_percent": 10 },
+      { "time": "9 AM", "wind_kt": 10, "gust_kt": 15, "wind_direction": "SW", "rain_percent": 10 },
+      { "time": "NOON", "wind_kt": 12, "gust_kt": 18, "wind_direction": "S", "rain_percent": 20 },
+      { "time": "3 PM", "wind_kt": 15, "gust_kt": 23, "wind_direction": "SE", "rain_percent": 60 },
+      { "time": "6 PM", "wind_kt": 11, "gust_kt": 17, "wind_direction": "SE", "rain_percent": 40 }
     ],
     "marine_summary": "Seas 1–2 ft; visibility good; thunderstorms possible after 3 PM.",
     "storm_outlook": "No named storm currently threatens coastal Georgia."
@@ -79,7 +82,7 @@ The scheduled task should write valid UTF-8 JSON using this structure:
 }
 ~~~
 
-Required limits:
+Required limits and types:
 
 - Exactly five stories.
 - Headline: no more than 55 characters where reasonably possible.
@@ -87,6 +90,12 @@ Required limits:
 - `marine_summary` and `storm_outlook`: no more than 160 characters each.
 - Recommendation/best-window wording: no more than 70 characters.
 - Exactly five timeline points.
+- All wind and gust speeds use knots and are JSON numbers or `null`.
+- `forecast_wind_min_kt` and `forecast_wind_max_kt` describe the reliable forecast range for the displayed forecast period, not observed wind.
+- `forecast_gust_max_kt` is the highest reliable forecast gust for that period; use `null` if unavailable.
+- `forecast_wind_direction_start`, `forecast_wind_direction_end`, and timeline `wind_direction` use standard abbreviations such as `N`, `NE`, or `WSW`.
+- Use `VRB` only when a source explicitly forecasts variable wind; otherwise use `null` when direction is unavailable.
+- Do not convert vague wording such as “light wind” into a numeric value.
 - Use numbers for numeric values and `null` when a reliable value is unavailable; never invent a value.
 - Escape all JSON strings correctly and do not include Markdown in `latest.json`.
 
@@ -102,20 +111,20 @@ Research current, authoritative information and clearly distinguish observed con
 1. AI and technology developments.
 2. Major US news.
 3. Major world news.
-4. Operational weather for the Brunswick/coastal Georgia area, including wind, gusts, rain and thunderstorm timing, visibility, temperature, tides with heights, coastal marine conditions, active official alerts, and confidence.
+4. Operational weather for the Brunswick/coastal Georgia area, including numeric wind and gust speeds in knots, wind direction and directional changes, rain and thunderstorm timing, visibility, temperature, tides with heights, coastal marine conditions, active official alerts, and confidence.
 5. Tropical developments anywhere in the Atlantic or Gulf of Mexico, with special attention to any named storm that could affect Brunswick or coastal Georgia.
 
 Select the five most important news stories overall from AI/technology, US, and world news. Do not reserve slots for marine or sailing news. Use reliable current sources, include links in the ChatGPT briefing, avoid sensationalism, and state uncertainty or source disagreement.
 
 First, show me the complete readable briefing in ChatGPT.
 
-Then create a compact dashboard edition matching schema_version 1 documented in the README of the public GitHub repository `hughesy2111/boat-dashboard-data`. Enforce every field, type, count, and character limit in that schema. Use America/New_York timestamps. Forecast data must be labelled as forecast. Do not invent missing values; use null. The five dashboard stories must be the same five stories selected for the readable briefing.
+Then create a compact dashboard edition matching schema_version 2 documented in the README of the public GitHub repository `hughesy2111/boat-dashboard-data`. Enforce every field, type, count, unit, and character limit in that schema. Use America/New_York timestamps. Forecast data must be labelled as forecast. Wind and gust speeds must be numeric knots; directions must use the documented abbreviations. Do not infer numeric wind values from vague language. Do not invent missing values; use null. The five dashboard stories must be the same five stories selected for the readable briefing.
 
 Privacy is mandatory because the repository is public. Do not include an exact boat position, marina or anchorage, future family travel dates, email content, tank or battery readings, credentials, tokens, or any other private information. Identify the forecast region only as `Coastal Georgia` or `Brunswick area`.
 
 Validate the dashboard edition as strict JSON. Using the GitHub plugin, create or replace `briefing/latest.json` on the `main` branch of `hughesy2111/boat-dashboard-data`. Commit directly to `main` with the message `Morning briefing YYYY-MM-DD`, substituting the briefing date.
 
-After writing, read `briefing/latest.json` back from GitHub and verify that it is valid JSON, has today's `briefing_date`, uses schema_version 1, and contains exactly five stories. Only say `Dashboard updated` if both the write and verification succeed. If publication fails, still show the full briefing in ChatGPT, but clearly say `Dashboard update failed` and include a concise reason.
+After writing, read `briefing/latest.json` back from GitHub and verify that it is valid JSON, has today's `briefing_date`, uses schema_version 2, and contains exactly five stories. Only say `Dashboard updated` if both the write and verification succeed. If publication fails, still show the full briefing in ChatGPT, but clearly say `Dashboard update failed` and include a concise reason.
 ~~~
 
 ## Repository status
