@@ -34,7 +34,7 @@ The scheduled task should write valid UTF-8 JSON using this structure:
 
 ~~~json
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "briefing_date": "2026-08-27",
   "generated_at": "2026-08-27T06:30:00-04:00",
   "timezone": "America/New_York",
@@ -58,6 +58,9 @@ The scheduled task should write valid UTF-8 JSON using this structure:
     ]
   },
   "day_ahead": {
+    "forecast_source": "NWS NDFD",
+    "forecast_updated_at": "2026-08-27T05:25:00-04:00",
+    "secondary_models_checked": ["NBM", "HRRR", "ECMWF"],
     "timeline": [
       { "time": "NOW", "wind_kt": 8, "gust_kt": 12, "wind_direction": "SW", "rain_percent": 10 },
       { "time": "9 AM", "wind_kt": 10, "gust_kt": 15, "wind_direction": "SW", "rain_percent": 10 },
@@ -95,9 +98,12 @@ Required limits and types:
 - `forecast_gust_max_kt` is the highest reliable forecast gust for that period; use `null` if unavailable.
 - `forecast_wind_direction_start`, `forecast_wind_direction_end`, and timeline `wind_direction` use standard abbreviations such as `N`, `NE`, or `WSW`.
 - Use `VRB` only when a source explicitly forecasts variable wind; otherwise use `null` when direction is unavailable.
-- Use the official NWS hourly or tabular forecast for all five timeline points whenever available.
-- Before using `null` for a timeline wind, direction, gust, or rain value, check the NWS hourly/tabular forecast and at least one other authoritative forecast source.
-- A blank gust in the official hourly table remains `null`; do not substitute sustained wind or estimate a gust.
+- Use the official NWS hourly/tabular forecast plus the NDFD wind-gust grid for all five timeline points whenever available.
+- Before using `null` for a timeline wind, direction, gust, or rain value, check NWS hourly/tabular data, the NDFD gust grid, and at least one other authoritative forecast source.
+- Populate timeline `gust_kt` from the official NDFD wind-gust grid, not from blank cells in the simplified tabular display.
+- NDFD defines an unenhanced gust-grid value as equal to sustained wind; use that official value rather than `null`.
+- Use NWS NDFD as the primary wind/gust source. Compare NBM and HRRR for short-range guidance and ECMWF when accessible; list only models actually checked in `secondary_models_checked`.
+- `forecast_source` names the primary structured forecast source, and `forecast_updated_at` is its America/New_York issuance or update timestamp.
 - Do not convert vague wording such as “light wind” into a numeric value.
 - Use numbers for numeric values and `null` when a reliable value is unavailable; never invent a value.
 - Escape all JSON strings correctly and do not include Markdown in `latest.json`.
@@ -121,13 +127,13 @@ Select the five most important news stories overall from AI/technology, US, and 
 
 First, show me the complete readable briefing in ChatGPT.
 
-Then create a compact dashboard edition matching schema_version 2 documented in the README of the public GitHub repository `hughesy2111/boat-dashboard-data`. Enforce every field, type, count, unit, and character limit in that schema. Use America/New_York timestamps. Forecast data must be labelled as forecast. Wind and gust speeds must be numeric knots; directions must use the documented abbreviations. Do not infer numeric wind values from vague language. Do not invent missing values; use null. The five dashboard stories must be the same five stories selected for the readable briefing.
+Then create a compact dashboard edition matching schema_version 3 documented in the README of the public GitHub repository `hughesy2111/boat-dashboard-data`. Enforce every field, type, count, unit, and character limit in that schema. Use America/New_York timestamps. Forecast data must be labelled as forecast. Wind and gust speeds must be numeric knots; directions must use the documented abbreviations. Use NWS NDFD as the primary structured wind/gust source. Populate each timeline gust from the NDFD wind-gust grid; when NDFD supplies the sustained-wind value because no enhanced gust is forecast, use that official value rather than null. Compare NBM and HRRR, plus ECMWF when accessible, and record only sources actually checked. Do not infer numeric wind values from vague language. Do not invent missing values; use null only after exhausting the documented sources. The five dashboard stories must be the same five stories selected for the readable briefing.
 
 Privacy is mandatory because the repository is public. Do not include an exact boat position, marina or anchorage, future family travel dates, email content, tank or battery readings, credentials, tokens, or any other private information. Identify the forecast region only as `Coastal Georgia` or `Brunswick area`.
 
 Validate the dashboard edition as strict JSON. Using the GitHub plugin, create or replace `briefing/latest.json` on the `main` branch of `hughesy2111/boat-dashboard-data`. Commit directly to `main` with the message `Morning briefing YYYY-MM-DD`, substituting the briefing date.
 
-After writing, read `briefing/latest.json` back from GitHub and verify that it is valid JSON, has today's `briefing_date`, uses schema_version 2, and contains exactly five stories. Only say `Dashboard updated` if both the write and verification succeed. If publication fails, still show the full briefing in ChatGPT, but clearly say `Dashboard update failed` and include a concise reason.
+After writing, read `briefing/latest.json` back from GitHub and verify that it is valid JSON, has today's `briefing_date`, uses schema_version 3, and contains exactly five stories. Only say `Dashboard updated` if both the write and verification succeed. If publication fails, still show the full briefing in ChatGPT, but clearly say `Dashboard update failed` and include a concise reason.
 ~~~
 
 ## Repository status
