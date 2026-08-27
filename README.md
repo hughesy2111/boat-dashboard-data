@@ -95,6 +95,9 @@ Required limits and types:
 - `forecast_gust_max_kt` is the highest reliable forecast gust for that period; use `null` if unavailable.
 - `forecast_wind_direction_start`, `forecast_wind_direction_end`, and timeline `wind_direction` use standard abbreviations such as `N`, `NE`, or `WSW`.
 - Use `VRB` only when a source explicitly forecasts variable wind; otherwise use `null` when direction is unavailable.
+- Use the official NWS hourly or tabular forecast for all five timeline points whenever available.
+- Before using `null` for a timeline wind, direction, gust, or rain value, check the NWS hourly/tabular forecast and at least one other authoritative forecast source.
+- A blank gust in the official hourly table remains `null`; do not substitute sustained wind or estimate a gust.
 - Do not convert vague wording such as “light wind” into a numeric value.
 - Use numbers for numeric values and `null` when a reliable value is unavailable; never invent a value.
 - Escape all JSON strings correctly and do not include Markdown in `latest.json`.
