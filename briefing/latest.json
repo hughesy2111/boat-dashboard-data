@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "briefing_date": "2026-08-27",
   "generated_at": "2026-08-27T05:02:25-04:00",
   "timezone": "America/New_York",
@@ -31,39 +31,42 @@
     ]
   },
   "day_ahead": {
+    "forecast_source": "NWS NDFD",
+    "forecast_updated_at": "2026-08-27T00:36:00-04:00",
+    "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
         "wind_kt": 4,
-        "gust_kt": null,
+        "gust_kt": 4,
         "wind_direction": "SW",
         "rain_percent": 1
       },
       {
         "time": "9 AM",
         "wind_kt": 3,
-        "gust_kt": null,
+        "gust_kt": 3,
         "wind_direction": "SW",
         "rain_percent": 2
       },
       {
         "time": "NOON",
         "wind_kt": 5,
-        "gust_kt": null,
+        "gust_kt": 5,
         "wind_direction": "SW",
         "rain_percent": 7
       },
       {
         "time": "3 PM",
         "wind_kt": 8,
-        "gust_kt": null,
+        "gust_kt": 8,
         "wind_direction": "S",
         "rain_percent": 54
       },
       {
         "time": "6 PM",
         "wind_kt": 9,
-        "gust_kt": null,
+        "gust_kt": 9,
         "wind_direction": "S",
         "rain_percent": 41
       }
