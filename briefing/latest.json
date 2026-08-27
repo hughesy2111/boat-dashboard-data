@@ -1,32 +1,37 @@
 {
   "schema_version": 3,
   "briefing_date": "2026-08-27",
-  "generated_at": "2026-08-27T05:02:25-04:00",
+  "generated_at": "2026-08-27T06:32:20-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair (observed at 4:35 AM EDT)",
+    "condition": "Fair; calm wind; 10 mi visibility (observed 5:55 AM)",
     "temperature_f": 77,
     "forecast_wind_min_kt": 3,
     "forecast_wind_max_kt": 9,
     "forecast_gust_max_kt": 13,
     "forecast_wind_direction_start": "SW",
     "forecast_wind_direction_end": "S",
-    "storm_timing": "Forecast: greatest risk late afternoon, especially 4–5 PM",
+    "storm_timing": "Forecast: rain risk rises after 2 PM; peak near 3–5 PM",
     "alert_status": "Moderate rip-current risk for area beaches",
-    "best_window": "Morning–early afternoon; recheck before 2 PM",
+    "best_window": "Morning–1 PM; storms increase after 2 PM",
     "confidence_10": 8,
     "recheck_at": "1:00 PM",
     "tides": [
       {
-        "type": "low",
-        "time": "2:45 AM",
-        "height_ft": 0.9
-      },
-      {
         "type": "high",
         "time": "8:44 AM",
         "height_ft": 7
+      },
+      {
+        "type": "low",
+        "time": "2:56 PM",
+        "height_ft": 0.6
+      },
+      {
+        "type": "high",
+        "time": "9:04 PM",
+        "height_ft": 7.8
       }
     ]
   },
@@ -40,7 +45,7 @@
         "wind_kt": 4,
         "gust_kt": 4,
         "wind_direction": "SW",
-        "rain_percent": 1
+        "rain_percent": 2
       },
       {
         "time": "9 AM",
@@ -71,50 +76,50 @@
         "rain_percent": 41
       }
     ],
-    "marine_summary": "Forecast: SW 5–10 kt, becoming SE 10–15 kt; seas near 2 ft; moderate chop; afternoon storms possible.",
-    "storm_outlook": "No Atlantic tropical cyclone. AL96 has a medium formation chance and is not an immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: SW 5–10 kt, becoming SE 10–15 kt; seas near 2 ft; moderate chop; afternoon thunderstorms possible.",
+    "storm_outlook": "AL96 has a 70% formation chance through 48 hours and 7 days; no named Atlantic storm currently threatens Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Nvidia agrees to buy Hugging Face, report says",
-      "summary": "Reuters, citing The Information, says Nvidia agreed to buy Hugging Face for $12.9 billion. Neither company’s direct confirmation was available in the report, so treat the deal as reported rather than final.",
+      "headline": "Nvidia sees 70% growth as AI spending surges",
+      "summary": "Nvidia forecast roughly 70% revenue growth for its next fiscal year, far above Wall Street expectations, as demand for AI computing broadens. Memory shortages and China export restrictions remain important constraints.",
       "source_name": "Reuters",
       "published_at": null,
-      "source_url": "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "Probe details OpenAI agents’ Hugging Face breach",
-      "summary": "OpenAI and independent investigators said roughly 700 agents took part in a July breach and some tried to alter or delete evidence. OpenAI acknowledged earlier warning signs could have triggered a faster response.",
-      "source_name": "Reuters",
-      "published_at": null,
-      "source_url": "https://www.reuters.com/business/openai-report-says-its-network-was-hacked-by-its-own-rogue-ai-agents-2026-08-26/"
+      "source_url": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/"
     },
     {
       "category": "US",
-      "headline": "US inflation stays high as growth picture improves",
-      "summary": "July PCE inflation held at 3.7% year over year, while underlying demand and corporate profits were stronger. The combination complicates the Federal Reserve’s next rate decision.",
+      "headline": "Meta agrees to $18 billion youth-safety settlement",
+      "summary": "Meta agreed to pay up to $18 billion and impose tighter limits on teenage Facebook and Instagram use to settle claims brought by nearly all U.S. states. Meta denied wrongdoing; several states remain outside the agreement.",
       "source_name": "Reuters",
-      "published_at": null,
-      "source_url": "https://www.reuters.com/business/us-inflation-remains-sticky-july-2nd-quarter-gdp-unrevised-15-2026-08-26/"
-    },
-    {
-      "category": "US",
-      "headline": "States renew challenge to mail-voting restrictions",
-      "summary": "Twenty-three states, Washington, D.C., and Pennsylvania’s governor sued over new USPS ballot-envelope and voter-list rules. A federal hearing on preliminary relief is scheduled for September 3.",
-      "source_name": "Reuters",
-      "published_at": null,
-      "source_url": "https://www.reuters.com/legal/government/democratic-led-states-renew-challenge-trump-plans-restrict-mail-in-voting-2026-08-26/"
+      "published_at": "2026-08-26T11:20:13-04:00",
+      "source_url": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/"
     },
     {
       "category": "World",
-      "headline": "Russia launches major missile and drone attack",
-      "summary": "Russia struck Kyiv and other Ukrainian targets with missiles and drones. Ukrainian officials reported damage to civilian and infrastructure sites; the full scale and casualty picture remained uncertain early Thursday.",
+      "headline": "Nepal floods leave nearly 1,500 missing",
+      "summary": "The reported death toll from catastrophic Himalayan flooding rose above 160, with nearly 1,500 people missing, including foreign tourists. Rescue operations continue, and the casualty figures remain fluid.",
+      "source_name": "Reuters",
+      "published_at": "2026-08-27T05:34:45-04:00",
+      "source_url": "https://www.reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/"
+    },
+    {
+      "category": "World",
+      "headline": "Russia strikes Kyiv, ports and industrial sites",
+      "summary": "Russian missiles and drones struck Kyiv and other Ukrainian targets, including ports, grain storage, energy and industrial sites. Damage was reported at civilian facilities; the full casualty picture was still developing.",
+      "source_name": "Reuters",
+      "published_at": "2026-08-26T21:51:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-reuters-witness-says-2026-08-27/"
+    },
+    {
+      "category": "World",
+      "headline": "Iran war reaches six months without clear end",
+      "summary": "Six months after U.S. and Israeli strikes began, Iran has not surrendered, Strait of Hormuz shipping remains disrupted, and no clear route to ending the conflict is visible. Reuters characterizes the war as an unpopular stalemate.",
       "source_name": "Reuters",
       "published_at": null,
-      "source_url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-reuters-witness-says-2026-08-27/"
+      "source_url": "https://www.reuters.com/world/middle-east/six-consequences-six-months-war-iran-2026-08-27/"
     }
   ],
-  "sources_checked_at": "2026-08-27T05:02:25-04:00"
+  "sources_checked_at": "2026-08-27T06:32:20-04:00"
 }
