@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "briefing_date": "2026-08-27",
   "generated_at": "2026-08-27T05:02:25-04:00",
   "timezone": "America/New_York",
@@ -7,8 +7,11 @@
   "at_a_glance": {
     "condition": "Fair (observed at 4:35 AM EDT)",
     "temperature_f": 77,
-    "forecast_wind": "Light early; SE 5–10 mph this afternoon",
-    "forecast_gusts": null,
+    "forecast_wind_min_kt": 5,
+    "forecast_wind_max_kt": 15,
+    "forecast_gust_max_kt": null,
+    "forecast_wind_direction_start": "SW",
+    "forecast_wind_direction_end": "SE",
     "storm_timing": "Forecast: greatest risk late afternoon, especially 4–5 PM",
     "alert_status": "Moderate rip-current risk for area beaches",
     "best_window": "Morning–early afternoon; recheck before 2 PM",
@@ -33,30 +36,35 @@
         "time": "NOW",
         "wind_kt": null,
         "gust_kt": null,
+        "wind_direction": null,
         "rain_percent": null
       },
       {
         "time": "9 AM",
         "wind_kt": null,
         "gust_kt": null,
+        "wind_direction": null,
         "rain_percent": null
       },
       {
         "time": "NOON",
         "wind_kt": null,
         "gust_kt": null,
+        "wind_direction": null,
         "rain_percent": null
       },
       {
         "time": "3 PM",
         "wind_kt": null,
         "gust_kt": null,
+        "wind_direction": null,
         "rain_percent": null
       },
       {
         "time": "6 PM",
         "wind_kt": null,
         "gust_kt": null,
+        "wind_direction": null,
         "rain_percent": null
       }
     ],
