@@ -1,125 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-08-27",
-  "generated_at": "2026-08-27T06:32:20-04:00",
+  "briefing_date": "2026-08-28",
+  "generated_at": "2026-08-28T06:33:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; calm wind; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 77,
-    "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 13,
+    "condition": "Fair; SW 7 kt; 10 mi visibility (observed 6:15 AM)",
+    "temperature_f": 79,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 8,
+    "forecast_gust_max_kt": 8,
     "forecast_wind_direction_start": "SW",
-    "forecast_wind_direction_end": "S",
-    "storm_timing": "Forecast: rain risk rises after 2 PM; peak near 3–5 PM",
-    "alert_status": "Moderate rip-current risk for area beaches",
-    "best_window": "Morning–1 PM; storms increase after 2 PM",
+    "forecast_wind_direction_end": "SE",
+    "storm_timing": "Forecast: storms build after 10 AM; peak 3–7 PM",
+    "alert_status": "Moderate rip-current risk; high thunderstorm potential",
+    "best_window": "Early morning; storms and heavy rain increase after 10 AM",
     "confidence_10": 8,
-    "recheck_at": "1:00 PM",
+    "recheck_at": "10:00 AM",
     "tides": [
-      {
-        "type": "high",
-        "time": "8:44 AM",
-        "height_ft": 7
-      },
-      {
-        "type": "low",
-        "time": "2:56 PM",
-        "height_ft": 0.6
-      },
-      {
-        "type": "high",
-        "time": "9:04 PM",
-        "height_ft": 7.8
-      }
+      {"type": "high", "time": "9:21 AM", "height_ft": 7.5},
+      {"type": "low", "time": "3:40 PM", "height_ft": 0.4},
+      {"type": "high", "time": "9:40 PM", "height_ft": 7.9}
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-08-27T00:36:00-04:00",
+    "forecast_updated_at": "2026-08-28T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
-      {
-        "time": "NOW",
-        "wind_kt": 4,
-        "gust_kt": 4,
-        "wind_direction": "SW",
-        "rain_percent": 2
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "SW",
-        "rain_percent": 2
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "SW",
-        "rain_percent": 7
-      },
-      {
-        "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 8,
-        "wind_direction": "S",
-        "rain_percent": 54
-      },
-      {
-        "time": "6 PM",
-        "wind_kt": 9,
-        "gust_kt": 9,
-        "wind_direction": "S",
-        "rain_percent": 41
-      }
+      {"time": "NOW", "wind_kt": 4, "gust_kt": 4, "wind_direction": "SW", "rain_percent": 12},
+      {"time": "9 AM", "wind_kt": 5, "gust_kt": 5, "wind_direction": "SW", "rain_percent": 24},
+      {"time": "NOON", "wind_kt": 7, "gust_kt": 7, "wind_direction": "SW", "rain_percent": 45},
+      {"time": "3 PM", "wind_kt": 7, "gust_kt": 7, "wind_direction": "S", "rain_percent": 62},
+      {"time": "6 PM", "wind_kt": 7, "gust_kt": 7, "wind_direction": "SE", "rain_percent": 65}
     ],
-    "marine_summary": "Forecast: SW 5–10 kt, becoming SE 10–15 kt; seas near 2 ft; moderate chop; afternoon thunderstorms possible.",
-    "storm_outlook": "AL96 has a 70% formation chance through 48 hours and 7 days; no named Atlantic storm currently threatens Coastal Georgia."
+    "marine_summary": "Forecast: SW 10 kt becoming SE; seas 2–3 ft, light chop. Thunderstorms may sharply raise winds, waves and reduce visibility.",
+    "storm_outlook": "Tropical Storm Dolly is far east in the central Atlantic and forecast to dissipate Sunday; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Nvidia sees 70% growth as AI spending surges",
-      "summary": "Nvidia forecast roughly 70% revenue growth for its next fiscal year, far above Wall Street expectations, as demand for AI computing broadens. Memory shortages and China export restrictions remain important constraints.",
+      "headline": "Judge rules Pentagon's Anthropic ban unlawful",
+      "summary": "A federal judge ruled the Pentagon unlawfully retaliated against Anthropic and denied it due process when designating the AI company a supply-chain risk. Further litigation or an appeal remains possible.",
       "source_name": "Reuters",
+      "published_at": "2026-08-27T21:19:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-judge-rules-pentagon-blacklisting-anthropic-unlawful-2026-08-28/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Tencent releases open-source Hy4 AI preview",
+      "summary": "Tencent released Hy4, a preview open-source mixture-of-experts model for coding, research and financial analysis. Tencent warns the early release may over-verify and take too long on complex prompts.",
+      "source_name": "Reuters",
+      "published_at": "2026-08-28T05:37:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-tencent-releases-new-open-source-ai-model-coding-research-tasks-2026-08-28/"
+    },
+    {
+      "category": "World",
+      "headline": "Nepal flood toll rises as rescues continue",
+      "summary": "Nepal's disaster authority reported 538 deaths and 977 missing after catastrophic flash floods; 3,742 people had been rescued. Figures remain fluid, and an overflowing barrier lake raises further-flood risk.",
+      "source_name": "Associated Press",
       "published_at": null,
-      "source_url": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/"
-    },
-    {
-      "category": "US",
-      "headline": "Meta agrees to $18 billion youth-safety settlement",
-      "summary": "Meta agreed to pay up to $18 billion and impose tighter limits on teenage Facebook and Instagram use to settle claims brought by nearly all U.S. states. Meta denied wrongdoing; several states remain outside the agreement.",
-      "source_name": "Reuters",
-      "published_at": "2026-08-26T11:20:13-04:00",
-      "source_url": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/"
+      "source_url": "https://apnews.com/article/nepal-tibet-china-glacier-floods-ae9973b5fd2b1dc6d54c3e88b1b55bdc"
     },
     {
       "category": "World",
-      "headline": "Nepal floods leave nearly 1,500 missing",
-      "summary": "The reported death toll from catastrophic Himalayan flooding rose above 160, with nearly 1,500 people missing, including foreign tourists. Rescue operations continue, and the casualty figures remain fluid.",
+      "headline": "Russia sends new drone waves toward Kyiv",
+      "summary": "Russian drone waves struck Kyiv and surrounding areas for a second day, killing at least one person and damaging homes and logistics sites, Ukrainian officials said. The damage assessment is continuing.",
       "source_name": "Reuters",
-      "published_at": "2026-08-27T05:34:45-04:00",
-      "source_url": "https://www.reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/"
+      "published_at": "2026-08-28T01:39:00-04:00",
+      "source_url": "https://www.reuters.com/world/ukraines-nova-poshta-says-depots-destroyed-russian-attacks-2026-08-28/"
     },
     {
       "category": "World",
-      "headline": "Russia strikes Kyiv, ports and industrial sites",
-      "summary": "Russian missiles and drones struck Kyiv and other Ukrainian targets, including ports, grain storage, energy and industrial sites. Damage was reported at civilian facilities; the full casualty picture was still developing.",
+      "headline": "Diplomacy focuses on reopening Strait of Hormuz",
+      "summary": "Qatar pressed Iran to restore freedom of navigation; Tehran said it would draft conditions for normal traffic. U.S. and Iranian accounts differ on how open the strait is, while ship traffic remains far below normal.",
       "source_name": "Reuters",
-      "published_at": "2026-08-26T21:51:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-reuters-witness-says-2026-08-27/"
-    },
-    {
-      "category": "World",
-      "headline": "Iran war reaches six months without clear end",
-      "summary": "Six months after U.S. and Israeli strikes began, Iran has not surrendered, Strait of Hormuz shipping remains disrupted, and no clear route to ending the conflict is visible. Reuters characterizes the war as an unpopular stalemate.",
-      "source_name": "Reuters",
-      "published_at": null,
-      "source_url": "https://www.reuters.com/world/middle-east/six-consequences-six-months-war-iran-2026-08-27/"
+      "published_at": "2026-08-27T21:34:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/"
     }
   ],
-  "sources_checked_at": "2026-08-27T06:32:20-04:00"
+  "sources_checked_at": "2026-08-28T06:33:00-04:00"
 }
