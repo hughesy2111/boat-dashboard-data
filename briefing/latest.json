@@ -1,83 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-08-28",
-  "generated_at": "2026-08-28T06:33:00-04:00",
+  "briefing_date": "2026-08-29",
+  "generated_at": "2026-08-29T06:34:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; SW 7 kt; 10 mi visibility (observed 6:15 AM)",
-    "temperature_f": 79,
-    "forecast_wind_min_kt": 4,
-    "forecast_wind_max_kt": 8,
-    "forecast_gust_max_kt": 8,
-    "forecast_wind_direction_start": "SW",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: storms build after 10 AM; peak 3–7 PM",
-    "alert_status": "Moderate rip-current risk; high thunderstorm potential",
-    "best_window": "Early morning; storms and heavy rain increase after 10 AM",
+    "condition": "Fog/mist; N 4 kt; 6 mi visibility (observed 5:55 AM)",
+    "temperature_f": 75,
+    "forecast_wind_min_kt": 2,
+    "forecast_wind_max_kt": 9,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "E",
+    "storm_timing": "Forecast: scattered showers; storm risk highest 2–6 PM",
+    "alert_status": "Moderate rip-current risk; low thunderstorm potential",
+    "best_window": "Morning before 1 PM; east breeze strengthens late",
     "confidence_10": 8,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "1:00 PM",
     "tides": [
-      {"type": "high", "time": "9:21 AM", "height_ft": 7.5},
-      {"type": "low", "time": "3:40 PM", "height_ft": 0.4},
-      {"type": "high", "time": "9:40 PM", "height_ft": 7.9}
+      {"type": "high", "time": "9:59 AM", "height_ft": 7.8},
+      {"type": "low", "time": "4:23 PM", "height_ft": 0.2},
+      {"type": "high", "time": "10:17 PM", "height_ft": 8.0}
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-08-28T02:21:00-04:00",
+    "forecast_updated_at": "2026-08-29T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
-      {"time": "NOW", "wind_kt": 4, "gust_kt": 4, "wind_direction": "SW", "rain_percent": 12},
-      {"time": "9 AM", "wind_kt": 5, "gust_kt": 5, "wind_direction": "SW", "rain_percent": 24},
-      {"time": "NOON", "wind_kt": 7, "gust_kt": 7, "wind_direction": "SW", "rain_percent": 45},
-      {"time": "3 PM", "wind_kt": 7, "gust_kt": 7, "wind_direction": "S", "rain_percent": 62},
-      {"time": "6 PM", "wind_kt": 7, "gust_kt": 7, "wind_direction": "SE", "rain_percent": 65}
+      {"time": "NOW", "wind_kt": 2, "gust_kt": 2, "wind_direction": "N", "rain_percent": 27},
+      {"time": "9 AM", "wind_kt": 4, "gust_kt": 4, "wind_direction": "N", "rain_percent": 27},
+      {"time": "NOON", "wind_kt": 6, "gust_kt": 6, "wind_direction": "E", "rain_percent": 34},
+      {"time": "3 PM", "wind_kt": 8, "gust_kt": 8, "wind_direction": "E", "rain_percent": 42},
+      {"time": "6 PM", "wind_kt": 9, "gust_kt": 14, "wind_direction": "E", "rain_percent": 40}
     ],
-    "marine_summary": "Forecast: SW 10 kt becoming SE; seas 2–3 ft, light chop. Thunderstorms may sharply raise winds, waves and reduce visibility.",
-    "storm_outlook": "Tropical Storm Dolly is far east in the central Atlantic and forecast to dissipate Sunday; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: SE 5–10 kt becoming E 10–15 kt; seas 2–3 ft, moderate chop. Higher winds, waves and lower visibility near storms.",
+    "storm_outlook": "Dolly is now a tropical wave; Dolly and a weak Gulf low each have a 10% 7-day formation chance. No current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Judge rules Pentagon's Anthropic ban unlawful",
-      "summary": "A federal judge ruled the Pentagon unlawfully retaliated against Anthropic and denied it due process when designating the AI company a supply-chain risk. Further litigation or an appeal remains possible.",
+      "headline": "OpenAI plans to cut Cursor model access",
+      "summary": "OpenAI plans to stop supplying models to SpaceX-owned Cursor, citing uncertainty over compliance with its terms. Cursor says talks continue, while Anthropic plans additional Claude capacity. Shutoff is proposed for November 12.",
       "source_name": "Reuters",
-      "published_at": "2026-08-27T21:19:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-judge-rules-pentagon-blacklisting-anthropic-unlawful-2026-08-28/"
+      "published_at": "2026-08-28T22:01:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/"
     },
     {
-      "category": "AI & Technology",
-      "headline": "Tencent releases open-source Hy4 AI preview",
-      "summary": "Tencent released Hy4, a preview open-source mixture-of-experts model for coding, research and financial analysis. Tencent warns the early release may over-verify and take too long on complex prompts.",
+      "category": "US",
+      "headline": "US announces Venezuela oil-control agreement",
+      "summary": "President Trump announced majority U.S. control of more than 65 billion barrels of Venezuelan reserves. The structure was not disclosed, and analysts said legal, infrastructure and investment obstacles make the outcome uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-08-28T05:37:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-tencent-releases-new-open-source-ai-model-coding-research-tasks-2026-08-28/"
-    },
-    {
-      "category": "World",
-      "headline": "Nepal flood toll rises as rescues continue",
-      "summary": "Nepal's disaster authority reported 538 deaths and 977 missing after catastrophic flash floods; 3,742 people had been rescued. Figures remain fluid, and an overflowing barrier lake raises further-flood risk.",
-      "source_name": "Associated Press",
-      "published_at": null,
-      "source_url": "https://apnews.com/article/nepal-tibet-china-glacier-floods-ae9973b5fd2b1dc6d54c3e88b1b55bdc"
+      "published_at": "2026-08-28T18:55:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/us-enters-into-oil-agreement-with-venezuela-trump-says-2026-08-28/"
     },
     {
       "category": "World",
-      "headline": "Russia sends new drone waves toward Kyiv",
-      "summary": "Russian drone waves struck Kyiv and surrounding areas for a second day, killing at least one person and damaging homes and logistics sites, Ukrainian officials said. The damage assessment is continuing.",
+      "headline": "Nepal seeks technical help after deadly floods",
+      "summary": "Nepal temporarily halted rescue work in poor weather after floods killed at least 626 people there and seven in Tibet; nearly 3,000 remain missing. Initial rebuilding needs are estimated at $4–5 billion, but assessments continue.",
       "source_name": "Reuters",
-      "published_at": "2026-08-28T01:39:00-04:00",
-      "source_url": "https://www.reuters.com/world/ukraines-nova-poshta-says-depots-destroyed-russian-attacks-2026-08-28/"
+      "published_at": "2026-08-28T22:22:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/nepal-needs-help-technical-areas-not-search-rescue-foreign-minister-says-2026-08-29/"
     },
     {
       "category": "World",
-      "headline": "Diplomacy focuses on reopening Strait of Hormuz",
-      "summary": "Qatar pressed Iran to restore freedom of navigation; Tehran said it would draft conditions for normal traffic. U.S. and Iranian accounts differ on how open the strait is, while ship traffic remains far below normal.",
+      "headline": "Kyiv-area warehouse detonation kills 27",
+      "summary": "Ukrainian officials said a Russian drone strike triggered a warehouse detonation near Kyiv, killing at least 27 and injuring 42. The toll may rise; criminal cases are examining possible negligence over ammunition storage.",
       "source_name": "Reuters",
-      "published_at": "2026-08-27T21:34:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/"
+      "published_at": "2026-08-29T05:45:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/"
+    },
+    {
+      "category": "World",
+      "headline": "Norway mourns King Harald; Haakon succeeds him",
+      "summary": "Norway is mourning King Harald, who died Friday at 89 after more than three decades on the throne. His son immediately became King Haakon VIII and is expected to address the nation before taking the parliamentary oath Tuesday.",
+      "source_name": "Reuters",
+      "published_at": "2026-08-29T02:49:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/norway-mourns-king-harald-crowds-gather-royal-palace-2026-08-29/"
     }
   ],
-  "sources_checked_at": "2026-08-28T06:33:00-04:00"
+  "sources_checked_at": "2026-08-29T06:34:00-04:00"
 }
