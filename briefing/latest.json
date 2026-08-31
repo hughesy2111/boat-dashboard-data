@@ -1,125 +1,129 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-08-30",
-  "generated_at": "2026-08-30T06:38:00-04:00",
+  "briefing_date": "2026-08-31",
+  "generated_at": "2026-08-31T06:42:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy; E 5 kt; 10 mi visibility (observed 6:15 AM)",
-    "temperature_f": 82,
+    "condition": "Overcast; N 3 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 79,
     "forecast_wind_min_kt": 3,
     "forecast_wind_max_kt": 11,
     "forecast_gust_max_kt": 17,
-    "forecast_wind_direction_start": "E",
+    "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: showers/storms likely; peak risk near 1–3 PM",
-    "alert_status": "Moderate rip-current risk; high thunderstorm potential",
-    "best_window": "Morning before 11 AM; recheck radar before midday",
-    "confidence_10": 8,
-    "recheck_at": "11:00 AM",
+    "storm_timing": "Forecast: heavy-rain storm risk peaks around 10–11 AM",
+    "alert_status": "No active NWS alerts; moderate rip-current risk",
+    "best_window": "Early morning before 9 AM; recheck radar by 9 AM",
+    "confidence_10": 7,
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "10:40 AM",
-        "height_ft": 8.1
+        "time": "11:24 AM",
+        "height_ft": 8.3
       },
       {
         "type": "low",
-        "time": "5:07 PM",
-        "height_ft": 0.2
+        "time": "5:52 PM",
+        "height_ft": 0.3
       },
       {
         "type": "high",
-        "time": "10:58 PM",
-        "height_ft": 7.9
+        "time": "11:42 PM",
+        "height_ft": 7.8
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-08-30T02:21:00-04:00",
-    "secondary_models_checked": [],
+    "forecast_updated_at": "2026-08-31T02:21:00-04:00",
+    "secondary_models_checked": [
+      "NBM",
+      "HRRR",
+      "ECMWF"
+    ],
     "timeline": [
       {
         "time": "NOW",
         "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "E",
+        "gust_kt": 5,
+        "wind_direction": "NE",
         "rain_percent": 21
       },
       {
         "time": "9 AM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "E",
-        "rain_percent": 44
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "NE",
+        "rain_percent": 46
       },
       {
         "time": "NOON",
         "wind_kt": 9,
         "gust_kt": 14,
-        "wind_direction": "E",
-        "rain_percent": 46
+        "wind_direction": "ENE",
+        "rain_percent": 43
       },
       {
         "time": "3 PM",
         "wind_kt": 11,
         "gust_kt": 17,
-        "wind_direction": "E",
-        "rain_percent": 46
+        "wind_direction": "ENE",
+        "rain_percent": 45
       },
       {
         "time": "6 PM",
         "wind_kt": 10,
         "gust_kt": 15,
         "wind_direction": "E",
-        "rain_percent": 31
+        "rain_percent": 34
       }
     ],
-    "marine_summary": "Forecast: E 5–10 kt, rising to 10–15 kt; seas 2–3 ft, moderate chop. Higher winds, waves and lower visibility near storms.",
-    "storm_outlook": "Dolly remnants: 10% seven-day formation chance. Northern Gulf low: 20%. Neither currently threatens Coastal Georgia."
+    "marine_summary": "Forecast: NE 5–10 kt, increasing to 10–15 kt; seas 2–3 ft at 7 seconds, moderate chop. Winds and waves higher near storms.",
+    "storm_outlook": "AL97 has a 70% formation chance near Louisiana/Texas. Dolly remnants have a 20% seven-day chance. No immediate Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI plans to cut Cursor model access",
-      "summary": "OpenAI plans to stop supplying models to SpaceX-owned Cursor, citing uncertainty over compliance with its terms. Cursor says talks continue; Anthropic plans more Claude capacity. The proposed cutoff is November 12.",
+      "headline": "Europe orders €388 million AI supercomputer",
+      "summary": "EuroHPC selected France's Bull to build LUMI-AI in Finland using AMD processors, IBM storage and Nokia networking. The publicly funded system is expected online in the second half of 2027.",
       "source_name": "Reuters",
-      "published_at": "2026-08-28T22:01:00-04:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/"
+      "published_at": "2026-08-31T03:01:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/europe-expands-ai-computing-network-with-390-million-order-frances-bull-2026-08-31/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Watchdog flags AI cyber risk to financial system",
+      "summary": "Financial Stability Board Chair Andrew Bailey called AI-enabled cyberattacks the most immediate AI concern for global finance, citing faster attacks, weak safeguards and dependence on a few technology providers.",
+      "source_name": "Reuters",
+      "published_at": "2026-08-31T02:01:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/"
     },
     {
       "category": "US",
-      "headline": "Bessent faces G20 test on trade, Iran and debt",
-      "summary": "At the U.S.-hosted G20 finance meeting, Treasury Secretary Scott Bessent will press trade, growth and Iran priorities while allies question tariffs and rising U.S. debt. Consensus is uncertain.",
+      "headline": "US emergency oil reserve nears practical floor",
+      "summary": "The Strategic Petroleum Reserve holds 289.7 million barrels, its lowest level since 1982. Further planned releases could leave less flexibility during disruptions; operational limits and replenishment timing remain debated.",
       "source_name": "Reuters",
-      "published_at": "2026-08-30T06:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/"
+      "published_at": "2026-08-31T06:03:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/depleted-us-oil-stash-loses-potency-iran-war-grinds-on-2026-08-31/"
     },
     {
       "category": "World",
-      "headline": "Kyiv-region strike toll rises to 38",
-      "summary": "President Volodymyr Zelenskiy said 38 people died and four remain missing after a Russian strike triggered explosions at a military ammunition facility. Cleanup and contamination work continue.",
+      "headline": "Nepal races to reach workers trapped in tunnels",
+      "summary": "Nepal says 903 people are dead and 4,247 missing after the Himalayan flood. Rescue teams are trying to reach 933 hydropower workers, many trapped in tunnels; further flood and landslide risks persist.",
       "source_name": "Reuters",
-      "published_at": "2026-08-30T05:21:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/kyiv-region-strike-death-toll-rises-38-zelenskiy-says-2026-08-30/"
+      "published_at": "2026-08-31T00:24:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/nepal-teams-seek-hundreds-trapped-hydropower-tunnels-after-deadly-floods-2026-08-31/"
     },
     {
       "category": "World",
-      "headline": "Thousands missing after Himalayan disaster",
-      "summary": "At least 750 people are reported dead and more than 3,000 missing after a glacier collapse and mudslide along the Nepal-China border. Bad weather and unstable terrain are impeding rescues; totals remain fluid.",
+      "headline": "Russian drone barrage on Kyiv enters fifth day",
+      "summary": "Near-continuous Russian drone attacks are disrupting Kyiv transport and daily life. Monday's strikes injured four people and damaged civilian and commercial sites; both sides report intensified infrastructure attacks.",
       "source_name": "Reuters",
-      "published_at": "2026-08-29T23:45:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/"
-    },
-    {
-      "category": "US",
-      "headline": "US oil-equity report meets Pentagon denial",
-      "summary": "The Wall Street Journal reported a planned 35% U.S. stake in a Venezuelan oil venture. A Pentagon spokesperson said the relevant office does not take equity, leaving the reported structure unresolved.",
-      "source_name": "Reuters",
-      "published_at": null,
-      "source_url": "https://www.reuters.com/legal/legalindustry/us-take-35-stake-venezuelan-mogul-betancourts-oil-venture-wsj-reports-2026-08-30/"
+      "published_at": "2026-08-31T05:22:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russian-drone-barrage-kyiv-enters-fifth-day-disrupting-life-across-capital-2026-08-31/"
     }
   ],
-  "sources_checked_at": "2026-08-30T06:38:00-04:00"
+  "sources_checked_at": "2026-08-31T06:42:00-04:00"
 }
