@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-08-31",
-  "generated_at": "2026-08-31T06:42:00-04:00",
+  "briefing_date": "2026-09-01",
+  "generated_at": "2026-09-01T06:44:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Overcast; N 3 kt; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 79,
+    "condition": "Fair; N 4 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 77,
     "forecast_wind_min_kt": 3,
     "forecast_wind_max_kt": 11,
     "forecast_gust_max_kt": 17,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: heavy-rain storm risk peaks around 10–11 AM",
+    "storm_timing": "Forecast: shower/storm risk highest from 11 AM–3 PM",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Early morning before 9 AM; recheck radar by 9 AM",
+    "best_window": "Morning before 11 AM; recheck radar by 10 AM",
     "confidence_10": 7,
-    "recheck_at": "9:00 AM",
+    "recheck_at": "10:00 AM",
     "tides": [
       {
+        "type": "low",
+        "time": "6:06 AM",
+        "height_ft": 0.1
+      },
+      {
         "type": "high",
-        "time": "11:24 AM",
-        "height_ft": 8.3
+        "time": "12:11 PM",
+        "height_ft": 8.4
       },
       {
         "type": "low",
-        "time": "5:52 PM",
-        "height_ft": 0.3
-      },
-      {
-        "type": "high",
-        "time": "11:42 PM",
-        "height_ft": 7.8
+        "time": "6:40 PM",
+        "height_ft": 0.4
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-08-31T02:21:00-04:00",
+    "forecast_updated_at": "2026-09-01T02:21:00-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -49,14 +49,14 @@
         "wind_kt": 3,
         "gust_kt": 5,
         "wind_direction": "NE",
-        "rain_percent": 21
+        "rain_percent": 11
       },
       {
         "time": "9 AM",
         "wind_kt": 5,
         "gust_kt": 8,
         "wind_direction": "NE",
-        "rain_percent": 46
+        "rain_percent": 10
       },
       {
         "time": "NOON",
@@ -70,60 +70,60 @@
         "wind_kt": 11,
         "gust_kt": 17,
         "wind_direction": "ENE",
-        "rain_percent": 45
+        "rain_percent": 24
       },
       {
         "time": "6 PM",
         "wind_kt": 10,
         "gust_kt": 15,
         "wind_direction": "E",
-        "rain_percent": 34
+        "rain_percent": 14
       }
     ],
-    "marine_summary": "Forecast: NE 5–10 kt, increasing to 10–15 kt; seas 2–3 ft at 7 seconds, moderate chop. Winds and waves higher near storms.",
-    "storm_outlook": "AL97 has a 70% formation chance near Louisiana/Texas. Dolly remnants have a 20% seven-day chance. No immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: E 10–15 kt; seas 2–3 ft with E waves at 8 seconds; moderate chop. Winds, waves and visibility may worsen near storms.",
+    "storm_outlook": "Tropical Storm Edouard is nearing Texas/Louisiana and may approach hurricane strength. No current Coastal Georgia threat; no other formation expected."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Europe orders €388 million AI supercomputer",
-      "summary": "EuroHPC selected France's Bull to build LUMI-AI in Finland using AMD processors, IBM storage and Nokia networking. The publicly funded system is expected online in the second half of 2027.",
+      "headline": "US urges hands-off AI regulation at G20",
+      "summary": "The U.S. will press G20 members against creating new AI oversight bodies, favoring a pro-growth approach. Canada plans to emphasize public trust and safety, indicating that consensus is uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T03:01:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/europe-expands-ai-computing-network-with-390-million-order-frances-bull-2026-08-31/"
+      "published_at": "2026-09-01T06:06:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/us-urge-hands-off-ai-regulation-g-20-official-says-2026-09-01/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Watchdog flags AI cyber risk to financial system",
-      "summary": "Financial Stability Board Chair Andrew Bailey called AI-enabled cyberattacks the most immediate AI concern for global finance, citing faster attacks, weak safeguards and dependence on a few technology providers.",
+      "headline": "John Ternus succeeds Tim Cook as Apple CEO",
+      "summary": "John Ternus takes over Apple as Tim Cook becomes executive chairman. Apple grew enormously during Cook's tenure, but Ternus inherits pressure to improve its AI position and diversify manufacturing.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T02:01:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/"
+      "published_at": "2026-09-01T06:14:00-04:00",
+      "source_url": "https://www.reuters.com/legal/transactional/cook-hands-apple-ternus-bigger-richer-catching-up-ai-race-2026-09-01/"
     },
     {
       "category": "US",
-      "headline": "US emergency oil reserve nears practical floor",
-      "summary": "The Strategic Petroleum Reserve holds 289.7 million barrels, its lowest level since 1982. Further planned releases could leave less flexibility during disruptions; operational limits and replenishment timing remain debated.",
+      "headline": "US officials accuse COSCO of maritime spying",
+      "summary": "Two U.S. officials allege that Chinese shipper COSCO uses concealed equipment to collect military communications. China's embassy called the allegations baseless; COSCO did not comment.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T06:03:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/depleted-us-oil-stash-loses-potency-iran-war-grinds-on-2026-08-31/"
+      "published_at": "2026-09-01T06:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/chinese-shipper-cosco-collects-intel-beijing-with-concealed-equipment-us-2026-09-01/"
     },
     {
       "category": "World",
-      "headline": "Nepal races to reach workers trapped in tunnels",
-      "summary": "Nepal says 903 people are dead and 4,247 missing after the Himalayan flood. Rescue teams are trying to reach 933 hydropower workers, many trapped in tunnels; further flood and landslide risks persist.",
+      "headline": "Renewed US-Iran strikes lift oil prices",
+      "summary": "Oil rose as renewed U.S.-Iran fighting revived supply concerns. Diplomacy over reopening the Strait of Hormuz remains inconclusive, and commercial traffic is still well below normal.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T00:24:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/nepal-teams-seek-hundreds-trapped-hydropower-tunnels-after-deadly-floods-2026-08-31/"
+      "published_at": "2026-08-31T20:56:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/oil-prices-rise-latest-fighting-resurrects-middle-east-supply-disruption-risks-2026-09-01/"
     },
     {
-      "category": "World",
-      "headline": "Russian drone barrage on Kyiv enters fifth day",
-      "summary": "Near-continuous Russian drone attacks are disrupting Kyiv transport and daily life. Monday's strikes injured four people and damaged civilian and commercial sites; both sides report intensified infrastructure attacks.",
+      "category": "US",
+      "headline": "Newborn vitamin K refusals rise sharply in US",
+      "summary": "A review of more than one million births found hospital non-receipt of newborn vitamin K shots rose 57% during 2026's first half. The CDC still recommends the shot to prevent dangerous bleeding.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T05:22:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-drone-barrage-kyiv-enters-fifth-day-disrupting-life-across-capital-2026-08-31/"
+      "published_at": "2026-09-01T06:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-refusals-crucial-newborn-vitamin-spike-raising-risk-dangerous-bleeding-2026-09-01/"
     }
   ],
-  "sources_checked_at": "2026-08-31T06:42:00-04:00"
+  "sources_checked_at": "2026-09-01T06:44:00-04:00"
 }
