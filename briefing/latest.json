@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-01",
-  "generated_at": "2026-09-01T06:44:00-04:00",
+  "briefing_date": "2026-09-02",
+  "generated_at": "2026-09-02T06:45:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; N 4 kt; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 77,
-    "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 11,
-    "forecast_gust_max_kt": 17,
+    "condition": "Clear; NW 5 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 79,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 12,
+    "forecast_gust_max_kt": 18,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: shower/storm risk highest from 11 AM–3 PM",
+    "storm_timing": "Forecast: slight storm risk late morning through early afternoon",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Morning before 11 AM; recheck radar by 10 AM",
+    "best_window": "Early morning before 10 AM; recheck radar at 10 AM",
     "confidence_10": 7,
     "recheck_at": "10:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "6:06 AM",
-        "height_ft": 0.1
+        "time": "6:52 AM",
+        "height_ft": 0.2
       },
       {
         "type": "high",
-        "time": "12:11 PM",
+        "time": "1:02 PM",
         "height_ft": 8.4
       },
       {
         "type": "low",
-        "time": "6:40 PM",
-        "height_ft": 0.4
+        "time": "7:33 PM",
+        "height_ft": 0.7
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-01T02:21:00-04:00",
+    "forecast_updated_at": "2026-09-02T04:31:26-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 5,
+        "wind_kt": 4,
+        "gust_kt": 6,
         "wind_direction": "NE",
-        "rain_percent": 11
+        "rain_percent": 7
       },
       {
         "time": "9 AM",
-        "wind_kt": 5,
-        "gust_kt": 8,
+        "wind_kt": 7,
+        "gust_kt": 11,
         "wind_direction": "NE",
-        "rain_percent": 10
+        "rain_percent": 14
       },
       {
         "time": "NOON",
-        "wind_kt": 9,
-        "gust_kt": 14,
-        "wind_direction": "ENE",
-        "rain_percent": 43
-      },
-      {
-        "time": "3 PM",
         "wind_kt": 11,
         "gust_kt": 17,
         "wind_direction": "ENE",
-        "rain_percent": 24
+        "rain_percent": 27
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 12,
+        "gust_kt": 18,
+        "wind_direction": "E",
+        "rain_percent": 19
       },
       {
         "time": "6 PM",
-        "wind_kt": 10,
-        "gust_kt": 15,
+        "wind_kt": 11,
+        "gust_kt": 17,
         "wind_direction": "E",
-        "rain_percent": 14
+        "rain_percent": 16
       }
     ],
-    "marine_summary": "Forecast: E 10–15 kt; seas 2–3 ft with E waves at 8 seconds; moderate chop. Winds, waves and visibility may worsen near storms.",
-    "storm_outlook": "Tropical Storm Edouard is nearing Texas/Louisiana and may approach hurricane strength. No current Coastal Georgia threat; no other formation expected."
+    "marine_summary": "Forecast: E 10–15 kt; seas 3–4 ft, occasionally 5 ft; E waves 3 ft at 12 seconds; moderate chop. Higher near storms.",
+    "storm_outlook": "Edouard is inland over southeast Texas and weakening. No Coastal Georgia threat; NHC expects no new Atlantic formation within seven days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "US urges hands-off AI regulation at G20",
-      "summary": "The U.S. will press G20 members against creating new AI oversight bodies, favoring a pro-growth approach. Canada plans to emphasize public trust and safety, indicating that consensus is uncertain.",
+      "headline": "Dell lifts outlook on surging AI server demand",
+      "summary": "Dell raised its annual revenue forecast to $192 billion from $167 billion after quarterly revenue jumped 58%. It reported $60 billion in AI-server orders and a $95 billion backlog.",
       "source_name": "Reuters",
-      "published_at": "2026-09-01T06:06:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/us-urge-hands-off-ai-regulation-g-20-official-says-2026-09-01/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "John Ternus succeeds Tim Cook as Apple CEO",
-      "summary": "John Ternus takes over Apple as Tim Cook becomes executive chairman. Apple grew enormously during Cook's tenure, but Ternus inherits pressure to improve its AI position and diversify manufacturing.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-01T06:14:00-04:00",
-      "source_url": "https://www.reuters.com/legal/transactional/cook-hands-apple-ternus-bigger-richer-catching-up-ai-race-2026-09-01/"
+      "published_at": "2026-09-02T05:25:00-04:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/dell-shares-gain-after-strong-ai-server-demand-boosts-annual-forecast-2026-09-02/"
     },
     {
       "category": "US",
-      "headline": "US officials accuse COSCO of maritime spying",
-      "summary": "Two U.S. officials allege that Chinese shipper COSCO uses concealed equipment to collect military communications. China's embassy called the allegations baseless; COSCO did not comment.",
+      "headline": "US debt passes $40 trillion",
+      "summary": "U.S. debt exceeded $40 trillion during Trump's second term. Reuters attributes the rise to current policy and longer-running bipartisan fiscal pressures; future tax increases or benefit cuts may be difficult to avoid.",
       "source_name": "Reuters",
-      "published_at": "2026-09-01T06:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/chinese-shipper-cosco-collects-intel-beijing-with-concealed-equipment-us-2026-09-01/"
+      "published_at": "2026-09-02T06:03:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/trump-pledged-fiscal-restraint-instead-debt-tops-40-trillion-borrowing-costs-2026-09-02/"
     },
     {
       "category": "World",
-      "headline": "Renewed US-Iran strikes lift oil prices",
-      "summary": "Oil rose as renewed U.S.-Iran fighting revived supply concerns. Diplomacy over reopening the Strait of Hormuz remains inconclusive, and commercial traffic is still well below normal.",
+      "headline": "US and Iran resume major exchange of strikes",
+      "summary": "The U.S. struck Iranian military targets near the Strait of Hormuz; Iran retaliated against U.S. sites across the region. Iran reported civilian deaths at a wedding, which Reuters could not independently verify.",
       "source_name": "Reuters",
-      "published_at": "2026-08-31T20:56:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/oil-prices-rise-latest-fighting-resurrects-middle-east-supply-disruption-risks-2026-09-01/"
+      "published_at": "2026-09-01T22:41:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/us-iran-exchange-attacks-lull-war-appears-over-2026-09-02/"
     },
     {
-      "category": "US",
-      "headline": "Newborn vitamin K refusals rise sharply in US",
-      "summary": "A review of more than one million births found hospital non-receipt of newborn vitamin K shots rose 57% during 2026's first half. The CDC still recommends the shot to prevent dangerous bleeding.",
+      "category": "World",
+      "headline": "Russian strikes cut power across Odesa",
+      "summary": "A large Russian missile-and-drone attack damaged Odesa energy infrastructure and cut power, while attacks on Kyiv continued for a seventh day. Ukrainian officials reported injuries and residential damage.",
       "source_name": "Reuters",
-      "published_at": "2026-09-01T06:02:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-refusals-crucial-newborn-vitamin-spike-raising-risk-dangerous-bleeding-2026-09-01/"
+      "published_at": "2026-09-02T00:17:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russian-attacks-damage-infrastructure-ukraines-odesa-official-says-2026-09-02/"
+    },
+    {
+      "category": "World",
+      "headline": "Rescuers see hope for workers trapped in Nepal",
+      "summary": "An electricity official said 46 workers may be alive in a room-like space inside a hydropower tunnel with food and water. At least 639 people remain missing from flooded power sites; the assessment is not yet confirmed.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-02T05:54:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/good-chance-that-trapped-workers-are-still-alive-nepal-hydropower-plant-official-2026-09-02/"
     }
   ],
-  "sources_checked_at": "2026-09-01T06:44:00-04:00"
+  "sources_checked_at": "2026-09-02T06:45:00-04:00"
 }
