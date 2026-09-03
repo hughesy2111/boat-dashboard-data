@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-02",
-  "generated_at": "2026-09-02T06:45:00-04:00",
+  "briefing_date": "2026-09-03",
+  "generated_at": "2026-09-03T06:45:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Clear; NW 5 kt; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 79,
+    "condition": "Mostly cloudy; N 4 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 81,
     "forecast_wind_min_kt": 4,
-    "forecast_wind_max_kt": 12,
-    "forecast_gust_max_kt": 18,
-    "forecast_wind_direction_start": "NE",
+    "forecast_wind_max_kt": 13,
+    "forecast_gust_max_kt": 20,
+    "forecast_wind_direction_start": "ENE",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: slight storm risk late morning through early afternoon",
+    "storm_timing": "Forecast: greatest shower and storm risk during the morning",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Early morning before 10 AM; recheck radar at 10 AM",
-    "confidence_10": 7,
-    "recheck_at": "10:00 AM",
+    "best_window": "Early morning before 9 AM; recheck radar at 9 AM",
+    "confidence_10": 6,
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "6:52 AM",
-        "height_ft": 0.2
+        "time": "7:45 AM",
+        "height_ft": 0.4
       },
       {
         "type": "high",
-        "time": "1:02 PM",
-        "height_ft": 8.4
+        "time": "1:58 PM",
+        "height_ft": 8.2
       },
       {
         "type": "low",
-        "time": "7:33 PM",
-        "height_ft": 0.7
+        "time": "8:34 PM",
+        "height_ft": 1
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-02T04:31:26-04:00",
+    "forecast_updated_at": "2026-09-03T05:31:47-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -48,82 +48,82 @@
         "time": "NOW",
         "wind_kt": 4,
         "gust_kt": 6,
-        "wind_direction": "NE",
-        "rain_percent": 7
+        "wind_direction": "ENE",
+        "rain_percent": 12
       },
       {
         "time": "9 AM",
-        "wind_kt": 7,
-        "gust_kt": 11,
-        "wind_direction": "NE",
-        "rain_percent": 14
+        "wind_kt": 8,
+        "gust_kt": 12,
+        "wind_direction": "ENE",
+        "rain_percent": 34
       },
       {
         "time": "NOON",
-        "wind_kt": 11,
-        "gust_kt": 17,
-        "wind_direction": "ENE",
-        "rain_percent": 27
-      },
-      {
-        "time": "3 PM",
         "wind_kt": 12,
         "gust_kt": 18,
         "wind_direction": "E",
-        "rain_percent": 19
+        "rain_percent": 38
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 13,
+        "gust_kt": 20,
+        "wind_direction": "E",
+        "rain_percent": 26
       },
       {
         "time": "6 PM",
         "wind_kt": 11,
         "gust_kt": 17,
         "wind_direction": "E",
-        "rain_percent": 16
+        "rain_percent": 20
       }
     ],
-    "marine_summary": "Forecast: E 10–15 kt; seas 3–4 ft, occasionally 5 ft; E waves 3 ft at 12 seconds; moderate chop. Higher near storms.",
-    "storm_outlook": "Edouard is inland over southeast Texas and weakening. No Coastal Georgia threat; NHC expects no new Atlantic formation within seven days."
+    "marine_summary": "Forecast: E 10–15 kt; seas 3–4 ft, occasionally 5 ft; E waves 3 ft at 10 seconds; moderate chop. Higher near thunderstorms.",
+    "storm_outlook": "Edouard is weakening inland over eastern Texas. No Coastal Georgia threat; NHC expects no new Atlantic formation during the next seven days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Dell lifts outlook on surging AI server demand",
-      "summary": "Dell raised its annual revenue forecast to $192 billion from $167 billion after quarterly revenue jumped 58%. It reported $60 billion in AI-server orders and a $95 billion backlog.",
+      "headline": "OpenAI's Astra triggers stronger safety controls",
+      "summary": "OpenAI says its upcoming Astra model can find and exploit previously unknown cybersecurity flaws with little human guidance. It will initially have limited access and is the first model to trigger tougher controls under OpenAI's safety protocol.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T05:25:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/dell-shares-gain-after-strong-ai-server-demand-boosts-annual-forecast-2026-09-02/"
+      "published_at": "2026-09-01T16:07:00-04:00",
+      "source_url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Tesla prepares to show production Cybercab",
+      "summary": "Tesla plans to present its purpose-built autonomous Cybercab in Austin today. The company has not disclosed the event time or confirmed commercial approval; safety investigations and regulatory requirements remain significant uncertainties.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-02T06:03:00-04:00",
+      "source_url": "https://www.reuters.com/business/autos-transportation/tesla-set-hold-cybercab-event-austin-texas-2026-09-02/"
     },
     {
       "category": "US",
-      "headline": "US debt passes $40 trillion",
-      "summary": "U.S. debt exceeded $40 trillion during Trump's second term. Reuters attributes the rise to current policy and longer-running bipartisan fiscal pressures; future tax increases or benefit cuts may be difficult to avoid.",
+      "headline": "Stopgap bill averts US government shutdown",
+      "summary": "President Trump signed legislation extending federal funding through December 11. It avoids an October shutdown but leaves all 12 full-year spending bills unfinished and postpones the underlying budget dispute until after the midterms.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T06:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/trump-pledged-fiscal-restraint-instead-debt-tops-40-trillion-borrowing-costs-2026-09-02/"
+      "published_at": "2026-09-02T22:25:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/trump-signs-bill-avert-government-shutdown-before-midterm-elections-2026-09-03/"
     },
     {
       "category": "World",
-      "headline": "US and Iran resume major exchange of strikes",
-      "summary": "The U.S. struck Iranian military targets near the Strait of Hormuz; Iran retaliated against U.S. sites across the region. Iran reported civilian deaths at a wedding, which Reuters could not independently verify.",
+      "headline": "Iran war escalation raises civilian toll concern",
+      "summary": "Iran says 18 people died in the latest U.S. strikes, including four at a wedding. The U.S. says it does not target civilians. Reuters verified the reported wedding-site location but not responsibility for the damage.",
       "source_name": "Reuters",
-      "published_at": "2026-09-01T22:41:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/us-iran-exchange-attacks-lull-war-appears-over-2026-09-02/"
+      "published_at": "2026-09-02T22:03:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-war-escalation-raises-concern-over-civilian-death-toll-2026-09-03/"
     },
     {
       "category": "World",
-      "headline": "Russian strikes cut power across Odesa",
-      "summary": "A large Russian missile-and-drone attack damaged Odesa energy infrastructure and cut power, while attacks on Kyiv continued for a seventh day. Ukrainian officials reported injuries and residential damage.",
+      "headline": "Russian attack wounds 17 in Odesa",
+      "summary": "Ukrainian officials said Russian air attacks wounded 17 people, including three children, and damaged a 21-storey residential building in Odesa. Reuters also reported an explosion in Kyiv amid continuing strikes.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T00:17:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-attacks-damage-infrastructure-ukraines-odesa-official-says-2026-09-02/"
-    },
-    {
-      "category": "World",
-      "headline": "Rescuers see hope for workers trapped in Nepal",
-      "summary": "An electricity official said 46 workers may be alive in a room-like space inside a hydropower tunnel with food and water. At least 639 people remain missing from flooded power sites; the assessment is not yet confirmed.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-02T05:54:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/good-chance-that-trapped-workers-are-still-alive-nepal-hydropower-plant-official-2026-09-02/"
+      "published_at": "2026-09-02T19:49:00-04:00",
+      "source_url": "https://www.reuters.com/world/russian-air-attack-damages-multi-story-residential-building-ukraines-odesa-2026-09-02/"
     }
   ],
-  "sources_checked_at": "2026-09-02T06:45:00-04:00"
+  "sources_checked_at": "2026-09-03T06:45:00-04:00"
 }
