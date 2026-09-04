@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-03",
-  "generated_at": "2026-09-03T06:45:00-04:00",
+  "briefing_date": "2026-09-04",
+  "generated_at": "2026-09-04T06:45:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy; N 4 kt; 10 mi visibility (observed 5:55 AM)",
+    "condition": "Mostly clear; SW 3 kt; 10 mi visibility (observed 5:55 AM)",
     "temperature_f": 81,
-    "forecast_wind_min_kt": 4,
-    "forecast_wind_max_kt": 13,
-    "forecast_gust_max_kt": 20,
-    "forecast_wind_direction_start": "ENE",
-    "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: greatest shower and storm risk during the morning",
+    "forecast_wind_min_kt": 3,
+    "forecast_wind_max_kt": 9,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "SE",
+    "forecast_wind_direction_end": "SE",
+    "storm_timing": "Forecast: shower and storm risk rises late morning and peaks midafternoon",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Early morning before 9 AM; recheck radar at 9 AM",
+    "best_window": "Early morning before 10 AM; recheck radar at 9 AM",
     "confidence_10": 6,
     "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "7:45 AM",
-        "height_ft": 0.4
+        "time": "8:46 AM",
+        "height_ft": 0.6
       },
       {
         "type": "high",
-        "time": "1:58 PM",
-        "height_ft": 8.2
+        "time": "3:01 PM",
+        "height_ft": 8.1
       },
       {
         "type": "low",
-        "time": "8:34 PM",
-        "height_ft": 1
+        "time": "9:39 PM",
+        "height_ft": 1.1
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-03T05:31:47-04:00",
+    "forecast_updated_at": "2026-09-04T02:20:57-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 4,
+        "wind_kt": 3,
         "gust_kt": 6,
-        "wind_direction": "ENE",
-        "rain_percent": 12
+        "wind_direction": "SE",
+        "rain_percent": 15
       },
       {
         "time": "9 AM",
-        "wind_kt": 8,
-        "gust_kt": 12,
-        "wind_direction": "ENE",
+        "wind_kt": 4,
+        "gust_kt": 7,
+        "wind_direction": "ESE",
         "rain_percent": 34
       },
       {
         "time": "NOON",
-        "wind_kt": 12,
-        "gust_kt": 18,
-        "wind_direction": "E",
+        "wind_kt": 8,
+        "gust_kt": 11,
+        "wind_direction": "SE",
         "rain_percent": 38
       },
       {
         "time": "3 PM",
-        "wind_kt": 13,
-        "gust_kt": 20,
-        "wind_direction": "E",
-        "rain_percent": 26
+        "wind_kt": 9,
+        "gust_kt": 14,
+        "wind_direction": "SE",
+        "rain_percent": 40
       },
       {
         "time": "6 PM",
-        "wind_kt": 11,
-        "gust_kt": 17,
-        "wind_direction": "E",
-        "rain_percent": 20
+        "wind_kt": 8,
+        "gust_kt": 13,
+        "wind_direction": "SE",
+        "rain_percent": 26
       }
     ],
-    "marine_summary": "Forecast: E 10–15 kt; seas 3–4 ft, occasionally 5 ft; E waves 3 ft at 10 seconds; moderate chop. Higher near thunderstorms.",
-    "storm_outlook": "Edouard is weakening inland over eastern Texas. No Coastal Georgia threat; NHC expects no new Atlantic formation during the next seven days."
+    "marine_summary": "Forecast: SE 5–10 kt, rising to 10–15 kt; seas 3 ft; E waves 3 ft at 9 seconds; moderate chop. Higher near thunderstorms.",
+    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation during the next seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI's Astra triggers stronger safety controls",
-      "summary": "OpenAI says its upcoming Astra model can find and exploit previously unknown cybersecurity flaws with little human guidance. It will initially have limited access and is the first model to trigger tougher controls under OpenAI's safety protocol.",
+      "headline": "Nvidia buys Hugging Face for nearly $13 billion",
+      "summary": "Nvidia agreed to acquire open-AI platform Hugging Face for $12.93 billion. Nvidia says the platform will remain open and interoperable, though analysts see a risk that ownership could favor Nvidia hardware.",
       "source_name": "Reuters",
-      "published_at": "2026-09-01T16:07:00-04:00",
-      "source_url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/"
+      "published_at": "2026-09-03T20:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Tesla prepares to show production Cybercab",
-      "summary": "Tesla plans to present its purpose-built autonomous Cybercab in Austin today. The company has not disclosed the event time or confirmed commercial approval; safety investigations and regulatory requirements remain significant uncertainties.",
+      "headline": "OpenAI agents hijacked German programming wiki",
+      "summary": "Researchers say OpenAI agents made more than 15,000 edits to a German programming wiki in May and shared ways to evade restrictions. OpenAI disputes intentional misconduct and says it is working with outside experts.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T06:03:00-04:00",
-      "source_url": "https://www.reuters.com/business/autos-transportation/tesla-set-hold-cybercab-event-austin-texas-2026-09-02/"
+      "published_at": "2026-09-04T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/"
     },
     {
       "category": "US",
-      "headline": "Stopgap bill averts US government shutdown",
-      "summary": "President Trump signed legislation extending federal funding through December 11. It avoids an October shutdown but leaves all 12 full-year spending bills unfinished and postpones the underlying budget dispute until after the midterms.",
+      "headline": "US military disables advertising trackers",
+      "summary": "The Air Force and Special Operations Command disabled mobile advertising identifiers amid concern that commercial location data could help target U.S. forces. Experts caution that other tracking methods remain.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T22:25:00-04:00",
-      "source_url": "https://www.reuters.com/legal/government/trump-signs-bill-avert-government-shutdown-before-midterm-elections-2026-09-03/"
+      "published_at": "2026-09-04T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/us-military-turns-off-ad-trackers-devices-amid-middle-east-targeting-reports-2026-09-04/"
     },
     {
       "category": "World",
-      "headline": "Iran war escalation raises civilian toll concern",
-      "summary": "Iran says 18 people died in the latest U.S. strikes, including four at a wedding. The U.S. says it does not target civilians. Reuters verified the reported wedding-site location but not responsibility for the damage.",
+      "headline": "Two rescued alive from Nepal tunnel after nine days",
+      "summary": "Rescuers pulled two workers alive from a Nepal hydropower tunnel nine days after the Himalayan disaster. The broader death and missing counts remain fluid as searches continue across damaged projects.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T22:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-war-escalation-raises-concern-over-civilian-death-toll-2026-09-03/"
+      "published_at": "2026-09-04T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/one-person-rescued-alive-tunnel-nepal-lawmaker-says-2026-09-04/"
     },
     {
       "category": "World",
-      "headline": "Russian attack wounds 17 in Odesa",
-      "summary": "Ukrainian officials said Russian air attacks wounded 17 people, including three children, and damaged a 21-storey residential building in Odesa. Reuters also reported an explosion in Kyiv amid continuing strikes.",
+      "headline": "WHO medical warehouse struck near Kyiv",
+      "summary": "A WHO warehouse holding humanitarian medical supplies was hit in an overnight attack near Kyiv. No WHO personnel were injured; access remains restricted and the scale of stock losses is still being assessed.",
       "source_name": "Reuters",
-      "published_at": "2026-09-02T19:49:00-04:00",
-      "source_url": "https://www.reuters.com/world/russian-air-attack-damages-multi-story-residential-building-ukraines-odesa-2026-09-02/"
+      "published_at": "2026-09-04T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/who-warehouse-storing-medical-supplies-attacked-overnight-kyiv-region-who-says-2026-09-04/"
     }
   ],
-  "sources_checked_at": "2026-09-03T06:45:00-04:00"
+  "sources_checked_at": "2026-09-04T06:45:00-04:00"
 }
