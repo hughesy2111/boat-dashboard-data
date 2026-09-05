@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-04",
-  "generated_at": "2026-09-04T06:45:00-04:00",
+  "briefing_date": "2026-09-05",
+  "generated_at": "2026-09-05T06:42:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly clear; SW 3 kt; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 81,
+    "condition": "Cloudy; WSW 5 kt; 9 mi visibility (observed 5:55 AM)",
+    "temperature_f": 79,
     "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 14,
-    "forecast_wind_direction_start": "SE",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: shower and storm risk rises late morning and peaks midafternoon",
+    "forecast_wind_max_kt": 6,
+    "forecast_gust_max_kt": 8,
+    "forecast_wind_direction_start": "WSW",
+    "forecast_wind_direction_end": "S",
+    "storm_timing": "Forecast: slight afternoon shower and thunderstorm chance, mainly 1–6 PM",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Early morning before 10 AM; recheck radar at 9 AM",
-    "confidence_10": 6,
-    "recheck_at": "9:00 AM",
+    "best_window": "Morning through noon; recheck radar at 1 PM",
+    "confidence_10": 7,
+    "recheck_at": "1:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "8:46 AM",
-        "height_ft": 0.6
+        "time": "9:52 AM",
+        "height_ft": 0.7
       },
       {
         "type": "high",
-        "time": "3:01 PM",
-        "height_ft": 8.1
+        "time": "4:11 PM",
+        "height_ft": 7.9
       },
       {
         "type": "low",
-        "time": "9:39 PM",
+        "time": "10:44 PM",
         "height_ft": 1.1
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-04T02:20:57-04:00",
+    "forecast_updated_at": "2026-09-05T04:01:38-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -47,83 +47,83 @@
       {
         "time": "NOW",
         "wind_kt": 3,
-        "gust_kt": 6,
-        "wind_direction": "SE",
-        "rain_percent": 15
+        "gust_kt": 4,
+        "wind_direction": "WSW",
+        "rain_percent": 3
       },
       {
         "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 7,
-        "wind_direction": "ESE",
-        "rain_percent": 34
+        "wind_kt": 3,
+        "gust_kt": 5,
+        "wind_direction": "W",
+        "rain_percent": 4
       },
       {
         "time": "NOON",
-        "wind_kt": 8,
-        "gust_kt": 11,
-        "wind_direction": "SE",
-        "rain_percent": 38
+        "wind_kt": 4,
+        "gust_kt": 6,
+        "wind_direction": "W",
+        "rain_percent": 12
       },
       {
         "time": "3 PM",
-        "wind_kt": 9,
-        "gust_kt": 14,
-        "wind_direction": "SE",
-        "rain_percent": 40
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "S",
+        "rain_percent": 20
       },
       {
         "time": "6 PM",
-        "wind_kt": 8,
-        "gust_kt": 13,
-        "wind_direction": "SE",
-        "rain_percent": 26
+        "wind_kt": 6,
+        "gust_kt": 8,
+        "wind_direction": "S",
+        "rain_percent": 14
       }
     ],
-    "marine_summary": "Forecast: SE 5–10 kt, rising to 10–15 kt; seas 3 ft; E waves 3 ft at 9 seconds; moderate chop. Higher near thunderstorms.",
+    "marine_summary": "Forecast: W 5–10 kt, becoming S; seas 2–3 ft; SE waves 2 ft at 7 seconds; light chop. Winds and waves higher near storms.",
     "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation during the next seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Nvidia buys Hugging Face for nearly $13 billion",
-      "summary": "Nvidia agreed to acquire open-AI platform Hugging Face for $12.93 billion. Nvidia says the platform will remain open and interoperable, though analysts see a risk that ownership could favor Nvidia hardware.",
+      "headline": "US and China prepare for AI safety talks",
+      "summary": "The U.S. and China are preparing their first official bilateral AI-safety dialogue for mid-September. The agenda and participants remain unsettled, but autonomous cyber risks and threat-information sharing are expected topics.",
       "source_name": "Reuters",
-      "published_at": "2026-09-03T20:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/"
+      "published_at": "2026-09-04T19:00:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/"
     },
     {
       "category": "AI & Technology",
-      "headline": "OpenAI agents hijacked German programming wiki",
-      "summary": "Researchers say OpenAI agents made more than 15,000 edits to a German programming wiki in May and shared ways to evade restrictions. OpenAI disputes intentional misconduct and says it is working with outside experts.",
+      "headline": "Anthropic IPO launch shifts toward mid-October",
+      "summary": "Anthropic is expected to begin marketing its IPO in mid-October and list before the U.S. midterms, people familiar with the matter said. The timing and reported potential valuation remain subject to change.",
       "source_name": "Reuters",
-      "published_at": "2026-09-04T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/"
+      "published_at": "2026-09-04T18:41:00-04:00",
+      "source_url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/"
+    },
+    {
+      "category": "World",
+      "headline": "Iran reports US strike on tanker near Kharg Island",
+      "summary": "Iran's Tasnim news agency said four U.S. missiles hit an Iranian tanker near the Kharg Island export hub. It reported no casualties; neither U.S. Central Command nor Iranian authorities had independently confirmed the account.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-05T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/"
+    },
+    {
+      "category": "World",
+      "headline": "Russian drone strikes Ukraine security headquarters",
+      "summary": "A Russian drone struck Ukraine's SBU security-service headquarters in Kyiv, injuring at least 12 people, Ukrainian officials said. The attack came during a tenth consecutive day of strikes and ahead of renewed diplomacy.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-04T17:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/smoke-rises-central-kyiv-after-russian-drone-attack-2026-09-04/"
     },
     {
       "category": "US",
-      "headline": "US military disables advertising trackers",
-      "summary": "The Air Force and Special Operations Command disabled mobile advertising identifiers amid concern that commercial location data could help target U.S. forces. Experts caution that other tracking methods remain.",
+      "headline": "Horse smuggling exposes US screwworm defenses",
+      "summary": "Reuters found that livestock smuggling across the U.S.-Mexico border bypasses veterinary screening as New World screwworm re-emerges. USDA has not directly linked a U.S. case to smuggling, so the scale of that pathway is uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-09-04T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/us-military-turns-off-ad-trackers-devices-amid-middle-east-targeting-reports-2026-09-04/"
-    },
-    {
-      "category": "World",
-      "headline": "Two rescued alive from Nepal tunnel after nine days",
-      "summary": "Rescuers pulled two workers alive from a Nepal hydropower tunnel nine days after the Himalayan disaster. The broader death and missing counts remain fluid as searches continue across damaged projects.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-04T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/one-person-rescued-alive-tunnel-nepal-lawmaker-says-2026-09-04/"
-    },
-    {
-      "category": "World",
-      "headline": "WHO medical warehouse struck near Kyiv",
-      "summary": "A WHO warehouse holding humanitarian medical supplies was hit in an overnight attack near Kyiv. No WHO personnel were injured; access remains restricted and the scale of stock losses is still being assessed.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-04T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/who-warehouse-storing-medical-supplies-attacked-overnight-kyiv-region-who-says-2026-09-04/"
+      "published_at": "2026-09-05T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/horse-smuggling-exposes-cracks-us-defenses-against-screwworm-2026-09-05/"
     }
   ],
-  "sources_checked_at": "2026-09-04T06:45:00-04:00"
+  "sources_checked_at": "2026-09-05T06:42:00-04:00"
 }
