@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-05",
-  "generated_at": "2026-09-05T06:42:00-04:00",
+  "briefing_date": "2026-09-07",
+  "generated_at": "2026-09-07T06:43:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Cloudy; WSW 5 kt; 9 mi visibility (observed 5:55 AM)",
-    "temperature_f": 79,
+    "condition": "Mostly cloudy; NE 4 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 81,
     "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 8,
-    "forecast_wind_direction_start": "WSW",
-    "forecast_wind_direction_end": "S",
-    "storm_timing": "Forecast: slight afternoon shower and thunderstorm chance, mainly 1–6 PM",
+    "forecast_wind_max_kt": 10,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "ENE",
+    "storm_timing": "Forecast: storms increasingly likely after noon, peaking 2–6 PM",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Morning through noon; recheck radar at 1 PM",
+    "best_window": "Early morning before 10 AM; recheck radar at 10 AM",
     "confidence_10": 7,
-    "recheck_at": "1:00 PM",
+    "recheck_at": "10:00 AM",
     "tides": [
       {
+        "type": "high",
+        "time": "5:53 AM",
+        "height_ft": 6.9
+      },
+      {
         "type": "low",
-        "time": "9:52 AM",
-        "height_ft": 0.7
+        "time": "12:00 PM",
+        "height_ft": 0.5
       },
       {
         "type": "high",
-        "time": "4:11 PM",
-        "height_ft": 7.9
-      },
-      {
-        "type": "low",
-        "time": "10:44 PM",
-        "height_ft": 1.1
+        "time": "6:32 PM",
+        "height_ft": 8.1
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-05T04:01:38-04:00",
+    "forecast_updated_at": "2026-09-07T02:21:31-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -47,83 +47,83 @@
       {
         "time": "NOW",
         "wind_kt": 3,
-        "gust_kt": 4,
-        "wind_direction": "WSW",
-        "rain_percent": 3
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 5,
-        "wind_direction": "W",
-        "rain_percent": 4
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 4,
-        "gust_kt": 6,
-        "wind_direction": "W",
+        "gust_kt": 3,
+        "wind_direction": "N",
         "rain_percent": 12
       },
       {
-        "time": "3 PM",
+        "time": "9 AM",
         "wind_kt": 5,
-        "gust_kt": 8,
-        "wind_direction": "S",
-        "rain_percent": 20
+        "gust_kt": 5,
+        "wind_direction": "NNE",
+        "rain_percent": 29
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 8,
+        "gust_kt": 10,
+        "wind_direction": "NE",
+        "rain_percent": 51
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 10,
+        "gust_kt": 13,
+        "wind_direction": "ENE",
+        "rain_percent": 65
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 8,
-        "wind_direction": "S",
-        "rain_percent": 14
+        "wind_kt": 10,
+        "gust_kt": 14,
+        "wind_direction": "ENE",
+        "rain_percent": 69
       }
     ],
-    "marine_summary": "Forecast: W 5–10 kt, becoming S; seas 2–3 ft; SE waves 2 ft at 7 seconds; light chop. Winds and waves higher near storms.",
+    "marine_summary": "Forecast: NE 5–10 kt, becoming E 10–15 kt; seas 2 ft; NE waves 2 ft at 8 seconds; moderate chop; higher near storms.",
     "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation during the next seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "US and China prepare for AI safety talks",
-      "summary": "The U.S. and China are preparing their first official bilateral AI-safety dialogue for mid-September. The agenda and participants remain unsettled, but autonomous cyber risks and threat-information sharing are expected topics.",
+      "headline": "UN rights chief warns of severe AI risks",
+      "summary": "U.N. human rights chief Volker Türk warned that advanced AI could pose an existential threat and called for international safety guarantees. The warning is a risk assessment, not evidence that such harm is imminent.",
       "source_name": "Reuters",
-      "published_at": "2026-09-04T19:00:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/"
+      "published_at": "2026-09-07T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Anthropic IPO launch shifts toward mid-October",
-      "summary": "Anthropic is expected to begin marketing its IPO in mid-October and list before the U.S. midterms, people familiar with the matter said. The timing and reported potential valuation remain subject to change.",
+      "headline": "Liquid Network reports $320 million bitcoin withdrawal",
+      "summary": "Bitcoin-based Liquid Network said about $320 million was withdrawn from its federation wallet by purported white-hat hackers. New transactions were halted; the network says the cryptographic key itself was not compromised.",
       "source_name": "Reuters",
-      "published_at": "2026-09-04T18:41:00-04:00",
-      "source_url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/"
-    },
-    {
-      "category": "World",
-      "headline": "Iran reports US strike on tanker near Kharg Island",
-      "summary": "Iran's Tasnim news agency said four U.S. missiles hit an Iranian tanker near the Kharg Island export hub. It reported no casualties; neither U.S. Central Command nor Iranian authorities had independently confirmed the account.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-05T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/"
-    },
-    {
-      "category": "World",
-      "headline": "Russian drone strikes Ukraine security headquarters",
-      "summary": "A Russian drone struck Ukraine's SBU security-service headquarters in Kyiv, injuring at least 12 people, Ukrainian officials said. The attack came during a tenth consecutive day of strikes and ahead of renewed diplomacy.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-04T17:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/smoke-rises-central-kyiv-after-russian-drone-attack-2026-09-04/"
+      "published_at": "2026-09-07T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/technology/bitcoin-based-liquid-network-says-320-million-withdrawn-hack-2026-09-07/"
     },
     {
       "category": "US",
-      "headline": "Horse smuggling exposes US screwworm defenses",
-      "summary": "Reuters found that livestock smuggling across the U.S.-Mexico border bypasses veterinary screening as New World screwworm re-emerges. USDA has not directly linked a U.S. case to smuggling, so the scale of that pathway is uncertain.",
+      "headline": "Strong jobs report revives Fed rate-hike forecasts",
+      "summary": "UBS now expects quarter-point U.S. rate increases in September and December after stronger August employment data. Other forecasters and market pricing remain divided, so the policy path is not settled.",
       "source_name": "Reuters",
-      "published_at": "2026-09-05T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/horse-smuggling-exposes-cracks-us-defenses-against-screwworm-2026-09-05/"
+      "published_at": "2026-09-07T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/ubs-forecasts-two-us-fed-rate-hikes-2026-after-strong-jobs-report-2026-09-07/"
+    },
+    {
+      "category": "World",
+      "headline": "US envoys seek renewed Ukraine-Russia talks",
+      "summary": "U.S. envoys described talks with President Zelenskiy as substantive and said they hope for new trilateral discussions after visiting Kyiv and Moscow. They acknowledged there is no guarantee the diplomacy will succeed.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-06T07:09:00-04:00",
+      "source_url": "https://www.reuters.com/business/aerospace-defense/us-envoys-make-first-kyiv-visit-amid-ukraine-war-peace-push-2026-09-06/"
+    },
+    {
+      "category": "World",
+      "headline": "UAE builds routes around Iran-war disruption",
+      "summary": "The UAE is developing alternative energy-export and trade routes so flows are not held hostage by the Iran war, a presidential adviser said. The announcement underscores continuing risks to Gulf shipping.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-07T04:46:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/"
     }
   ],
-  "sources_checked_at": "2026-09-05T06:42:00-04:00"
+  "sources_checked_at": "2026-09-07T06:43:00-04:00"
 }
