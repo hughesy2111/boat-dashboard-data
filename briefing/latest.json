@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-07",
-  "generated_at": "2026-09-07T06:43:00-04:00",
+  "briefing_date": "2026-09-08",
+  "generated_at": "2026-09-08T06:45:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy; NE 4 kt; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 81,
-    "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 10,
-    "forecast_gust_max_kt": 14,
-    "forecast_wind_direction_start": "N",
+    "condition": "Mostly cloudy; NE 11 kt, gust 17 kt; 10 mi visibility (observed 5:55 AM)",
+    "temperature_f": 82,
+    "forecast_wind_min_kt": 11,
+    "forecast_wind_max_kt": 15,
+    "forecast_gust_max_kt": 23,
+    "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "ENE",
-    "storm_timing": "Forecast: storms increasingly likely after noon, peaking 2–6 PM",
-    "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Early morning before 10 AM; recheck radar at 10 AM",
-    "confidence_10": 7,
-    "recheck_at": "10:00 AM",
+    "storm_timing": "Forecast: shower chance all day; storms possible, mainly afternoon",
+    "alert_status": "High Rip Current Risk through late tonight",
+    "best_window": "No ideal window; early morning is least unfavorable",
+    "confidence_10": 8,
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "5:53 AM",
-        "height_ft": 6.9
+        "time": "6:59 AM",
+        "height_ft": 7.3
       },
       {
         "type": "low",
-        "time": "12:00 PM",
-        "height_ft": 0.5
+        "time": "1:00 PM",
+        "height_ft": 0.3
       },
       {
         "type": "high",
-        "time": "6:32 PM",
-        "height_ft": 8.1
+        "time": "7:30 PM",
+        "height_ft": 8.4
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-07T02:21:31-04:00",
+    "forecast_updated_at": "2026-09-08T02:21:02-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "N",
-        "rain_percent": 12
+        "wind_kt": 11,
+        "gust_kt": 16,
+        "wind_direction": "NE",
+        "rain_percent": 21
       },
       {
         "time": "9 AM",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "NNE",
-        "rain_percent": 29
+        "wind_kt": 13,
+        "gust_kt": 18,
+        "wind_direction": "ENE",
+        "rain_percent": 25
       },
       {
         "time": "NOON",
-        "wind_kt": 8,
-        "gust_kt": 10,
-        "wind_direction": "NE",
-        "rain_percent": 51
+        "wind_kt": 15,
+        "gust_kt": 20,
+        "wind_direction": "ENE",
+        "rain_percent": 50
       },
       {
         "time": "3 PM",
-        "wind_kt": 10,
-        "gust_kt": 13,
+        "wind_kt": 15,
+        "gust_kt": 23,
         "wind_direction": "ENE",
-        "rain_percent": 65
+        "rain_percent": 44
       },
       {
         "time": "6 PM",
-        "wind_kt": 10,
-        "gust_kt": 14,
+        "wind_kt": 15,
+        "gust_kt": 23,
         "wind_direction": "ENE",
-        "rain_percent": 69
+        "rain_percent": 42
       }
     ],
-    "marine_summary": "Forecast: NE 5–10 kt, becoming E 10–15 kt; seas 2 ft; NE waves 2 ft at 8 seconds; moderate chop; higher near storms.",
-    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation during the next seven days; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: E 15–20 kt; seas 3–5 ft, occasionally 6 ft; NE waves 5 ft at 6 seconds; choppy; higher near storms.",
+    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation in the next seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "UN rights chief warns of severe AI risks",
-      "summary": "U.N. human rights chief Volker Türk warned that advanced AI could pose an existential threat and called for international safety guarantees. The warning is a risk assessment, not evidence that such harm is imminent.",
+      "headline": "Mistral reaches $24 billion valuation",
+      "summary": "Mistral raised €3 billion at a €21 billion ($24 billion) valuation in what it called Europe's largest private-tech equity round. The company says it will invest in models and frontier research.",
       "source_name": "Reuters",
-      "published_at": "2026-09-07T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/"
+      "published_at": "2026-09-08T01:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Liquid Network reports $320 million bitcoin withdrawal",
-      "summary": "Bitcoin-based Liquid Network said about $320 million was withdrawn from its federation wallet by purported white-hat hackers. New transactions were halted; the network says the cryptographic key itself was not compromised.",
+      "headline": "Huawei's US criminal trial begins",
+      "summary": "Huawei heads to trial in Brooklyn on bank-fraud, sanctions, trade-secret and related charges. Huawei has pleaded not guilty and says the U.S. case seeks to undermine its competitiveness.",
       "source_name": "Reuters",
-      "published_at": "2026-09-07T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/technology/bitcoin-based-liquid-network-says-320-million-withdrawn-hack-2026-09-07/"
+      "published_at": "2026-09-08T06:01:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/huawei-heads-trial-us-over-its-business-dealings-iran-2026-09-08/"
+    },
+    {
+      "category": "World",
+      "headline": "Houthi attacks wound 73 in Saudi Arabia",
+      "summary": "Iran-backed Houthis attacked four southern Saudi cities and energy facilities, authorities said, wounding 73. Verified aftermath images were not immediately available; the expansion risks further oil disruption.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-07T21:49:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles-2026-09-08/"
+    },
+    {
+      "category": "World",
+      "headline": "Russia strikes Kyiv after envoy visit",
+      "summary": "Russian missiles and drones killed three people and wounded 16 in Kyiv, Ukrainian officials said, after a brief pause during U.S. envoys' visit. Russia said it struck military and logistics targets.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-07T22:57:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russian-ballistic-missiles-hit-kyiv-us-envoys-leave-2026-09-08/"
     },
     {
       "category": "US",
-      "headline": "Strong jobs report revives Fed rate-hike forecasts",
-      "summary": "UBS now expects quarter-point U.S. rate increases in September and December after stronger August employment data. Other forecasters and market pricing remain divided, so the policy path is not settled.",
+      "headline": "Black boxes recovered after Miami cargo crash",
+      "summary": "The NTSB recovered both recorders from an Amazon Prime Air cargo jet that overran a Miami runway, killing five people on the ground. Investigators have not determined the cause.",
       "source_name": "Reuters",
-      "published_at": "2026-09-07T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/ubs-forecasts-two-us-fed-rate-hikes-2026-after-strong-jobs-report-2026-09-07/"
-    },
-    {
-      "category": "World",
-      "headline": "US envoys seek renewed Ukraine-Russia talks",
-      "summary": "U.S. envoys described talks with President Zelenskiy as substantive and said they hope for new trilateral discussions after visiting Kyiv and Moscow. They acknowledged there is no guarantee the diplomacy will succeed.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-06T07:09:00-04:00",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/us-envoys-make-first-kyiv-visit-amid-ukraine-war-peace-push-2026-09-06/"
-    },
-    {
-      "category": "World",
-      "headline": "UAE builds routes around Iran-war disruption",
-      "summary": "The UAE is developing alternative energy-export and trade routes so flows are not held hostage by the Iran war, a presidential adviser said. The announcement underscores continuing risks to Gulf shipping.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-07T04:46:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/"
+      "published_at": "2026-09-07T12:56:00-04:00",
+      "source_url": "https://www.reuters.com/business/aerospace-defense/ntsb-give-updates-deadly-amazon-prime-air-cargo-plane-crash-miami-2026-09-07/"
     }
   ],
-  "sources_checked_at": "2026-09-07T06:43:00-04:00"
+  "sources_checked_at": "2026-09-08T06:45:00-04:00"
 }
