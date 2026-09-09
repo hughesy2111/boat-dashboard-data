@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-08",
-  "generated_at": "2026-09-08T06:45:00-04:00",
+  "briefing_date": "2026-09-09",
+  "generated_at": "2026-09-09T06:47:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy; NE 11 kt, gust 17 kt; 10 mi visibility (observed 5:55 AM)",
+    "condition": "Sky condition unavailable; E 6 kt; 10 mi visibility (observed 5:55 AM)",
     "temperature_f": 82,
-    "forecast_wind_min_kt": 11,
-    "forecast_wind_max_kt": 15,
-    "forecast_gust_max_kt": 23,
-    "forecast_wind_direction_start": "NE",
-    "forecast_wind_direction_end": "ENE",
-    "storm_timing": "Forecast: shower chance all day; storms possible, mainly afternoon",
-    "alert_status": "High Rip Current Risk through late tonight",
-    "best_window": "No ideal window; early morning is least unfavorable",
-    "confidence_10": 8,
-    "recheck_at": "9:00 AM",
+    "forecast_wind_min_kt": 7,
+    "forecast_wind_max_kt": 11,
+    "forecast_gust_max_kt": 17,
+    "forecast_wind_direction_start": "E",
+    "forecast_wind_direction_end": "E",
+    "storm_timing": "Forecast: showers peak near noon; thunderstorms possible afternoon",
+    "alert_status": "High Rip Current Risk through 8 PM",
+    "best_window": "Early morning nearshore only; avoid inlet and offshore seas",
+    "confidence_10": 7,
+    "recheck_at": "10:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "6:59 AM",
-        "height_ft": 7.3
+        "time": "7:55 AM",
+        "height_ft": 7.8
       },
       {
         "type": "low",
-        "time": "1:00 PM",
-        "height_ft": 0.3
+        "time": "1:56 PM",
+        "height_ft": 0.1
       },
       {
         "type": "high",
-        "time": "7:30 PM",
-        "height_ft": 8.4
+        "time": "8:21 PM",
+        "height_ft": 8.5
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-08T02:21:02-04:00",
+    "forecast_updated_at": "2026-09-09T03:26:33-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 11,
-        "gust_kt": 16,
-        "wind_direction": "NE",
-        "rain_percent": 21
+        "wind_kt": 7,
+        "gust_kt": 10,
+        "wind_direction": "E",
+        "rain_percent": 32
       },
       {
         "time": "9 AM",
-        "wind_kt": 13,
-        "gust_kt": 18,
+        "wind_kt": 7,
+        "gust_kt": 11,
         "wind_direction": "ENE",
-        "rain_percent": 25
+        "rain_percent": 47
       },
       {
         "time": "NOON",
-        "wind_kt": 15,
-        "gust_kt": 20,
-        "wind_direction": "ENE",
-        "rain_percent": 50
+        "wind_kt": 10,
+        "gust_kt": 14,
+        "wind_direction": "E",
+        "rain_percent": 66
       },
       {
         "time": "3 PM",
-        "wind_kt": 15,
-        "gust_kt": 23,
-        "wind_direction": "ENE",
-        "rain_percent": 44
+        "wind_kt": 11,
+        "gust_kt": 17,
+        "wind_direction": "E",
+        "rain_percent": 34
       },
       {
         "time": "6 PM",
-        "wind_kt": 15,
-        "gust_kt": 23,
-        "wind_direction": "ENE",
-        "rain_percent": 42
+        "wind_kt": 10,
+        "gust_kt": 15,
+        "wind_direction": "E",
+        "rain_percent": 20
       }
     ],
-    "marine_summary": "Forecast: E 15–20 kt; seas 3–5 ft, occasionally 6 ft; NE waves 5 ft at 6 seconds; choppy; higher near storms.",
+    "marine_summary": "Forecast: E 10–15 kt; seas 4–6 ft subsiding to 3–5 ft; E waves 5 ft at 8 seconds; light chop; afternoon storms possible.",
     "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation in the next seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Mistral reaches $24 billion valuation",
-      "summary": "Mistral raised €3 billion at a €21 billion ($24 billion) valuation in what it called Europe's largest private-tech equity round. The company says it will invest in models and frontier research.",
+      "headline": "Google plans $15 billion Finland AI buildout",
+      "summary": "Google will invest at least €13 billion ($15.1 billion) in Finnish AI infrastructure and signed its first nuclear-power contract outside the U.S. The investment and projected economic effects are company estimates.",
       "source_name": "Reuters",
-      "published_at": "2026-09-08T01:02:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/"
+      "published_at": "2026-09-09T03:01:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Huawei's US criminal trial begins",
-      "summary": "Huawei heads to trial in Brooklyn on bank-fraud, sanctions, trade-secret and related charges. Huawei has pleaded not guilty and says the U.S. case seeks to undermine its competitiveness.",
+      "headline": "OpenAI pushes AI into specialized industries",
+      "summary": "OpenAI is targeting chip design, life sciences and finance while experimenting with outcome-based pricing. Its CFO says company models helped complete a chip design in nine months; that performance claim is not independently benchmarked.",
       "source_name": "Reuters",
-      "published_at": "2026-09-08T06:01:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/huawei-heads-trial-us-over-its-business-dealings-iran-2026-09-08/"
+      "published_at": "2026-09-08T20:43:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/openai-offers-ai-chip-design-touts-cost-advantage-over-open-source-cfo-says-2026-09-09/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Qualcomm and Amazon strike major AI-chip deal",
+      "summary": "Amazon could buy up to $60 billion of Qualcomm AI data-center products under a long-term deal. Qualcomm granted purchase-linked warrants worth about $4 billion, underscoring intertwined financing in the AI boom.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-08T09:15:00-04:00",
+      "source_url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/"
     },
     {
       "category": "World",
-      "headline": "Houthi attacks wound 73 in Saudi Arabia",
-      "summary": "Iran-backed Houthis attacked four southern Saudi cities and energy facilities, authorities said, wounding 73. Verified aftermath images were not immediately available; the expansion risks further oil disruption.",
+      "headline": "US–Iran war escalates around Hormuz",
+      "summary": "Iran said it attacked a U.S.-used base in Jordan and 10 ships after the U.S. destroyed five Iranian tankers. Jordan reported intercepting 18 of 20 missiles with no casualties, disputing Iran's claim of heavy damage.",
       "source_name": "Reuters",
-      "published_at": "2026-09-07T21:49:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles-2026-09-08/"
+      "published_at": "2026-09-09T00:07:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-attacks-us-base-jordan-ships-near-hormuz-after-tankers-sunk-2026-09-09/"
     },
     {
       "category": "World",
-      "headline": "Russia strikes Kyiv after envoy visit",
-      "summary": "Russian missiles and drones killed three people and wounded 16 in Kyiv, Ukrainian officials said, after a brief pause during U.S. envoys' visit. Russia said it struck military and logistics targets.",
+      "headline": "IAEA reports new North Korean enrichment site",
+      "summary": "The IAEA says satellite imagery and state-media photos indicate a new Yongbyon uranium-enrichment facility and expanded operations at Kangson. Inspectors have not been inside North Korea since 2009.",
       "source_name": "Reuters",
-      "published_at": "2026-09-07T22:57:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-ballistic-missiles-hit-kyiv-us-envoys-leave-2026-09-08/"
-    },
-    {
-      "category": "US",
-      "headline": "Black boxes recovered after Miami cargo crash",
-      "summary": "The NTSB recovered both recorders from an Amazon Prime Air cargo jet that overran a Miami runway, killing five people on the ground. Investigators have not determined the cause.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-07T12:56:00-04:00",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/ntsb-give-updates-deadly-amazon-prime-air-cargo-plane-crash-miami-2026-09-07/"
+      "published_at": "2026-09-09T01:36:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says-2026-09-09/"
     }
   ],
-  "sources_checked_at": "2026-09-08T06:45:00-04:00"
+  "sources_checked_at": "2026-09-09T06:47:00-04:00"
 }
