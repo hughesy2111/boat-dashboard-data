@@ -1,129 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-10",
-  "generated_at": "2026-09-10T06:46:00-04:00",
+  "briefing_date": "2026-09-11",
+  "generated_at": "2026-09-11T06:43:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Partly cloudy; calm; 10 mi visibility (observed 5:55 AM)",
-    "temperature_f": 79,
-    "forecast_wind_min_kt": 1,
-    "forecast_wind_max_kt": 8,
-    "forecast_gust_max_kt": 12,
-    "forecast_wind_direction_start": "SE",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: isolated showers early; storm risk rises after noon",
+    "condition": "Fair; SW 5 kt; 10 mi visibility (observed 6:15 AM)",
+    "temperature_f": 77,
+    "forecast_wind_min_kt": 3,
+    "forecast_wind_max_kt": 10,
+    "forecast_gust_max_kt": 10,
+    "forecast_wind_direction_start": "SW",
+    "forecast_wind_direction_end": "S",
+    "storm_timing": "Forecast: shower and thunderstorm chance after 2 PM",
     "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Morning before noon; recheck radar at noon",
-    "confidence_10": 7,
-    "recheck_at": "12:00 PM",
+    "best_window": "Morning before 2 PM; recheck radar at 1 PM",
+    "confidence_10": 8,
+    "recheck_at": "1:00 PM",
     "tides": [
       {
         "type": "high",
-        "time": "8:44 AM",
-        "height_ft": 8.2
+        "time": "9:29 AM",
+        "height_ft": 8.41
       },
       {
         "type": "low",
-        "time": "2:49 PM",
-        "height_ft": 0
+        "time": "3:38 PM",
+        "height_ft": -0.02
       },
       {
         "type": "high",
-        "time": "9:07 PM",
-        "height_ft": 8.5
+        "time": "9:50 PM",
+        "height_ft": 8.36
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-10T05:51:52-04:00",
-    "secondary_models_checked": [
-      "NBM",
-      "HRRR",
-      "ECMWF"
-    ],
+    "forecast_updated_at": "2026-09-11T05:06:00-04:00",
+    "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 1,
+        "wind_kt": 3,
         "gust_kt": 3,
-        "wind_direction": "SE",
-        "rain_percent": 23
+        "wind_direction": "SW",
+        "rain_percent": 2
       },
       {
         "time": "9 AM",
-        "wind_kt": 2,
+        "wind_kt": 3,
         "gust_kt": 3,
-        "wind_direction": "S",
-        "rain_percent": 6
+        "wind_direction": "SW",
+        "rain_percent": 4
       },
       {
         "time": "NOON",
-        "wind_kt": 6,
-        "gust_kt": 7,
-        "wind_direction": "SSE",
-        "rain_percent": 26
+        "wind_kt": 5,
+        "gust_kt": 5,
+        "wind_direction": "SW",
+        "rain_percent": 7
       },
       {
         "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 11,
+        "wind_kt": 7,
+        "gust_kt": 7,
         "wind_direction": "SE",
-        "rain_percent": 35
+        "rain_percent": 30
       },
       {
         "time": "6 PM",
-        "wind_kt": 8,
-        "gust_kt": 12,
-        "wind_direction": "SE",
-        "rain_percent": 40
+        "wind_kt": 10,
+        "gust_kt": 10,
+        "wind_direction": "S",
+        "rain_percent": 44
       }
     ],
-    "marine_summary": "Forecast: SE around 10 kt; seas 3 ft; E waves 3 ft at 7 seconds; light chop; isolated showers and thunderstorms.",
-    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation in the next seven days; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: SW 5–10 kt becoming SE 10–15 kt; seas 2–3 ft; E 3 ft at 7 seconds; moderate chop; afternoon storms.",
+    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation in seven days; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Analog Devices buys Alif for edge AI",
-      "summary": "Analog Devices agreed to buy Alif Semiconductor for $1.35 billion in cash, plus up to $200 million contingent. The deal combines ADI sensing and signal processing with Alif's low-power AI processors.",
+      "headline": "OpenAI considers slowing AI development",
+      "summary": "Sam Altman told staff OpenAI could slow development alongside other labs, Bloomberg reported. Details are limited, and Reuters did not independently establish a coordinated industry agreement.",
       "source_name": "Reuters",
-      "published_at": "2026-09-09T08:56:00-04:00",
-      "source_url": "https://www.reuters.com/technology/analog-devices-buy-alif-semiconductor-135-billion-2026-09-09/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "Suno launches licensed AI music models",
-      "summary": "Suno launched three AI music models with Warner Music and BMG, allowing generation inspired by licensed work from participating artists. Future artist-specific products will be opt-in, Suno says.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-09T06:03:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/suno-releases-new-ai-music-models-partnership-with-warner-music-bmg-2026-09-09/"
-    },
-    {
-      "category": "World",
-      "headline": "NATO allies foil Russian cable operation",
-      "summary": "Western officials told Reuters that Britain, Norway and the U.S. disrupted a Russian exercise near Svalbard involving technology designed to disable subsea cables. Russia did not comment; no cables were damaged.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-10T02:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/nato-allies-foil-russian-subsea-cable-sabotage-plot-2026-09-10/"
-    },
-    {
-      "category": "World",
-      "headline": "Houthis seize strategic Yemeni port",
-      "summary": "Four Yemeni government military sources said Houthi forces seized Mocha and advanced toward the Bab el-Mandeb Strait. The development threatens another major shipping route as Hormuz traffic remains disrupted.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-10T00:58:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/saudi-says-no-danger-after-khamis-mushait-alert-amid-clashes-with-houthis-2026-09-10/"
+      "published_at": "2026-09-10T22:33:00-04:00",
+      "source_url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/"
     },
     {
       "category": "US",
-      "headline": "States challenge endangered-species rules",
-      "summary": "Twenty states and Washington, D.C., sued over federal rules narrowing habitat protections under the Endangered Species Act. The Interior Department says the revisions correct regulatory overreach.",
+      "headline": "California curbs addictive social-media features",
+      "summary": "California enacted a 13-bill child-safety package restricting addictive social-media features for under-16s and banning AI companion toys for four years. Critics warn of privacy and speech risks.",
       "source_name": "Reuters",
-      "published_at": "2026-09-09T12:34:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-states-sue-trump-administration-weakening-endangered-species-protections-2026-09-09/"
+      "published_at": "2026-09-10T21:41:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/california-enacts-new-curbs-social-media-children-2026-09-11/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "UAE redesigns major AI data-center project",
+      "summary": "The UAE is considering dispersing and hardening its planned 5-GW AI campus after Iranian attacks, sources said. G42 says work continues and project details remain under review.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-11T05:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/"
+    },
+    {
+      "category": "World",
+      "headline": "Houthis reach strategic Bab el-Mandeb island",
+      "summary": "Four Yemeni government sources said Houthi forces reached Perim island and took nearby Dhubab. Full control is not established; the advance could further threaten a vital shipping corridor.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-11T05:35:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/yemens-houthis-reach-strategic-island-mouth-vital-shipping-lane-2026-09-11/"
+    },
+    {
+      "category": "World",
+      "headline": "IEA warns global oil-supply gap is widening",
+      "summary": "The IEA now expects 2026 supply to fall 5.7 million bpd and inventories to keep shrinking as Gulf flows remain disrupted. It projects normal Gulf supply will not return until 2027.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-11T04:09:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/"
     }
   ],
-  "sources_checked_at": "2026-09-10T06:46:00-04:00"
+  "sources_checked_at": "2026-09-11T06:42:00-04:00"
 }
