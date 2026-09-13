@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-12",
-  "generated_at": "2026-09-12T06:52:00-04:00",
+  "briefing_date": "2026-09-13",
+  "generated_at": "2026-09-13T06:47:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist; calm; 6 mi visibility (observed 6:15 AM)",
+    "condition": "Fair; W 4 kt; 9 mi visibility (observed 6:15 AM)",
     "temperature_f": 77,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 7,
-    "forecast_gust_max_kt": 7,
-    "forecast_wind_direction_start": "SW",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: storms likely 3–5 PM; showers into evening",
-    "alert_status": "No active NWS alerts; moderate rip-current risk",
-    "best_window": "Morning before 1 PM; recheck radar at 1 PM",
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 6,
+    "forecast_gust_max_kt": 6,
+    "forecast_wind_direction_start": "W",
+    "forecast_wind_direction_end": "S",
+    "storm_timing": "Forecast: slight storm chance from 2–8 PM",
+    "alert_status": "No active NWS alerts; low rip-current risk",
+    "best_window": "Morning through 1 PM; recheck radar at 1 PM",
     "confidence_10": 8,
     "recheck_at": "1:00 PM",
     "tides": [
       {
         "type": "high",
-        "time": "10:13 AM",
-        "height_ft": 8.5
+        "time": "10:55 AM",
+        "height_ft": 8.4
       },
       {
         "type": "low",
-        "time": "4:24 PM",
-        "height_ft": 0.07
+        "time": "5:09 PM",
+        "height_ft": 0.3
       },
       {
         "type": "high",
-        "time": "10:32 PM",
-        "height_ft": 8.1
+        "time": "11:13 PM",
+        "height_ft": 7.8
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-12T05:11:00-04:00",
+    "forecast_updated_at": "2026-09-13T05:26:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "SW",
-        "rain_percent": 6
+        "wind_kt": 4,
+        "gust_kt": 4,
+        "wind_direction": "W",
+        "rain_percent": 4
       },
       {
         "time": "9 AM",
-        "wind_kt": 2,
-        "gust_kt": 2,
-        "wind_direction": "SW",
-        "rain_percent": 3
+        "wind_kt": 4,
+        "gust_kt": 4,
+        "wind_direction": "W",
+        "rain_percent": 2
       },
       {
         "time": "NOON",
-        "wind_kt": 4,
-        "gust_kt": 4,
-        "wind_direction": "SW",
-        "rain_percent": 10
+        "wind_kt": 5,
+        "gust_kt": 5,
+        "wind_direction": "W",
+        "rain_percent": 3
       },
       {
         "time": "3 PM",
-        "wind_kt": 7,
-        "gust_kt": 7,
-        "wind_direction": "SE",
-        "rain_percent": 64
+        "wind_kt": 4,
+        "gust_kt": 4,
+        "wind_direction": "SW",
+        "rain_percent": 20
       },
       {
         "time": "6 PM",
-        "wind_kt": 7,
-        "gust_kt": 7,
-        "wind_direction": "SE",
-        "rain_percent": 48
+        "wind_kt": 6,
+        "gust_kt": 6,
+        "wind_direction": "S",
+        "rain_percent": 17
       }
     ],
-    "marine_summary": "Forecast: SW 5–10 kt becoming SE 10–15 kt; seas 2–3 ft; SE 2 ft/5 sec and E 2 ft/8 sec; moderate chop; afternoon storms.",
-    "storm_outlook": "No active named Atlantic cyclone. NHC expects no tropical formation in seven days; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: W 5–10 kt becoming SE this afternoon; seas 2 ft; SE 2 ft at 8 seconds; light chop; slight afternoon storm chance.",
+    "storm_outlook": "No named Atlantic cyclone. A central subtropical Atlantic trough has a 20% seven-day formation chance; no current Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Nvidia weighs anchor role in Anthropic mega-IPO",
-      "summary": "Anthropic is discussing an IPO of up to $100 billion at a valuation near $2 trillion, sources said, with Nvidia considering up to $10 billion as an anchor investor. Terms and timing could change.",
+      "headline": "OpenAI rules out a 2026 IPO amid safety concerns",
+      "summary": "Sam Altman said OpenAI will not go public in 2026 and urged action on potentially catastrophic AI risks. He did not endorse a specific extinction-risk estimate; the company may be nearing an industry safety pact.",
       "source_name": "Reuters",
-      "published_at": "2026-09-11T20:00:00-04:00",
-      "source_url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
-    },
-    {
-      "category": "US",
-      "headline": "Senators negotiate duty-of-care rules for AI",
-      "summary": "US senators are negotiating a bill that could require frontier AI developers to mitigate known catastrophic risks and let the federal government block unsafe releases. The text is unfinished and the legislative calendar is tight.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-11T15:15:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/"
+      "published_at": "2026-09-12T16:38:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Anthropic details alleged misuse of Claude",
-      "summary": "Anthropic says it disrupted accounts using Claude for biological research, weapons software and cyber operations. The claims come from the company's threat report; several actors and institutions were not identified.",
+      "headline": "Anthropic CEO urges slower frontier-model progress",
+      "summary": "Dario Amodei called for slower capability gains, independent safety evaluators and coordination among AI companies and governments. He did not advocate stopping AI development, and implementation details remain unsettled.",
       "source_name": "Reuters",
-      "published_at": "2026-09-10T16:23:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/"
+      "published_at": "2026-09-12T12:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+    },
+    {
+      "category": "US",
+      "headline": "Judge rules planned FEMA workforce cuts unlawful",
+      "summary": "A federal judge found that DHS violated post-Katrina law by directing FEMA to halve its workforce and blocking temporary-contract renewals. Remedies will be decided later; DHS and FEMA had not commented.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-12T11:19:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/us-judge-rules-that-trump-plan-halve-fema-workforce-violated-law-2026-09-12/"
     },
     {
       "category": "World",
-      "headline": "Saudi oil bypass pipeline shut after drone attack",
-      "summary": "Saudi Arabia shut its East-West oil pipeline after a drone attack reportedly launched from Iraq. The route had moved 4–5 million barrels daily around Hormuz; responsibility remains unclear.",
+      "headline": "New Hormuz ship attack heightens supply concerns",
+      "summary": "UKMTO reported that a projectile struck a vessel in the Strait of Hormuz, causing a fire and crew evacuation. No group immediately claimed responsibility; the incident compounds disruption to regional oil routes.",
       "source_name": "Reuters",
-      "published_at": "2026-09-11T20:55:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/"
+      "published_at": "2026-09-13T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/"
     },
     {
       "category": "World",
-      "headline": "Xi visits India as BRICS leaders meet",
-      "summary": "Xi Jinping arrived in New Delhi for his first India visit in seven years and talks with Narendra Modi. The meeting signals cautious repair after the 2020 border clash, but core disputes remain.",
+      "headline": "Russian strike lands near Ukraine–Poland crossing",
+      "summary": "Officials said Russia struck a truck about half a mile from Poland, briefly closing a border crossing. Moscow said it targeted military-cargo infrastructure; the incident occurred close to NATO territory.",
       "source_name": "Reuters",
-      "published_at": "2026-09-12T02:15:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/chinas-xi-lands-delhi-brics-summit-indian-tv-channels-report-2026-09-12/"
+      "published_at": "2026-09-13T06:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/russia-hits-truck-near-polish-border-latest-strike-near-nato-2026-09-13/"
     }
   ],
-  "sources_checked_at": "2026-09-12T06:51:00-04:00"
+  "sources_checked_at": "2026-09-13T06:46:00-04:00"
 }
