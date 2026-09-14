@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-13",
-  "generated_at": "2026-09-13T06:47:00-04:00",
+  "briefing_date": "2026-09-14",
+  "generated_at": "2026-09-14T06:49:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; W 4 kt; 9 mi visibility (observed 6:15 AM)",
-    "temperature_f": 77,
-    "forecast_wind_min_kt": 4,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 6,
+    "condition": "Fair; calm; 10 mi visibility (observed 6:15 AM)",
+    "temperature_f": 79,
+    "forecast_wind_min_kt": 3,
+    "forecast_wind_max_kt": 7,
+    "forecast_gust_max_kt": 7,
     "forecast_wind_direction_start": "W",
-    "forecast_wind_direction_end": "S",
-    "storm_timing": "Forecast: slight storm chance from 2–8 PM",
-    "alert_status": "No active NWS alerts; low rip-current risk",
-    "best_window": "Morning through 1 PM; recheck radar at 1 PM",
-    "confidence_10": 8,
-    "recheck_at": "1:00 PM",
+    "forecast_wind_direction_end": "E",
+    "storm_timing": "Forecast: dry today; no thunderstorm potential",
+    "alert_status": "Moderate rip-current risk; no other NWS alerts",
+    "best_window": "Today before sunset; prepare for Tuesday's strong NE surge",
+    "confidence_10": 9,
+    "recheck_at": "8:00 PM",
     "tides": [
       {
         "type": "high",
-        "time": "10:55 AM",
-        "height_ft": 8.4
+        "time": "11:37 AM",
+        "height_ft": 8.3
       },
       {
         "type": "low",
-        "time": "5:09 PM",
-        "height_ft": 0.3
+        "time": "5:52 PM",
+        "height_ft": 0.6
       },
       {
         "type": "high",
-        "time": "11:13 PM",
-        "height_ft": 7.8
+        "time": "11:54 PM",
+        "height_ft": 7.4
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-13T05:26:00-04:00",
+    "forecast_updated_at": "2026-09-14T05:26:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 4,
-        "gust_kt": 4,
+        "wind_kt": 3,
+        "gust_kt": 3,
         "wind_direction": "W",
-        "rain_percent": 4
+        "rain_percent": 1
       },
       {
         "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 4,
-        "wind_direction": "W",
-        "rain_percent": 2
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "NW",
+        "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "W",
-        "rain_percent": 3
+        "wind_kt": 4,
+        "gust_kt": 4,
+        "wind_direction": "N",
+        "rain_percent": 2
       },
       {
         "time": "3 PM",
-        "wind_kt": 4,
-        "gust_kt": 4,
-        "wind_direction": "SW",
-        "rain_percent": 20
+        "wind_kt": 7,
+        "gust_kt": 7,
+        "wind_direction": "E",
+        "rain_percent": 13
       },
       {
         "time": "6 PM",
         "wind_kt": 6,
         "gust_kt": 6,
-        "wind_direction": "S",
-        "rain_percent": 17
+        "wind_direction": "E",
+        "rain_percent": 3
       }
     ],
-    "marine_summary": "Forecast: W 5–10 kt becoming SE this afternoon; seas 2 ft; SE 2 ft at 8 seconds; light chop; slight afternoon storm chance.",
-    "storm_outlook": "No named Atlantic cyclone. A central subtropical Atlantic trough has a 20% seven-day formation chance; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: NW 5–10 kt becoming E near 10 kt; seas 2 ft; E 2 ft at 9 seconds; light chop. Strong NE surge begins Tuesday.",
+    "storm_outlook": "No named Atlantic cyclone. Central subtropical trough has 30% seven-day formation chance; no immediate Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI rules out a 2026 IPO amid safety concerns",
-      "summary": "Sam Altman said OpenAI will not go public in 2026 and urged action on potentially catastrophic AI risks. He did not endorse a specific extinction-risk estimate; the company may be nearing an industry safety pact.",
+      "headline": "AI stocks slide after CEOs urge slower development",
+      "summary": "Asian AI-linked shares and US technology futures fell after the heads of Anthropic, OpenAI and xAI backed slowing frontier-model progress. The market reaction reflects concern about delays, but no binding slowdown agreement exists.",
       "source_name": "Reuters",
-      "published_at": "2026-09-12T16:38:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/"
+      "published_at": "2026-09-14T02:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Anthropic CEO urges slower frontier-model progress",
-      "summary": "Dario Amodei called for slower capability gains, independent safety evaluators and coordination among AI companies and governments. He did not advocate stopping AI development, and implementation details remain unsettled.",
+      "headline": "China builds safeguards against AI loss of control",
+      "summary": "Chinese policy frameworks address self-replication, autonomous resource acquisition and other loss-of-control scenarios. New agent guidelines require intervention and recovery mechanisms, though China has not adopted embedded independent monitors.",
       "source_name": "Reuters",
-      "published_at": "2026-09-12T12:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+      "published_at": "2026-09-14T04:57:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/how-china-is-preparing-risk-ai-escaping-human-control-2026-09-14/"
     },
     {
       "category": "US",
-      "headline": "Judge rules planned FEMA workforce cuts unlawful",
-      "summary": "A federal judge found that DHS violated post-Katrina law by directing FEMA to halve its workforce and blocking temporary-contract renewals. Remedies will be decided later; DHS and FEMA had not commented.",
+      "headline": "Economists expect Fed rate increase Wednesday",
+      "summary": "In a Reuters poll, 85% of economists expected a quarter-point rate increase this week after stronger inflation data. A slim majority forecast at least one additional increase by March 2027; the Fed has not announced its decision.",
       "source_name": "Reuters",
-      "published_at": "2026-09-12T11:19:00-04:00",
-      "source_url": "https://www.reuters.com/legal/government/us-judge-rules-that-trump-plan-halve-fema-workforce-violated-law-2026-09-12/"
+      "published_at": "2026-09-14T05:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/fed-rate-hike-wednesday-now-likely-say-economists-least-one-more-follow-2026-09-14/"
     },
     {
       "category": "World",
-      "headline": "New Hormuz ship attack heightens supply concerns",
-      "summary": "UKMTO reported that a projectile struck a vessel in the Strait of Hormuz, causing a fire and crew evacuation. No group immediately claimed responsibility; the incident compounds disruption to regional oil routes.",
+      "headline": "Hormuz talks postponed as regional attacks widen",
+      "summary": "Gulf states postponed planned talks with Iran while Houthis launched another attack on Saudi Arabia. Oil prices rose as the Saudi pipeline shutdown and disrupted Strait of Hormuz traffic intensified supply concerns.",
       "source_name": "Reuters",
-      "published_at": "2026-09-13T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/"
+      "published_at": "2026-09-14T01:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/"
     },
     {
       "category": "World",
-      "headline": "Russian strike lands near Ukraine–Poland crossing",
-      "summary": "Officials said Russia struck a truck about half a mile from Poland, briefly closing a border crossing. Moscow said it targeted military-cargo infrastructure; the incident occurred close to NATO territory.",
+      "headline": "Russian drone strikes train close to Polish border",
+      "summary": "A Russian drone hit a passenger train about 1.2 miles from Poland shortly after European diplomats used the route. No casualties were reported. Moscow said it targeted infrastructure supporting European military cargo.",
       "source_name": "Reuters",
-      "published_at": "2026-09-13T06:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/russia-hits-truck-near-polish-border-latest-strike-near-nato-2026-09-13/"
+      "published_at": "2026-09-14T06:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/russian-strike-train-ukraine-poland-border-sought-intimidate-divide-europeans-2026-09-14/"
     }
   ],
-  "sources_checked_at": "2026-09-13T06:46:00-04:00"
+  "sources_checked_at": "2026-09-14T06:48:00-04:00"
 }
