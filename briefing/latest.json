@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-15",
-  "generated_at": "2026-09-15T06:56:00-04:00",
+  "briefing_date": "2026-09-16",
+  "generated_at": "2026-09-16T06:30:34-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; calm; 10 mi visibility (observed 6:15 AM)",
+    "condition": "Fair; NE 8 kt, gust 14 kt; 10 mi visibility (observed 6:15 AM)",
     "temperature_f": 79,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 14,
+    "forecast_wind_min_kt": 9,
+    "forecast_wind_max_kt": 15,
     "forecast_gust_max_kt": 23,
     "forecast_wind_direction_start": "NE",
-    "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: showers build after 10 AM; storms mainly afternoon",
-    "alert_status": "High rip-current risk; Small Craft Advisory from 11 AM",
-    "best_window": "No favorable offshore window; early morning ICW is least hazardous",
+    "forecast_wind_direction_end": "NE",
+    "storm_timing": "Forecast: dry today; slight shower chance late afternoon",
+    "alert_status": "High rip-current risk; Small Craft Advisory through tonight",
+    "best_window": "No favorable offshore window; protected waters remain rough",
     "confidence_10": 9,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "6:03 AM",
-        "height_ft": 0.6
+        "time": "6:46 AM",
+        "height_ft": 1
       },
       {
         "type": "high",
-        "time": "12:19 PM",
-        "height_ft": 8
+        "time": "1:01 PM",
+        "height_ft": 7.7
       },
       {
         "type": "low",
-        "time": "6:36 PM",
-        "height_ft": 1
+        "time": "7:22 PM",
+        "height_ft": 1.5
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-15T05:06:00-04:00",
+    "forecast_updated_at": "2026-09-16T05:46:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 2,
-        "gust_kt": 2,
+        "wind_kt": 9,
+        "gust_kt": 16,
         "wind_direction": "NE",
-        "rain_percent": 4
+        "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 6,
-        "gust_kt": 6,
+        "wind_kt": 10,
+        "gust_kt": 15,
+        "wind_direction": "NE",
+        "rain_percent": 1
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 13,
+        "gust_kt": 20,
+        "wind_direction": "NE",
+        "rain_percent": 3
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 15,
+        "gust_kt": 23,
         "wind_direction": "NE",
         "rain_percent": 5
       },
       {
-        "time": "NOON",
-        "wind_kt": 12,
-        "gust_kt": 18,
-        "wind_direction": "E",
-        "rain_percent": 26
-      },
-      {
-        "time": "3 PM",
-        "wind_kt": 14,
-        "gust_kt": 22,
-        "wind_direction": "E",
-        "rain_percent": 45
-      },
-      {
         "time": "6 PM",
         "wind_kt": 14,
-        "gust_kt": 20,
-        "wind_direction": "E",
-        "rain_percent": 44
+        "gust_kt": 22,
+        "wind_direction": "NE",
+        "rain_percent": 11
       }
     ],
-    "marine_summary": "Forecast: NE 15–20 kt becoming E 20–25 kt, gusts 35 kt; seas build 2–4 ft to 5–7 ft, occasionally 9 ft; rough.",
-    "storm_outlook": "No named Atlantic cyclone. Central subtropical trough has 40% seven-day formation chance; no immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: NE 15–20 kt increasing 20–25 kt; seas 5–7 ft, occasionally 8 ft; NE 6 ft at 7 seconds; rough intracoastal waters.",
+    "storm_outlook": "No named Atlantic cyclone. Central subtropical trough has 10% 48-hour and 30% seven-day formation chances; no immediate Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "AI self-improvement fears sharpen safety debate",
-      "summary": "AI-lab leaders called for a development pause as recursive self-improvement appears closer. Reuters notes no major intentional harm by AI, and critics question whether safety warnings could also strengthen incumbents through regulation.",
+      "headline": "Zuckerberg rejects coordinated AI slowdown",
+      "summary": "Meta CEO Mark Zuckerberg says competition and liability give AI labs enough incentive to manage safety individually. He cited Meta's delayed Muse release and use of outside evaluators; rival lab leaders favor coordinated slowing.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T06:02:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/hallucinating-ai-chatbots-wiping-out-humanity-how-did-we-get-here-2026-09-15/"
+      "published_at": "2026-09-15T22:25:00-04:00",
+      "source_url": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Investors reassess the AI spending boom",
-      "summary": "Investors are testing whether safety-driven development restraint could weaken nearly $800 billion in projected 2026 hyperscaler capital spending. No concrete order cancellations have emerged, and some analysts say credible guardrails may support demand.",
+      "headline": "Gates says governments lag AI's societal risks",
+      "summary": "Bill Gates says governments are unprepared for AI-driven job losses, cyber threats and addictive companions, while stressing AI's potential benefits. His foundation plans at least $1 billion over two years to widen access.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T01:03:00-04:00",
-      "source_url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
+      "published_at": "2026-09-15T00:05:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"
     },
     {
       "category": "US",
-      "headline": "Supreme Court blocks new mail-ballot rule",
-      "summary": "The US Supreme Court declined to let the Postal Service enforce new envelope, barcode and voter-list requirements before the November midterms. Two justices dissented; litigation over the rule continues.",
+      "headline": "Democrats probe funding of Trump Jr. parties",
+      "summary": "Congressional Democrats opened an inquiry into a Russian oligarch's reported payment for two post-wedding parties. Bettina Trump calls it a generous gift; the oligarch and House committee's Republican chair did not comment.",
       "source_name": "Reuters",
-      "published_at": "2026-09-14T19:39:00-04:00",
-      "source_url": "https://www.reuters.com/world/loss-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots-2026-09-14/"
+      "published_at": "2026-09-15T15:21:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/us-congress-democrats-probe-russian-oligarch-financing-trump-jr-wedding-parties-2026-09-15/"
     },
     {
       "category": "World",
-      "headline": "Houthi attacks widen as Hormuz talks stall",
-      "summary": "Houthis launched new missile and drone attacks on Saudi Arabia while Gulf states postponed Iran talks. Riyadh says 13 civilians were wounded; conflicting accounts remain over damage to the tanker El Gaia.",
+      "headline": "Russian drones hit Ukrainian bus and train",
+      "summary": "Ukrainian officials say a drone hit a passenger bus near Nikopol, killing five and injuring seven; 168 people evacuated an attacked train without injury. Reuters had not verified one aftermath image; Russia did not comment.",
       "source_name": "Reuters",
-      "published_at": "2026-09-14T20:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/houthis-strike-saudi-targets-anew-talks-over-strait-hormuz-stall-2026-09-15/"
+      "published_at": "2026-09-16T02:57:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russian-drone-attack-bus-kills-five-ukraines-southeast-governor-says-2026-09-16/"
     },
     {
       "category": "World",
-      "headline": "Russia and Ukraine continue energy strikes",
-      "summary": "Russia struck a Kyiv petrol station and warehouses as Ukraine hit facilities in Russia, one day after President Trump said both sides had agreed not to target energy assets. Russia has not confirmed such an agreement.",
+      "headline": "Saudi Arabia intercepts drone south of Mecca",
+      "summary": "The Saudi-led coalition says it destroyed a Houthi drone before it entered Mecca's restricted airspace. A Houthi source denied threatening holy sites while the group claimed other recent attacks on Saudi territory.",
       "source_name": "Reuters",
-      "published_at": "2026-09-14T23:36:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russia-hits-petrol-station-warehouse-facilities-kyiv-mayor-says-2026-09-15/"
+      "published_at": "2026-09-15T20:29:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-destroys-houthi-drone-south-mecca-2026-09-16/"
     }
   ],
-  "sources_checked_at": "2026-09-15T06:55:00-04:00"
+  "sources_checked_at": "2026-09-16T06:30:34-04:00"
 }
