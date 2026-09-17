@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-16",
-  "generated_at": "2026-09-16T06:30:34-04:00",
+  "briefing_date": "2026-09-17",
+  "generated_at": "2026-09-17T06:31:14-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; NE 8 kt, gust 14 kt; 10 mi visibility (observed 6:15 AM)",
-    "temperature_f": 79,
-    "forecast_wind_min_kt": 9,
-    "forecast_wind_max_kt": 15,
-    "forecast_gust_max_kt": 23,
+    "condition": "Few clouds; E 7 kt; 10 mi visibility (observed 6:15 AM)",
+    "temperature_f": 81,
+    "forecast_wind_min_kt": 7,
+    "forecast_wind_max_kt": 13,
+    "forecast_gust_max_kt": 19,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: dry today; slight shower chance late afternoon",
-    "alert_status": "High rip-current risk; Small Craft Advisory through tonight",
-    "best_window": "No favorable offshore window; protected waters remain rough",
+    "storm_timing": "Forecast: slight showers mainly before 1 PM; no thunder expected",
+    "alert_status": "High rip-current risk; Small Craft Exercise Caution",
+    "best_window": "No favorable offshore window; conditions slowly ease tonight",
     "confidence_10": 9,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "6:46 AM",
-        "height_ft": 1
+        "time": "7:31 AM",
+        "height_ft": 1.4
       },
       {
         "type": "high",
-        "time": "1:01 PM",
-        "height_ft": 7.7
+        "time": "1:46 PM",
+        "height_ft": 7.4
       },
       {
         "type": "low",
-        "time": "7:22 PM",
-        "height_ft": 1.5
+        "time": "8:14 PM",
+        "height_ft": 1.9
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-16T05:46:00-04:00",
+    "forecast_updated_at": "2026-09-17T04:31:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 9,
-        "gust_kt": 16,
+        "wind_kt": 7,
+        "gust_kt": 7,
         "wind_direction": "NE",
-        "rain_percent": 0
+        "rain_percent": 19
       },
       {
         "time": "9 AM",
-        "wind_kt": 10,
-        "gust_kt": 15,
+        "wind_kt": 9,
+        "gust_kt": 13,
         "wind_direction": "NE",
-        "rain_percent": 1
+        "rain_percent": 17
       },
       {
         "time": "NOON",
         "wind_kt": 13,
-        "gust_kt": 20,
+        "gust_kt": 18,
         "wind_direction": "NE",
-        "rain_percent": 3
+        "rain_percent": 19
       },
       {
         "time": "3 PM",
-        "wind_kt": 15,
-        "gust_kt": 23,
+        "wind_kt": 13,
+        "gust_kt": 19,
         "wind_direction": "NE",
-        "rain_percent": 5
+        "rain_percent": 8
       },
       {
         "time": "6 PM",
-        "wind_kt": 14,
-        "gust_kt": 22,
+        "wind_kt": 11,
+        "gust_kt": 14,
         "wind_direction": "NE",
-        "rain_percent": 11
+        "rain_percent": 7
       }
     ],
-    "marine_summary": "Forecast: NE 15–20 kt increasing 20–25 kt; seas 5–7 ft, occasionally 8 ft; NE 6 ft at 7 seconds; rough intracoastal waters.",
-    "storm_outlook": "No named Atlantic cyclone. Central subtropical trough has 10% 48-hour and 30% seven-day formation chances; no immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: NE 15–20 kt; seas 4–5 ft, occasionally 6 ft; E 5 ft at 7 seconds; choppy intracoastal waters. Conditions ease tonight.",
+    "storm_outlook": "No named Atlantic cyclone. AL98 east of Bermuda has 40% formation chances through 48 hours and seven days; no immediate Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Zuckerberg rejects coordinated AI slowdown",
-      "summary": "Meta CEO Mark Zuckerberg says competition and liability give AI labs enough incentive to manage safety individually. He cited Meta's delayed Muse release and use of outside evaluators; rival lab leaders favor coordinated slowing.",
+      "headline": "US–China experts propose military AI safeguards",
+      "summary": "Security experts propose red lines around nuclear systems, human control over consequential cyberattacks and an AI-incident hotline. Neither government has endorsed the recommendations, and doubts remain about crisis hotlines.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T22:25:00-04:00",
-      "source_url": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/"
+      "published_at": "2026-09-17T00:43:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Gates says governments lag AI's societal risks",
-      "summary": "Bill Gates says governments are unprepared for AI-driven job losses, cyber threats and addictive companions, while stressing AI's potential benefits. His foundation plans at least $1 billion over two years to widen access.",
+      "headline": "Huawei says Chinese AI-chip demand exceeds supply",
+      "summary": "Huawei says it cannot meet domestic demand for AI computing equipment and plans earlier 2027 releases for two Ascend processors. Its claim that Ascend's China share exceeds Nvidia's was not supported with market data.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T00:05:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"
+      "published_at": "2026-09-16T22:40:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/"
     },
     {
       "category": "US",
-      "headline": "Democrats probe funding of Trump Jr. parties",
-      "summary": "Congressional Democrats opened an inquiry into a Russian oligarch's reported payment for two post-wedding parties. Bettina Trump calls it a generous gift; the oligarch and House committee's Republican chair did not comment.",
+      "headline": "Federal Reserve raises rates to 3.75%–4%",
+      "summary": "The Fed unanimously raised its overnight target by a quarter point, its first increase since 2023, citing persistent inflation. Chair Kevin Warsh attributed higher bond yields mainly to economic strength, investment and geopolitical risk.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T15:21:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/us-congress-democrats-probe-russian-oligarch-financing-trump-jr-wedding-parties-2026-09-15/"
+      "published_at": "2026-09-16T17:11:00-04:00",
+      "source_url": "https://www.reuters.com/markets/us/feds-warsh-lays-out-forces-driving-up-bond-yields-2026-09-16/"
     },
     {
       "category": "World",
-      "headline": "Russian drones hit Ukrainian bus and train",
-      "summary": "Ukrainian officials say a drone hit a passenger bus near Nikopol, killing five and injuring seven; 168 people evacuated an attacked train without injury. Reuters had not verified one aftermath image; Russia did not comment.",
+      "headline": "Russia launches major overnight attack on Ukraine",
+      "summary": "Ukrainian officials reported more than two dozen injuries and damage across eight regions after missiles and nearly 160 drones. Russia said it struck military-used vessels; the barrage followed US House approval of new sanctions.",
       "source_name": "Reuters",
-      "published_at": "2026-09-16T02:57:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-drone-attack-bus-kills-five-ukraines-southeast-governor-says-2026-09-16/"
+      "published_at": "2026-09-16T20:17:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/"
     },
     {
       "category": "World",
-      "headline": "Saudi Arabia intercepts drone south of Mecca",
-      "summary": "The Saudi-led coalition says it destroyed a Houthi drone before it entered Mecca's restricted airspace. A Houthi source denied threatening holy sites while the group claimed other recent attacks on Saudi territory.",
+      "headline": "UN mission alleges war crimes by US and Iran",
+      "summary": "UN investigators found reasonable grounds to believe two US strikes in Iran were war crimes and that Iran committed crimes against humanity during protest crackdowns. Both governments have disputed related allegations.",
       "source_name": "Reuters",
-      "published_at": "2026-09-15T20:29:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-destroys-houthi-drone-south-mecca-2026-09-16/"
+      "published_at": "2026-09-17T04:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/un-mission-finds-grounds-believe-us-committed-war-crimes-iran-tehran-crimes-against-humanity-2026-09-17/"
     }
   ],
-  "sources_checked_at": "2026-09-16T06:30:34-04:00"
+  "sources_checked_at": "2026-09-17T06:31:14-04:00"
 }
