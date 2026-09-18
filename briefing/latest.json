@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-17",
-  "generated_at": "2026-09-17T06:31:14-04:00",
+  "briefing_date": "2026-09-18",
+  "generated_at": "2026-09-18T06:31:12-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Few clouds; E 7 kt; 10 mi visibility (observed 6:15 AM)",
-    "temperature_f": 81,
-    "forecast_wind_min_kt": 7,
-    "forecast_wind_max_kt": 13,
-    "forecast_gust_max_kt": 19,
-    "forecast_wind_direction_start": "NE",
-    "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: slight showers mainly before 1 PM; no thunder expected",
-    "alert_status": "High rip-current risk; Small Craft Exercise Caution",
-    "best_window": "No favorable offshore window; conditions slowly ease tonight",
+    "condition": "Few clouds; N 5 kt; 10 mi visibility (observed 6:15 AM)",
+    "temperature_f": 73,
+    "forecast_wind_min_kt": 1,
+    "forecast_wind_max_kt": 9,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "E",
+    "storm_timing": "Forecast: dry onshore; slight offshore storm chance this afternoon",
+    "alert_status": "No active alerts; moderate rip-current risk",
+    "best_window": "Early morning; nearshore seas remain 3–4 ft",
     "confidence_10": 9,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "7:31 AM",
-        "height_ft": 1.4
+        "time": "8:23 AM",
+        "height_ft": 1.8
       },
       {
         "type": "high",
-        "time": "1:46 PM",
-        "height_ft": 7.4
+        "time": "2:36 PM",
+        "height_ft": 7.1
       },
       {
         "type": "low",
-        "time": "8:14 PM",
-        "height_ft": 1.9
+        "time": "9:10 PM",
+        "height_ft": 2.1
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-17T04:31:00-04:00",
+    "forecast_updated_at": "2026-09-18T03:36:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 7,
-        "gust_kt": 7,
-        "wind_direction": "NE",
-        "rain_percent": 19
+        "wind_kt": 1,
+        "gust_kt": 1,
+        "wind_direction": "N",
+        "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 9,
-        "gust_kt": 13,
-        "wind_direction": "NE",
-        "rain_percent": 17
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "N",
+        "rain_percent": 1
       },
       {
         "time": "NOON",
-        "wind_kt": 13,
-        "gust_kt": 18,
+        "wind_kt": 9,
+        "gust_kt": 14,
         "wind_direction": "NE",
-        "rain_percent": 19
+        "rain_percent": 2
       },
       {
         "time": "3 PM",
-        "wind_kt": 13,
-        "gust_kt": 19,
-        "wind_direction": "NE",
-        "rain_percent": 8
+        "wind_kt": 9,
+        "gust_kt": 14,
+        "wind_direction": "E",
+        "rain_percent": 4
       },
       {
         "time": "6 PM",
-        "wind_kt": 11,
-        "gust_kt": 14,
-        "wind_direction": "NE",
-        "rain_percent": 7
+        "wind_kt": 7,
+        "gust_kt": 7,
+        "wind_direction": "E",
+        "rain_percent": 4
       }
     ],
-    "marine_summary": "Forecast: NE 15–20 kt; seas 4–5 ft, occasionally 6 ft; E 5 ft at 7 seconds; choppy intracoastal waters. Conditions ease tonight.",
-    "storm_outlook": "No named Atlantic cyclone. AL98 east of Bermuda has 40% formation chances through 48 hours and seven days; no immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: N 5–10 kt becoming NE 10–15 kt; seas 3–4 ft, occasionally 5 ft; E 4 ft at 7 seconds; slight afternoon storm chance.",
+    "storm_outlook": "No named Atlantic cyclone. AL98 east of Bermuda has a 10% formation chance and no immediate Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "US–China experts propose military AI safeguards",
-      "summary": "Security experts propose red lines around nuclear systems, human control over consequential cyberattacks and an AI-incident hotline. Neither government has endorsed the recommendations, and doubts remain about crisis hotlines.",
+      "headline": "Anthropic builds physical biology lab",
+      "summary": "Anthropic confirmed a Bay Area wet lab as it expands AI-assisted biology and preclinical work. It wants Claude to direct lab robots, but says human oversight is essential; drug-program success is uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-09-17T00:43:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/us-china-security-experts-propose-nuclear-style-safeguards-ai-risks-2026-09-17/"
+      "published_at": "2026-09-18T06:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Huawei says Chinese AI-chip demand exceeds supply",
-      "summary": "Huawei says it cannot meet domestic demand for AI computing equipment and plans earlier 2027 releases for two Ascend processors. Its claim that Ascend's China share exceeds Nvidia's was not supported with market data.",
+      "headline": "Mantic raises $25 million for AI forecasting",
+      "summary": "Mantic raised $25 million after outperforming human entrants and all but one bot in a Metaculus forecasting contest. Its broader claims of “superhuman” forecasting remain based on limited competition evidence.",
       "source_name": "Reuters",
-      "published_at": "2026-09-16T22:40:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/"
+      "published_at": "2026-09-18T06:06:00-04:00",
+      "source_url": "https://www.reuters.com/technology/ai-startup-mantic-raises-25-million-superhuman-forecasting-2026-09-18/"
     },
     {
       "category": "US",
-      "headline": "Federal Reserve raises rates to 3.75%–4%",
-      "summary": "The Fed unanimously raised its overnight target by a quarter point, its first increase since 2023, citing persistent inflation. Chair Kevin Warsh attributed higher bond yields mainly to economic strength, investment and geopolitical risk.",
+      "headline": "US weighs looser China pharma-deal rules",
+      "summary": "Treasury is drafting rules that would preserve most US licensing deals with Chinese drug developers while restricting pathogen or weaponizable biotechnology. Sources say the framework is unfinished and could change.",
       "source_name": "Reuters",
-      "published_at": "2026-09-16T17:11:00-04:00",
-      "source_url": "https://www.reuters.com/markets/us/feds-warsh-lays-out-forces-driving-up-bond-yields-2026-09-16/"
+      "published_at": "2026-09-18T06:01:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-weighs-allowing-most-pharma-licensing-deals-with-china-sources-say-2026-09-18/"
     },
     {
       "category": "World",
-      "headline": "Russia launches major overnight attack on Ukraine",
-      "summary": "Ukrainian officials reported more than two dozen injuries and damage across eight regions after missiles and nearly 160 drones. Russia said it struck military-used vessels; the barrage followed US House approval of new sanctions.",
+      "headline": "Nigeria investigates 37 custody deaths",
+      "summary": "Nigeria suspended a state paramilitary commander after 37 suspected illegal miners died in custody, prompting protests. Reuters filmed 33 bodies; the cause remains unknown pending medical examinations.",
       "source_name": "Reuters",
-      "published_at": "2026-09-16T20:17:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/"
+      "published_at": "2026-09-18T04:03:00-04:00",
+      "source_url": "https://www.reuters.com/world/africa/protests-erupt-nigeria-after-33-miners-die-custody-paramilitary-agency-2026-09-18/"
     },
     {
       "category": "World",
-      "headline": "UN mission alleges war crimes by US and Iran",
-      "summary": "UN investigators found reasonable grounds to believe two US strikes in Iran were war crimes and that Iran committed crimes against humanity during protest crackdowns. Both governments have disputed related allegations.",
+      "headline": "Yen falls despite Bank of Japan rate increase",
+      "summary": "The BOJ raised its policy rate to 1.25%, the highest in 31 years, but the yen fell as two policymakers dissented and guidance did not clearly signal further increases. Markets remain alert for intervention.",
       "source_name": "Reuters",
-      "published_at": "2026-09-17T04:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/un-mission-finds-grounds-believe-us-committed-war-crimes-iran-tehran-crimes-against-humanity-2026-09-17/"
+      "published_at": "2026-09-17T20:59:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
     }
   ],
-  "sources_checked_at": "2026-09-17T06:31:14-04:00"
+  "sources_checked_at": "2026-09-18T06:31:12-04:00"
 }
