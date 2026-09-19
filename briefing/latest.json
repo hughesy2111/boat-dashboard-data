@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-18",
-  "generated_at": "2026-09-18T06:31:12-04:00",
+  "briefing_date": "2026-09-19",
+  "generated_at": "2026-09-19T06:29:51-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Few clouds; N 5 kt; 10 mi visibility (observed 6:15 AM)",
-    "temperature_f": 73,
-    "forecast_wind_min_kt": 1,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 14,
-    "forecast_wind_direction_start": "N",
-    "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: dry onshore; slight offshore storm chance this afternoon",
+    "condition": "Fair; N 3 kt; 7 mi visibility (observed 6:15 AM)",
+    "temperature_f": 75,
+    "forecast_wind_min_kt": 0,
+    "forecast_wind_max_kt": 7,
+    "forecast_gust_max_kt": 7,
+    "forecast_wind_direction_start": "W",
+    "forecast_wind_direction_end": "SE",
+    "storm_timing": "Forecast: slight shower and thunderstorm chance around 1–3 PM",
     "alert_status": "No active alerts; moderate rip-current risk",
-    "best_window": "Early morning; nearshore seas remain 3–4 ft",
-    "confidence_10": 9,
+    "best_window": "Morning before 1 PM; seas 2–3 ft",
+    "confidence_10": 8,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "8:23 AM",
-        "height_ft": 1.8
+        "time": "9:20 AM",
+        "height_ft": 2
       },
       {
         "type": "high",
-        "time": "2:36 PM",
-        "height_ft": 7.1
+        "time": "3:32 PM",
+        "height_ft": 6.9
       },
       {
         "type": "low",
-        "time": "9:10 PM",
-        "height_ft": 2.1
+        "time": "10:07 PM",
+        "height_ft": 2.3
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-18T03:36:00-04:00",
+    "forecast_updated_at": "2026-09-19T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 1,
-        "gust_kt": 1,
-        "wind_direction": "N",
-        "rain_percent": 0
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "N",
-        "rain_percent": 1
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 9,
-        "gust_kt": 14,
-        "wind_direction": "NE",
+        "wind_kt": 0,
+        "gust_kt": 0,
+        "wind_direction": "W",
         "rain_percent": 2
       },
       {
+        "time": "9 AM",
+        "wind_kt": 2,
+        "gust_kt": 2,
+        "wind_direction": "N",
+        "rain_percent": 3
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 6,
+        "gust_kt": 6,
+        "wind_direction": "NE",
+        "rain_percent": 14
+      },
+      {
         "time": "3 PM",
-        "wind_kt": 9,
-        "gust_kt": 14,
+        "wind_kt": 7,
+        "gust_kt": 7,
         "wind_direction": "E",
-        "rain_percent": 4
+        "rain_percent": 18
       },
       {
         "time": "6 PM",
         "wind_kt": 7,
         "gust_kt": 7,
-        "wind_direction": "E",
-        "rain_percent": 4
+        "wind_direction": "SE",
+        "rain_percent": 6
       }
     ],
-    "marine_summary": "Forecast: N 5–10 kt becoming NE 10–15 kt; seas 3–4 ft, occasionally 5 ft; E 4 ft at 7 seconds; slight afternoon storm chance.",
-    "storm_outlook": "No named Atlantic cyclone. AL98 east of Bermuda has a 10% formation chance and no immediate Coastal Georgia threat."
+    "marine_summary": "Forecast: N 5–10 kt becoming ENE 10–15 kt; seas 2–3 ft; E 2 ft at 7 seconds; slight shower and thunderstorm chance.",
+    "storm_outlook": "No named Atlantic cyclone. AL99 southwest of the Azores has an 80% formation chance but presents no Coastal Georgia threat."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Anthropic builds physical biology lab",
-      "summary": "Anthropic confirmed a Bay Area wet lab as it expands AI-assisted biology and preclinical work. It wants Claude to direct lab robots, but says human oversight is essential; drug-program success is uncertain.",
+      "headline": "AI industry confronts control and safety fears",
+      "summary": "Reuters traces ten days in which major labs disclosed agent breaches and several leaders urged slower capability development. Catastrophic-risk estimates remain disputed; companies also continue major fundraising and release plans.",
       "source_name": "Reuters",
-      "published_at": "2026-09-18T06:02:00-04:00",
-      "source_url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+      "published_at": "2026-09-19T06:05:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Mantic raises $25 million for AI forecasting",
-      "summary": "Mantic raised $25 million after outperforming human entrants and all but one bot in a Metaculus forecasting contest. Its broader claims of “superhuman” forecasting remain based on limited competition evidence.",
+      "headline": "Anthropic weighs new model before planned IPO",
+      "summary": "Anthropic is considering a new model as OpenAI’s GPT-6 Astra gains enterprise share, sources said. The launch is not confirmed and would test Anthropic’s attempt to reconcile competitive pressure with its call for slower development.",
       "source_name": "Reuters",
-      "published_at": "2026-09-18T06:06:00-04:00",
-      "source_url": "https://www.reuters.com/technology/ai-startup-mantic-raises-25-million-superhuman-forecasting-2026-09-18/"
+      "published_at": "2026-09-18T20:05:00-04:00",
+      "source_url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
     },
     {
       "category": "US",
-      "headline": "US weighs looser China pharma-deal rules",
-      "summary": "Treasury is drafting rules that would preserve most US licensing deals with Chinese drug developers while restricting pathogen or weaponizable biotechnology. Sources say the framework is unfinished and could change.",
+      "headline": "Trump announces White House media bans",
+      "summary": "President Trump said CNN, MS NOW and Politico would be barred from the White House. The ban’s scope was unclear Friday; press-freedom experts and the outlets said broader credential exclusions would face constitutional challenges.",
       "source_name": "Reuters",
-      "published_at": "2026-09-18T06:01:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-weighs-allowing-most-pharma-licensing-deals-with-china-sources-say-2026-09-18/"
+      "published_at": "2026-09-18T15:19:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/trump-bans-media-outlets-cnn-msnow-politico-white-house-2026-09-18/"
     },
     {
       "category": "World",
-      "headline": "Nigeria investigates 37 custody deaths",
-      "summary": "Nigeria suspended a state paramilitary commander after 37 suspected illegal miners died in custody, prompting protests. Reuters filmed 33 bodies; the cause remains unknown pending medical examinations.",
+      "headline": "Greenland rejects sovereignty loss in US deal",
+      "summary": "Denmark and Greenland said a pending US security agreement respects Greenlandic sovereignty, while Trump described permanent US control over security. Key terms remain unpublished, so the practical extent of US authority is unclear.",
       "source_name": "Reuters",
-      "published_at": "2026-09-18T04:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/africa/protests-erupt-nigeria-after-33-miners-die-custody-paramilitary-agency-2026-09-18/"
+      "published_at": "2026-09-19T06:09:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/greenland-denmark-say-us-deal-will-not-cede-sovereignty-2026-09-19/"
     },
     {
       "category": "World",
-      "headline": "Yen falls despite Bank of Japan rate increase",
-      "summary": "The BOJ raised its policy rate to 1.25%, the highest in 31 years, but the yen fell as two policymakers dissented and guidance did not clearly signal further increases. Markets remain alert for intervention.",
+      "headline": "Russia reports attacks on election systems",
+      "summary": "Russian officials said online voting and communications were attacked during parliamentary elections and blamed attempted interference on Ukraine without presenting evidence. Authorities said systems remained operational; most anti-war candidates were barred.",
       "source_name": "Reuters",
-      "published_at": "2026-09-17T20:59:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
+      "published_at": "2026-09-19T06:13:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russia-reports-online-attacks-electoral-system-second-day-parliamentary-vote-2026-09-19/"
     }
   ],
-  "sources_checked_at": "2026-09-18T06:31:12-04:00"
+  "sources_checked_at": "2026-09-19T06:29:51-04:00"
 }
