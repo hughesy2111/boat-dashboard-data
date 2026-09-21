@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-20",
-  "generated_at": "2026-09-20T06:29:30-04:00",
+  "briefing_date": "2026-09-21",
+  "generated_at": "2026-09-21T06:33:08-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair; calm; 9 mi visibility (observed 6:15 AM)",
+    "condition": "Fog/mist; thunder nearby; NW 5 kt; 4 mi visibility",
     "temperature_f": 75,
-    "forecast_wind_min_kt": 0,
-    "forecast_wind_max_kt": 7,
-    "forecast_gust_max_kt": 7,
-    "forecast_wind_direction_start": "NW",
+    "forecast_wind_min_kt": 1,
+    "forecast_wind_max_kt": 9,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "N",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: showers and isolated thunderstorms possible noon–9 PM",
+    "storm_timing": "Forecast: showers mainly morning; slight thunder chance noon–5 PM",
     "alert_status": "No active alerts; moderate rip-current risk",
-    "best_window": "Morning before noon; seas around 2 ft",
+    "best_window": "Wait for fog and nearby thunder to clear; reassess at 9 AM",
     "confidence_10": 8,
-    "recheck_at": "12:00 PM",
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "10:17 AM",
-        "height_ft": 2.02
+        "time": "11:13 AM",
+        "height_ft": 1.91
       },
       {
         "type": "high",
-        "time": "4:33 PM",
-        "height_ft": 6.82
+        "time": "5:34 PM",
+        "height_ft": 6.93
       },
       {
         "type": "low",
-        "time": "11:01 PM",
-        "height_ft": 2.17
+        "time": "11:52 PM",
+        "height_ft": 1.96
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-20T02:21:00-04:00",
+    "forecast_updated_at": "2026-09-21T04:31:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 0,
-        "gust_kt": 0,
-        "wind_direction": "NW",
-        "rain_percent": 2
+        "wind_kt": 1,
+        "gust_kt": 1,
+        "wind_direction": "N",
+        "rain_percent": 39
       },
       {
         "time": "9 AM",
         "wind_kt": 2,
         "gust_kt": 2,
-        "wind_direction": "NW",
-        "rain_percent": 6
+        "wind_direction": "N",
+        "rain_percent": 32
       },
       {
         "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "N",
-        "rain_percent": 19
+        "wind_kt": 6,
+        "gust_kt": 6,
+        "wind_direction": "NE",
+        "rain_percent": 32
       },
       {
         "time": "3 PM",
-        "wind_kt": 7,
-        "gust_kt": 7,
+        "wind_kt": 8,
+        "gust_kt": 8,
         "wind_direction": "E",
-        "rain_percent": 33
+        "rain_percent": 21
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
+        "wind_kt": 9,
+        "gust_kt": 14,
         "wind_direction": "E",
-        "rain_percent": 30
+        "rain_percent": 13
       }
     ],
-    "marine_summary": "Forecast: NNW 5–10 kt becoming ENE near 10 kt; seas around 2 ft; chance of showers and thunderstorms; higher winds near storms.",
-    "storm_outlook": "Tropical Storm Fay is 450 mi southwest of the Azores, with no coastal watches and no threat to Coastal Georgia."
+    "marine_summary": "Forecast: N 5–10 kt becoming E; seas near 2 ft; showers mainly morning and slight thunder chance. Higher winds near storms.",
+    "storm_outlook": "Fay is weakening 405 mi southwest of the Azores, with no coastal watches and no threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "US and China launch talks on AI guardrails",
-      "summary": "US and Chinese economic chiefs meet Sunday on AI safeguards, tariffs and critical minerals before a Trump–Xi summit. Analysts expect incremental deals, not a breakthrough; no AI agreement has been announced.",
+      "headline": "Spain calls for government rules on AI",
+      "summary": "Prime Minister Pedro Sanchez said AI cannot be self-regulated and outlined a 12-month plan for responsible deployment, cybersecurity and an AI gigafactory. The roadmap is a policy proposal; implementation details remain limited.",
       "source_name": "Reuters",
-      "published_at": "2026-09-20T01:06:00-04:00",
-      "source_url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+      "published_at": "2026-09-21T05:01:54-04:00",
+      "source_url": "https://www.reuters.com/world/spanish-pm-sanchez-says-ai-industry-cannot-be-self-regulated-2026-09-21/"
     },
     {
-      "category": "World",
-      "headline": "Ukraine launches largest drone attack on Moscow",
-      "summary": "Russian officials said Ukraine launched the largest drone attack yet on Moscow, killing two in the region and damaging an oil-refinery facility as voting ended. Kyiv had not commented, and Reuters could not verify all official claims.",
+      "category": "AI & Technology",
+      "headline": "China slows humanoid-robot IPO rush",
+      "summary": "Chinese regulators are informally raising scrutiny of humanoid-robot listings after Unitree shares fell 55% from their peak. Sources disagree on whether IPOs are effectively frozen or merely slowed; there is no formal ban.",
       "source_name": "Reuters",
-      "published_at": "2026-09-20T00:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-election-cast-test-support-ukraine-war-enters-final-day-2026-09-20/"
-    },
-    {
-      "category": "World",
-      "headline": "UN gathering opens amid wars and AI concerns",
-      "summary": "Nearly 130 heads of state gather in New York with the Middle East, Ukraine and AI risks high on the agenda. The UN also faces funding pressure and a leadership transition; major diplomatic breakthroughs remain uncertain.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-20T01:05:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/"
-    },
-    {
-      "category": "World",
-      "headline": "Houthi attacks unsettle Saudi and Gulf markets",
-      "summary": "Saudi and Gulf stocks fell after Houthis claimed missile and drone attacks on Riyadh. Smoke was seen near the main airport, but the full damage and effectiveness of the attacks remain unclear.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-20T04:10:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/saudi-gulf-stocks-fall-after-houthis-claim-riyadh-attacks-2026-09-20/"
+      "published_at": "2026-09-20T23:05:00-04:00",
+      "source_url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/"
     },
     {
       "category": "US",
-      "headline": "US says Caribbean vessel strike killed four",
-      "summary": "US Southern Command said a strike killed four people aboard a vessel allegedly engaged in drug trafficking. It provided limited evidence; rights groups call the broader campaign extrajudicial killings.",
+      "headline": "US prepares sanctions against entire ICC",
+      "summary": "Sources say the Trump administration has prepared institution-wide sanctions that could sharply restrict US financial dealings with the ICC. No measure had been formally announced, and timing could change.",
       "source_name": "Reuters",
-      "published_at": "2026-09-19T20:19:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-says-it-killed-four-people-strike-vessel-caribbean-2026-09-20/"
+      "published_at": "2026-09-20T17:22:00-04:00",
+      "source_url": "https://www.reuters.com/world/trump-administration-prepares-sanction-international-criminal-court-wsj-reports-2026-09-20/"
+    },
+    {
+      "category": "World",
+      "headline": "Putin’s party retains Russian supermajority",
+      "summary": "United Russia won 57.83% and 355 of 450 Duma seats with more than 95% counted, preserving its constitutional majority. Officials called the vote clean; exiled opposition activists alleged widespread fraud.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-21T01:31:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/pro-putin-party-keeps-grip-parliament-anti-war-party-gains-tiny-regional-2026-09-21/"
+    },
+    {
+      "category": "World",
+      "headline": "Iran and US trade threats after Houthi attacks",
+      "summary": "Iran warned that a major new US or allied attack would bring sustained retaliation; Washington issued a regional security alert. Claims about imminent action were not substantiated, and both sides also signaled limited openness to talks.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-20T09:21:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/"
     }
   ],
-  "sources_checked_at": "2026-09-20T06:29:30-04:00"
+  "sources_checked_at": "2026-09-21T06:33:08-04:00"
 }
