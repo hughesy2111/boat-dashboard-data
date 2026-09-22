@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-21",
-  "generated_at": "2026-09-21T06:33:08-04:00",
+  "briefing_date": "2026-09-22",
+  "generated_at": "2026-09-22T06:28:32-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist; thunder nearby; NW 5 kt; 4 mi visibility",
+    "condition": "Fair and calm; 10 mi visibility (observed 6:15 AM)",
     "temperature_f": 75,
     "forecast_wind_min_kt": 1,
     "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 14,
+    "forecast_gust_max_kt": 9,
     "forecast_wind_direction_start": "N",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: showers mainly morning; slight thunder chance noon–5 PM",
-    "alert_status": "No active alerts; moderate rip-current risk",
-    "best_window": "Wait for fog and nearby thunder to clear; reassess at 9 AM",
-    "confidence_10": 8,
-    "recheck_at": "9:00 AM",
+    "storm_timing": "Forecast: showers 10 AM–3 PM; slight thunder chance 11 AM–3 PM",
+    "alert_status": "No Brunswick-specific alert displayed; moderate rip-current risk",
+    "best_window": "Early morning through 9 AM; recheck before late morning",
+    "confidence_10": 9,
+    "recheck_at": "10:00 AM",
     "tides": [
       {
+        "type": "high",
+        "time": "5:58 AM",
+        "height_ft": 6.32
+      },
+      {
         "type": "low",
-        "time": "11:13 AM",
-        "height_ft": 1.91
+        "time": "12:05 PM",
+        "height_ft": 1.69
       },
       {
         "type": "high",
-        "time": "5:34 PM",
-        "height_ft": 6.93
-      },
-      {
-        "type": "low",
-        "time": "11:52 PM",
-        "height_ft": 1.96
+        "time": "6:28 PM",
+        "height_ft": 7.16
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-21T04:31:00-04:00",
+    "forecast_updated_at": "2026-09-22T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
@@ -45,81 +45,81 @@
         "wind_kt": 1,
         "gust_kt": 1,
         "wind_direction": "N",
-        "rain_percent": 39
+        "rain_percent": 10
       },
       {
         "time": "9 AM",
-        "wind_kt": 2,
-        "gust_kt": 2,
+        "wind_kt": 4,
+        "gust_kt": 4,
         "wind_direction": "N",
-        "rain_percent": 32
+        "rain_percent": 13
       },
       {
         "time": "NOON",
-        "wind_kt": 6,
-        "gust_kt": 6,
+        "wind_kt": 7,
+        "gust_kt": 7,
         "wind_direction": "NE",
-        "rain_percent": 32
+        "rain_percent": 31
       },
       {
         "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 8,
+        "wind_kt": 9,
+        "gust_kt": 9,
         "wind_direction": "E",
-        "rain_percent": 21
+        "rain_percent": 20
       },
       {
         "time": "6 PM",
-        "wind_kt": 9,
-        "gust_kt": 14,
+        "wind_kt": 6,
+        "gust_kt": 6,
         "wind_direction": "E",
-        "rain_percent": 13
+        "rain_percent": 10
       }
     ],
-    "marine_summary": "Forecast: N 5–10 kt becoming E; seas near 2 ft; showers mainly morning and slight thunder chance. Higher winds near storms.",
-    "storm_outlook": "Fay is weakening 405 mi southwest of the Azores, with no coastal watches and no threat to Coastal Georgia."
+    "marine_summary": "Forecast: NE 5–10 kt; seas near 2 ft; morning showers and slight thunder chance. Winds and waves higher near storms.",
+    "storm_outlook": "Fay is weakening over the open Atlantic, with no coastal watches and no threat to Coastal Georgia; no other Atlantic development expected."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Spain calls for government rules on AI",
-      "summary": "Prime Minister Pedro Sanchez said AI cannot be self-regulated and outlined a 12-month plan for responsible deployment, cybersecurity and an AI gigafactory. The roadmap is a policy proposal; implementation details remain limited.",
+      "headline": "Alibaba unveils larger AI model and new chip",
+      "summary": "Alibaba announced a planned model with 5–10 trillion parameters and its Zhenwu V900 AI chip, expected in mass production in early 2027. Performance and scale claims are company statements and have not been independently benchmarked.",
       "source_name": "Reuters",
-      "published_at": "2026-09-21T05:01:54-04:00",
-      "source_url": "https://www.reuters.com/world/spanish-pm-sanchez-says-ai-industry-cannot-be-self-regulated-2026-09-21/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "China slows humanoid-robot IPO rush",
-      "summary": "Chinese regulators are informally raising scrutiny of humanoid-robot listings after Unitree shares fell 55% from their peak. Sources disagree on whether IPOs are effectively frozen or merely slowed; there is no formal ban.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-20T23:05:00-04:00",
-      "source_url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/"
+      "published_at": "2026-09-21T21:52:00-04:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
     },
     {
       "category": "US",
-      "headline": "US prepares sanctions against entire ICC",
-      "summary": "Sources say the Trump administration has prepared institution-wide sanctions that could sharply restrict US financial dealings with the ICC. No measure had been formally announced, and timing could change.",
+      "headline": "Americans want stronger AI safety action",
+      "summary": "A Reuters/Ipsos poll found 73% of US adults think AI firms are not doing enough to prevent serious societal harm, while 55% support slowing development. Poll results measure opinion, not the probability of an AI disaster.",
       "source_name": "Reuters",
-      "published_at": "2026-09-20T17:22:00-04:00",
-      "source_url": "https://www.reuters.com/world/trump-administration-prepares-sanction-international-criminal-court-wsj-reports-2026-09-20/"
+      "published_at": "2026-09-22T06:02:20-04:00",
+      "source_url": "https://www.reuters.com/world/three-out-four-americans-say-ai-firms-not-doing-enough-prevent-disaster-2026-09-22/"
+    },
+    {
+      "category": "US & World",
+      "headline": "US, Denmark and Greenland to sign Arctic deal",
+      "summary": "A planned agreement would add two US military sites in Greenland. Trump describes permanent US control over security, while Denmark says sovereignty remains unchanged. The full text is not yet public, leaving legal implications uncertain.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-22T02:47:45-04:00",
+      "source_url": "https://www.reuters.com/world/europe/trump-denmark-greenland-sign-deal-bid-end-arctic-standoff-2026-09-22/"
     },
     {
       "category": "World",
-      "headline": "Putin’s party retains Russian supermajority",
-      "summary": "United Russia won 57.83% and 355 of 450 Duma seats with more than 95% counted, preserving its constitutional majority. Officials called the vote clean; exiled opposition activists alleged widespread fraud.",
+      "headline": "Jet-powered drones strain Ukraine’s defences",
+      "summary": "Ukraine says faster, higher-flying Russian attack drones have reduced interception effectiveness and increased disruption. Casualty and launch totals are Ukrainian government figures; Moscow denies targeting civilians.",
       "source_name": "Reuters",
-      "published_at": "2026-09-21T01:31:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/pro-putin-party-keeps-grip-parliament-anti-war-party-gains-tiny-regional-2026-09-21/"
+      "published_at": "2026-09-22T05:55:40-04:00",
+      "source_url": "https://www.reuters.com/business/aerospace-defense/jet-powered-russian-drones-strain-ukraines-air-defences-2026-09-22/"
     },
     {
       "category": "World",
-      "headline": "Iran and US trade threats after Houthi attacks",
-      "summary": "Iran warned that a major new US or allied attack would bring sustained retaliation; Washington issued a regional security alert. Claims about imminent action were not substantiated, and both sides also signaled limited openness to talks.",
+      "headline": "Saudi Arabia restarts oil bypass pipeline",
+      "summary": "Three sources say Saudi Arabia restarted its East-West Pipeline at reduced flow after a nine-day shutdown caused by drone attacks, potentially restoring exports from Yanbu. Saudi Aramco had not publicly confirmed the restart.",
       "source_name": "Reuters",
-      "published_at": "2026-09-20T09:21:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/"
+      "published_at": "2026-09-22T06:08:22-04:00",
+      "source_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/"
     }
   ],
-  "sources_checked_at": "2026-09-21T06:33:08-04:00"
+  "sources_checked_at": "2026-09-22T06:28:32-04:00"
 }
