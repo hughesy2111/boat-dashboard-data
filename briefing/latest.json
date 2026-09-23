@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-22",
-  "generated_at": "2026-09-22T06:28:32-04:00",
+  "briefing_date": "2026-09-23",
+  "generated_at": "2026-09-23T06:42:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair and calm; 10 mi visibility (observed 6:15 AM)",
+    "condition": "Thunderstorm nearby; 75°F; N 9 kt; visibility 10 mi (observed)",
     "temperature_f": 75,
-    "forecast_wind_min_kt": 1,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 9,
+    "forecast_wind_min_kt": 7,
+    "forecast_wind_max_kt": 14,
+    "forecast_gust_max_kt": 22,
     "forecast_wind_direction_start": "N",
-    "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: showers 10 AM–3 PM; slight thunder chance 11 AM–3 PM",
-    "alert_status": "No Brunswick-specific alert displayed; moderate rip-current risk",
-    "best_window": "Early morning through 9 AM; recheck before late morning",
+    "forecast_wind_direction_end": "NE",
+    "storm_timing": "Forecast: showers likely; slight thunder chance through tonight",
+    "alert_status": "Small Craft Advisory 11 AM–Fri; High Rip Current Risk through Sat",
+    "best_window": "No favorable window; remain in port as winds and seas build",
     "confidence_10": 9,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "11:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "5:58 AM",
-        "height_ft": 6.32
+        "time": "6:50 AM",
+        "height_ft": 6.77
       },
       {
         "type": "low",
-        "time": "12:05 PM",
-        "height_ft": 1.69
+        "time": "12:55 PM",
+        "height_ft": 1.38
       },
       {
         "type": "high",
-        "time": "6:28 PM",
-        "height_ft": 7.16
+        "time": "7:13 PM",
+        "height_ft": 7.46
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-22T02:21:00-04:00",
+    "forecast_updated_at": "2026-09-23T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 1,
-        "gust_kt": 1,
+        "wind_kt": 7,
+        "gust_kt": 7,
         "wind_direction": "N",
-        "rain_percent": 10
+        "rain_percent": 28
       },
       {
         "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 4,
+        "wind_kt": 10,
+        "gust_kt": 14,
         "wind_direction": "N",
-        "rain_percent": 13
+        "rain_percent": 25
       },
       {
         "time": "NOON",
-        "wind_kt": 7,
-        "gust_kt": 7,
+        "wind_kt": 12,
+        "gust_kt": 18,
         "wind_direction": "NE",
-        "rain_percent": 31
+        "rain_percent": 32
       },
       {
         "time": "3 PM",
-        "wind_kt": 9,
-        "gust_kt": 9,
-        "wind_direction": "E",
-        "rain_percent": 20
+        "wind_kt": 14,
+        "gust_kt": 21,
+        "wind_direction": "NE",
+        "rain_percent": 32
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "E",
-        "rain_percent": 10
+        "wind_kt": 14,
+        "gust_kt": 22,
+        "wind_direction": "NE",
+        "rain_percent": 26
       }
     ],
-    "marine_summary": "Forecast: NE 5–10 kt; seas near 2 ft; morning showers and slight thunder chance. Winds and waves higher near storms.",
-    "storm_outlook": "Fay is weakening over the open Atlantic, with no coastal watches and no threat to Coastal Georgia; no other Atlantic development expected."
+    "marine_summary": "Forecast: NE 15–20 kt, rising to 20–25 kt; seas 3–4 ft building 4–6 ft, occasionally 8 ft; showers likely and thunder possible.",
+    "storm_outlook": "No Atlantic tropical cyclones or new development areas are identified; no tropical threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Alibaba unveils larger AI model and new chip",
-      "summary": "Alibaba announced a planned model with 5–10 trillion parameters and its Zhenwu V900 AI chip, expected in mass production in early 2027. Performance and scale claims are company statements and have not been independently benchmarked.",
+      "headline": "Meta tests humans behind Muse AI phone calls",
+      "summary": "Meta used contractors to handle some calls placed through Muse, then rolled back the test after disclosure and privacy concerns. Meta says any public launch would include safeguards and proper disclosure.",
       "source_name": "Reuters",
-      "published_at": "2026-09-21T21:52:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
+      "published_at": "2026-09-22T12:01:00-04:00",
+      "source_url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/"
     },
     {
-      "category": "US",
-      "headline": "Americans want stronger AI safety action",
-      "summary": "A Reuters/Ipsos poll found 73% of US adults think AI firms are not doing enough to prevent serious societal harm, while 55% support slowing development. Poll results measure opinion, not the probability of an AI disaster.",
+      "category": "AI & Technology",
+      "headline": "Anthropic expands medical AI to poorer countries",
+      "summary": "Anthropic and OpenEvidence will offer free AI clinical-decision support in dozens of lower-income countries. Critics caution that systems trained in richer countries may not reflect local practice.",
       "source_name": "Reuters",
-      "published_at": "2026-09-22T06:02:20-04:00",
-      "source_url": "https://www.reuters.com/world/three-out-four-americans-say-ai-firms-not-doing-enough-prevent-disaster-2026-09-22/"
+      "published_at": "2026-09-22T17:31:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/anthropic-openevidence-partner-bring-medical-ai-worldwide-2026-09-22/"
     },
     {
       "category": "US & World",
-      "headline": "US, Denmark and Greenland to sign Arctic deal",
-      "summary": "A planned agreement would add two US military sites in Greenland. Trump describes permanent US control over security, while Denmark says sovereignty remains unchanged. The full text is not yet public, leaving legal implications uncertain.",
+      "headline": "Trump threatens Iran while holding out for a deal",
+      "summary": "Trump warned at the UN that he could escalate the Iran war if no deal is reached, while predicting an agreement after the US midterms. He later said envoys met mediators, not Iranian officials directly.",
       "source_name": "Reuters",
-      "published_at": "2026-09-22T02:47:45-04:00",
-      "source_url": "https://www.reuters.com/world/europe/trump-denmark-greenland-sign-deal-bid-end-arctic-standoff-2026-09-22/"
+      "published_at": "2026-09-22T07:27:00-04:00",
+      "source_url": "https://www.reuters.com/world/americas/trump-set-whirlwind-un-meetings-with-wars-iran-ukraine-agenda-2026-09-22/"
+    },
+    {
+      "category": "US",
+      "headline": "US halts Obamacare coverage for 760,000",
+      "summary": "CMS canceled about 315,000 plans covering more than 760,000 people over alleged improper enrollment. A broker trade group says a blanket registration freeze may also hurt legitimate agents and access.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-22T10:27:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/us-says-it-canceled-315000-obamacare-policies-last-month-2026-09-22/"
     },
     {
       "category": "World",
-      "headline": "Jet-powered drones strain Ukraine’s defences",
-      "summary": "Ukraine says faster, higher-flying Russian attack drones have reduced interception effectiveness and increased disruption. Casualty and launch totals are Ukrainian government figures; Moscow denies targeting civilians.",
+      "headline": "China military purges raise readiness questions",
+      "summary": "Diplomats and analysts say command purges may dent China’s war-fighting readiness while strengthening Xi Jinping’s control. China’s defense ministry did not immediately comment.",
       "source_name": "Reuters",
-      "published_at": "2026-09-22T05:55:40-04:00",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/jet-powered-russian-drones-strain-ukraines-air-defences-2026-09-22/"
-    },
-    {
-      "category": "World",
-      "headline": "Saudi Arabia restarts oil bypass pipeline",
-      "summary": "Three sources say Saudi Arabia restarted its East-West Pipeline at reduced flow after a nine-day shutdown caused by drone attacks, potentially restoring exports from Yanbu. Saudi Aramco had not publicly confirmed the restart.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-22T06:08:22-04:00",
-      "source_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/"
+      "published_at": "2026-09-23T04:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/aerospace-defense/chinas-purges-top-military-commanders-spur-questions-about-war-waging-ability-2026-09-23/"
     }
   ],
-  "sources_checked_at": "2026-09-22T06:28:32-04:00"
+  "sources_checked_at": "2026-09-23T06:42:00-04:00"
 }
