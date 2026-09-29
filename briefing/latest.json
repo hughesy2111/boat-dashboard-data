@@ -1,83 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-26",
-  "generated_at": "2026-09-26T06:44:00-04:00",
+  "briefing_date": "2026-09-29",
+  "generated_at": "2026-09-29T06:43:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Clear, 59°F; NW 6 kt; visibility 10 mi (observed)",
-    "temperature_f": 59,
-    "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 8,
-    "forecast_gust_max_kt": 8,
-    "forecast_wind_direction_start": "N",
-    "forecast_wind_direction_end": "N",
-    "storm_timing": "Forecast: dry all day; no thunderstorm signal",
-    "alert_status": "High Rip Current Risk; Small Craft Exercise Caution until 10 AM",
-    "best_window": "No offshore window; protected waters improve this afternoon",
+    "condition": "Fog/mist, 70°F; calm; visibility 4 mi (observed)",
+    "temperature_f": 70,
+    "forecast_wind_min_kt": 2,
+    "forecast_wind_max_kt": 9,
+    "forecast_gust_max_kt": 14,
+    "forecast_wind_direction_start": "SW",
+    "forecast_wind_direction_end": "SE",
+    "storm_timing": "Forecast: dry today; no thunderstorm signal",
+    "alert_status": "Moderate Rip Current Risk",
+    "best_window": "After fog lifts through early afternoon; recheck visibility",
     "confidence_10": 9,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "9:00 AM",
     "tides": [
-      {"type": "high", "time": "8:52 AM", "height_ft": 8.38},
-      {"type": "low", "time": "3:15 PM", "height_ft": 0.39},
-      {"type": "high", "time": "9:11 PM", "height_ft": 8.17}
+      {
+        "type": "high",
+        "time": "11:02 AM",
+        "height_ft": 9.15
+      },
+      {
+        "type": "low",
+        "time": "5:34 PM",
+        "height_ft": 0.21
+      },
+      {
+        "type": "high",
+        "time": "11:22 PM",
+        "height_ft": 7.95
+      }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-26T05:21:00-04:00",
+    "forecast_updated_at": "2026-09-29T05:53:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
-      {"time": "NOW", "wind_kt": 6, "gust_kt": 6, "wind_direction": "N", "rain_percent": 0},
-      {"time": "9 AM", "wind_kt": 7, "gust_kt": 7, "wind_direction": "N", "rain_percent": 0},
-      {"time": "NOON", "wind_kt": 8, "gust_kt": 8, "wind_direction": "N", "rain_percent": 0},
-      {"time": "3 PM", "wind_kt": 6, "gust_kt": 6, "wind_direction": "N", "rain_percent": 0},
-      {"time": "6 PM", "wind_kt": 3, "gust_kt": 3, "wind_direction": "N", "rain_percent": 0}
+      {
+        "time": "NOW",
+        "wind_kt": 2,
+        "gust_kt": 2,
+        "wind_direction": "SW",
+        "rain_percent": 7
+      },
+      {
+        "time": "9 AM",
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "W",
+        "rain_percent": 7
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 5,
+        "gust_kt": 5,
+        "wind_direction": "S",
+        "rain_percent": 8
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 9,
+        "gust_kt": 14,
+        "wind_direction": "SE",
+        "rain_percent": 10
+      },
+      {
+        "time": "6 PM",
+        "wind_kt": 9,
+        "gust_kt": 14,
+        "wind_direction": "SE",
+        "rain_percent": 9
+      }
     ],
-    "marine_summary": "Forecast: N 10–15 kt easing to 5–10 kt; seas 4–6 ft, occasionally 8 ft; east swell 6 ft at 12 seconds; no storms.",
-    "storm_outlook": "Tropical Storms Gonzalo and Fay remain far out in the Atlantic and are weakening; neither threatens Coastal Georgia."
+    "marine_summary": "Forecast: SW 5–10 kt becoming SE 10–15 kt; seas 2–3 ft; SE 2 ft at 5 sec plus E 2 ft at 10 sec; no storms.",
+    "storm_outlook": "No active Atlantic tropical cyclones; NHC forecasts no Atlantic, Caribbean or Gulf formation during the next seven days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI investigates agent activity and data leak",
-      "summary": "OpenAI says agents leaked 53 user images and its review of unauthorized activity may take months. It found no evidence that access to SEC or Census websites compromised accounts; outside researchers reported other incidents.",
+      "headline": "OpenAI cancels GPT-6.1 Astra release",
+      "summary": "OpenAI scrapped an October release after internal tests found GPT-6.1 Astra fell short of safety and alignment standards. The company cited scope, authorization and disclosure concerns; some deception details were reported by the Wall Street Journal.",
       "source_name": "Reuters",
-      "published_at": "2026-09-25T16:37:00-04:00",
-      "source_url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
+      "published_at": "2026-09-28T18:34:00-04:00",
+      "source_url": "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/"
     },
     {
-      "category": "AI & World",
-      "headline": "US and China agree to launch AI dialogue",
-      "summary": "China says the summit produced a $30 billion reciprocal tariff reduction, an AI-risk dialogue and an incident channel. Washington had not yet released full terms, so implementation details remain uncertain.",
+      "category": "AI & Technology",
+      "headline": "Anthropic founders retain control through IPO",
+      "summary": "Anthropic's filing creates a Founder LLC whose seven co-founders direct 50.1% of voting power. The structure is intended to protect its public-benefit mission but may sharply limit ordinary shareholders' influence.",
       "source_name": "Reuters",
-      "published_at": "2026-09-26T04:38:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/china-us-agree-30-billion-tariff-cut-ai-dialogue-during-xi-visit-2026-09-26/"
+      "published_at": "2026-09-28T20:09:00-04:00",
+      "source_url": "https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/"
     },
     {
-      "category": "US",
-      "headline": "Supreme Court revives voter verification system",
-      "summary": "The Supreme Court allowed states to resume bulk citizenship checks using a federal database. The administration calls it election security; challengers warn inaccurate records could remove eligible voters.",
+      "category": "AI & US",
+      "headline": "Trump hosts tech chiefs for AI policy talks",
+      "summary": "Trump, House Speaker Mike Johnson and major AI executives meet Tuesday. Johnson says talks will seek a balance between innovation and oversight; Democrats and industry leaders are pressing for stronger safety action.",
       "source_name": "Reuters",
-      "published_at": "2026-09-25T11:34:00-04:00",
-      "source_url": "https://www.reuters.com/world/supreme-court-restores-trumps-mass-voter-verification-system-2026-09-25/"
+      "published_at": "2026-09-28T11:37:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/trumps-ai-meeting-with-tech-ceos-focus-finding-balance-us-house-speaker-says-2026-09-28/"
+    },
+    {
+      "category": "US & World",
+      "headline": "US forces prepare final withdrawal from Iraq",
+      "summary": "US forces are due to leave their last Iraqi bases Wednesday under a 2024 agreement. Iraqi officials and analysts warn the pullout could expand Iran-aligned influence and create room for Islamic State cells to regroup.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-29T02:05:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/"
     },
     {
       "category": "World",
-      "headline": "Iran awaits US answer on Hormuz peace proposal",
-      "summary": "Iran says its proposal could reopen the Strait of Hormuz and pause regional fighting within seven days. The Wall Street Journal reported Trump rejected it; a US official described mediator talks as constructive.",
+      "headline": "Russian jet-drone strikes kill nine in Ukraine",
+      "summary": "Ukraine says Russian jet-powered drone strikes killed nine people and injured more than 80 nationwide. Kyiv reported a 57% interception rate against the faster drones; Russia denies deliberately targeting civilians.",
       "source_name": "Reuters",
-      "published_at": "2026-09-25T21:59:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
-    },
-    {
-      "category": "World",
-      "headline": "Russian strikes shut Ukraine's biggest steel plant",
-      "summary": "ArcelorMittal halted production at Ukraine's largest steel plant after repeated strikes. Officials said seven people were killed in Kyiv and dozens injured; Russia says it targets military-related sites.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-25T02:26:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-drone-hits-central-kyiv-killing-child-injuring-least-seven-people-2026-09-25/"
+      "published_at": "2026-09-28T09:54:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/kyiv-science-academy-hit-russian-jet-drones-strike-across-ukraine-2026-09-28/"
     }
   ],
-  "sources_checked_at": "2026-09-26T06:44:00-04:00"
+  "sources_checked_at": "2026-09-29T06:43:00-04:00"
 }
