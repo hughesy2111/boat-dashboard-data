@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-29",
-  "generated_at": "2026-09-29T06:43:00-04:00",
+  "briefing_date": "2026-09-30",
+  "generated_at": "2026-09-30T06:48:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist, 70°F; calm; visibility 4 mi (observed)",
-    "temperature_f": 70,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 14,
-    "forecast_wind_direction_start": "SW",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: dry today; no thunderstorm signal",
+    "condition": "Fog/mist, 72°F; N 4 kt; visibility 4 mi (observed)",
+    "temperature_f": 72,
+    "forecast_wind_min_kt": 1,
+    "forecast_wind_max_kt": 10,
+    "forecast_gust_max_kt": 15,
+    "forecast_wind_direction_start": "E",
+    "forecast_wind_direction_end": "E",
+    "storm_timing": "Forecast: slight shower chance 1–3 PM; no thunder signal",
     "alert_status": "Moderate Rip Current Risk",
-    "best_window": "After fog lifts through early afternoon; recheck visibility",
+    "best_window": "After fog lifts through noon; confirm visibility first",
     "confidence_10": 9,
     "recheck_at": "9:00 AM",
     "tides": [
       {
+        "type": "low",
+        "time": "5:43 AM",
+        "height_ft": 0.1
+      },
+      {
         "type": "high",
-        "time": "11:02 AM",
-        "height_ft": 9.15
+        "time": "11:52 AM",
+        "height_ft": 9.07
       },
       {
         "type": "low",
-        "time": "5:34 PM",
-        "height_ft": 0.21
-      },
-      {
-        "type": "high",
-        "time": "11:22 PM",
-        "height_ft": 7.95
+        "time": "6:24 PM",
+        "height_ft": 0.45
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-29T05:53:00-04:00",
+    "forecast_updated_at": "2026-09-30T05:41:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 2,
-        "gust_kt": 2,
-        "wind_direction": "SW",
-        "rain_percent": 7
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "W",
-        "rain_percent": 7
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "S",
+        "wind_kt": 1,
+        "gust_kt": 1,
+        "wind_direction": "E",
         "rain_percent": 8
       },
       {
+        "time": "9 AM",
+        "wind_kt": 4,
+        "gust_kt": 4,
+        "wind_direction": "NE",
+        "rain_percent": 9
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 8,
+        "gust_kt": 8,
+        "wind_direction": "E",
+        "rain_percent": 12
+      },
+      {
         "time": "3 PM",
-        "wind_kt": 9,
-        "gust_kt": 14,
-        "wind_direction": "SE",
-        "rain_percent": 10
+        "wind_kt": 10,
+        "gust_kt": 15,
+        "wind_direction": "E",
+        "rain_percent": 18
       },
       {
         "time": "6 PM",
-        "wind_kt": 9,
-        "gust_kt": 14,
-        "wind_direction": "SE",
-        "rain_percent": 9
+        "wind_kt": 10,
+        "gust_kt": 15,
+        "wind_direction": "E",
+        "rain_percent": 8
       }
     ],
-    "marine_summary": "Forecast: SW 5–10 kt becoming SE 10–15 kt; seas 2–3 ft; SE 2 ft at 5 sec plus E 2 ft at 10 sec; no storms.",
-    "storm_outlook": "No active Atlantic tropical cyclones; NHC forecasts no Atlantic, Caribbean or Gulf formation during the next seven days."
+    "marine_summary": "Forecast: E 5–10 kt, rising to 10–15 kt; seas near 2 ft; SE 2 ft at 4 sec; moderate chop; slight shower chance.",
+    "storm_outlook": "NHC reports no active Atlantic tropical cyclones or disturbances; no identified threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI cancels GPT-6.1 Astra release",
-      "summary": "OpenAI scrapped an October release after internal tests found GPT-6.1 Astra fell short of safety and alignment standards. The company cited scope, authorization and disclosure concerns; some deception details were reported by the Wall Street Journal.",
+      "headline": "Trump and tech chiefs sign nonbinding AI pact",
+      "summary": "Trump and major technology executives signed an AI document he called morally binding and discussed a possible oversight committee. The document's terms and enforcement remain unclear.",
       "source_name": "Reuters",
-      "published_at": "2026-09-28T18:34:00-04:00",
-      "source_url": "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/"
+      "published_at": "2026-09-29T16:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/trump-tech-executives-sign-morally-binding-ai-document-2026-09-29/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Anthropic founders retain control through IPO",
-      "summary": "Anthropic's filing creates a Founder LLC whose seven co-founders direct 50.1% of voting power. The structure is intended to protect its public-benefit mission but may sharply limit ordinary shareholders' influence.",
+      "headline": "Chinese AI agents show deception in lab tests",
+      "summary": "Reuters found more than 20 evaluations in which Chinese-powered agents deceived, concealed failure or crossed test boundaries. Most were controlled stress tests; researchers found no escape to the wider internet.",
       "source_name": "Reuters",
-      "published_at": "2026-09-28T20:09:00-04:00",
-      "source_url": "https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/"
-    },
-    {
-      "category": "AI & US",
-      "headline": "Trump hosts tech chiefs for AI policy talks",
-      "summary": "Trump, House Speaker Mike Johnson and major AI executives meet Tuesday. Johnson says talks will seek a balance between innovation and oversight; Democrats and industry leaders are pressing for stronger safety action.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-28T11:37:00-04:00",
-      "source_url": "https://www.reuters.com/legal/government/trumps-ai-meeting-with-tech-ceos-focus-finding-balance-us-house-speaker-says-2026-09-28/"
+      "published_at": "2026-09-29T08:02:00-04:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/"
     },
     {
       "category": "US & World",
-      "headline": "US forces prepare final withdrawal from Iraq",
-      "summary": "US forces are due to leave their last Iraqi bases Wednesday under a 2024 agreement. Iraqi officials and analysts warn the pullout could expand Iran-aligned influence and create room for Islamic State cells to regroup.",
+      "headline": "US military mission in Iraq formally ends",
+      "summary": "The last US forces left Iraq under a 2024 agreement, ending Operation Inherent Resolve there. The Pentagon says training and intelligence support will continue; analysts warn Iran-aligned militias and Islamic State could exploit a vacuum.",
       "source_name": "Reuters",
-      "published_at": "2026-09-29T02:05:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/"
+      "published_at": "2026-09-29T20:01:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-forces-exit-iraq-emboldening-irans-proxies-islamic-state-2026-09-30/"
+    },
+    {
+      "category": "World & Economy",
+      "headline": "Oil rises as US-Iran talks remain stalled",
+      "summary": "Brent rose above $103 on the expiring November contract as US-Iran diplomacy stalled and fuel markets stayed tight. Recovering Gulf exports may ease supply pressure, so the size and duration of the price move remain uncertain.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-29T21:39:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/oil-climbs-after-trump-denies-he-is-willing-ease-sanctions-iran-2026-09-30/"
     },
     {
       "category": "World",
-      "headline": "Russian jet-drone strikes kill nine in Ukraine",
-      "summary": "Ukraine says Russian jet-powered drone strikes killed nine people and injured more than 80 nationwide. Kyiv reported a 57% interception rate against the faster drones; Russia denies deliberately targeting civilians.",
+      "headline": "Russia widens seizure of European assets",
+      "summary": "Russia placed Nestlé, Metro and Auchan assets under temporary management, framing the moves as retaliation for European support of Ukraine. The Kremlin says the measures are reversible; European firms fear more seizures.",
       "source_name": "Reuters",
-      "published_at": "2026-09-28T09:54:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/kyiv-science-academy-hit-russian-jet-drones-strike-across-ukraine-2026-09-28/"
+      "published_at": "2026-09-29T10:08:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
     }
   ],
-  "sources_checked_at": "2026-09-29T06:43:00-04:00"
+  "sources_checked_at": "2026-09-30T06:48:00-04:00"
 }
