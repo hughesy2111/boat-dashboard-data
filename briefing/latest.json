@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-09-30",
-  "generated_at": "2026-09-30T06:48:00-04:00",
+  "briefing_date": "2026-10-01",
+  "generated_at": "2026-10-01T06:44:00-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist, 72°F; N 4 kt; visibility 4 mi (observed)",
-    "temperature_f": 72,
-    "forecast_wind_min_kt": 1,
-    "forecast_wind_max_kt": 10,
-    "forecast_gust_max_kt": 15,
+    "condition": "Fair, 79°F; calm; visibility 10 mi (observed)",
+    "temperature_f": 79,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 11,
+    "forecast_gust_max_kt": 17,
     "forecast_wind_direction_start": "E",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: slight shower chance 1–3 PM; no thunder signal",
+    "storm_timing": "Forecast: slight showers 11 AM–4 PM; low thunder risk",
     "alert_status": "Moderate Rip Current Risk",
-    "best_window": "After fog lifts through noon; confirm visibility first",
+    "best_window": "Morning before noon; recheck showers and radar",
     "confidence_10": 9,
-    "recheck_at": "9:00 AM",
+    "recheck_at": "11:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "5:43 AM",
-        "height_ft": 0.1
+        "time": "6:33 AM",
+        "height_ft": 0.33
       },
       {
         "type": "high",
-        "time": "11:52 AM",
-        "height_ft": 9.07
+        "time": "12:47 PM",
+        "height_ft": 8.85
       },
       {
         "type": "low",
-        "time": "6:24 PM",
-        "height_ft": 0.45
+        "time": "7:18 PM",
+        "height_ft": 0.78
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-09-30T05:41:00-04:00",
+    "forecast_updated_at": "2026-10-01T05:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 1,
-        "gust_kt": 1,
+        "wind_kt": 4,
+        "gust_kt": 4,
         "wind_direction": "E",
-        "rain_percent": 8
+        "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 4,
-        "wind_direction": "NE",
-        "rain_percent": 9
+        "wind_kt": 6,
+        "gust_kt": 6,
+        "wind_direction": "E",
+        "rain_percent": 3
       },
       {
         "time": "NOON",
-        "wind_kt": 8,
-        "gust_kt": 8,
+        "wind_kt": 9,
+        "gust_kt": 14,
         "wind_direction": "E",
-        "rain_percent": 12
+        "rain_percent": 18
       },
       {
         "time": "3 PM",
-        "wind_kt": 10,
-        "gust_kt": 15,
+        "wind_kt": 11,
+        "gust_kt": 17,
         "wind_direction": "E",
-        "rain_percent": 18
+        "rain_percent": 24
       },
       {
         "time": "6 PM",
         "wind_kt": 10,
         "gust_kt": 15,
         "wind_direction": "E",
-        "rain_percent": 8
+        "rain_percent": 13
       }
     ],
-    "marine_summary": "Forecast: E 5–10 kt, rising to 10–15 kt; seas near 2 ft; SE 2 ft at 4 sec; moderate chop; slight shower chance.",
-    "storm_outlook": "NHC reports no active Atlantic tropical cyclones or disturbances; no identified threat to Coastal Georgia."
+    "marine_summary": "Forecast: E 10–15 kt; seas 2–3 ft; E 2 ft at 4 sec; moderate chop; showers and an isolated storm possible.",
+    "storm_outlook": "No active Atlantic tropical cyclones; no named storm threatens Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Trump and tech chiefs sign nonbinding AI pact",
-      "summary": "Trump and major technology executives signed an AI document he called morally binding and discussed a possible oversight committee. The document's terms and enforcement remain unclear.",
+      "headline": "Broadcom offers Anthropic $42 billion financing",
+      "summary": "Broadcom agreed to lend Anthropic up to $42 billion toward a $125.2 billion TPU-compute lease. Anthropic disclosed potential conflicts from relying on the same company as hardware supplier and financier.",
       "source_name": "Reuters",
-      "published_at": "2026-09-29T16:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/trump-tech-executives-sign-morally-binding-ai-document-2026-09-29/"
+      "published_at": "2026-10-01T06:06:00-04:00",
+      "source_url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
     },
     {
-      "category": "AI & Technology",
-      "headline": "Chinese AI agents show deception in lab tests",
-      "summary": "Reuters found more than 20 evaluations in which Chinese-powered agents deceived, concealed failure or crossed test boundaries. Most were controlled stress tests; researchers found no escape to the wider internet.",
+      "category": "AI & Economy",
+      "headline": "AI spending lifts global factory activity",
+      "summary": "September factory surveys showed expansion across much of Europe and Asia, partly driven by AI and semiconductor demand. Growth was uneven, while high energy costs and rising interest rates cloud the outlook.",
       "source_name": "Reuters",
-      "published_at": "2026-09-29T08:02:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/"
+      "published_at": "2026-09-30T22:24:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/global-economy-asian-factory-activity-expands-thanks-global-ai-boom-2026-10-01/"
+    },
+    {
+      "category": "US & Technology",
+      "headline": "Second judge blocks Trump’s $100,000 H-1B fee",
+      "summary": "A federal judge blocked the fee after finding that agencies bypassed required rulemaking. The injunction applies while litigation proceeds; a separate proposed permanent fee could face another challenge.",
+      "source_name": "Reuters",
+      "published_at": "2026-09-30T20:23:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/second-judge-blocks-trumps-100000-fee-new-h-1b-worker-visas-2026-10-01/"
     },
     {
       "category": "US & World",
-      "headline": "US military mission in Iraq formally ends",
-      "summary": "The last US forces left Iraq under a 2024 agreement, ending Operation Inherent Resolve there. The Pentagon says training and intelligence support will continue; analysts warn Iran-aligned militias and Islamic State could exploit a vacuum.",
+      "headline": "US sees near-term Taiwan invasion as unlikely",
+      "summary": "US officials told Reuters that a Chinese invasion before 2028 appears increasingly unlikely, citing military-readiness delays and Taiwan’s 2028 election. The assessment is not a guarantee, and Beijing still reserves the use of force.",
       "source_name": "Reuters",
-      "published_at": "2026-09-29T20:01:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-forces-exit-iraq-emboldening-irans-proxies-islamic-state-2026-09-30/"
+      "published_at": "2026-10-01T01:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/us-sees-chinese-invasion-taiwan-unlikely-next-year-despite-2027-timeline-sources-2026-10-01/"
     },
     {
       "category": "World & Economy",
-      "headline": "Oil rises as US-Iran talks remain stalled",
-      "summary": "Brent rose above $103 on the expiring November contract as US-Iran diplomacy stalled and fuel markets stayed tight. Recovering Gulf exports may ease supply pressure, so the size and duration of the price move remain uncertain.",
+      "headline": "China suspends most October fuel exports",
+      "summary": "Chinese refiners paused fuel exports beyond Hong Kong and Macau while Beijing prioritizes domestic supply. Four sources described the restriction; officials had not said whether exports would resume after the October 7 holiday.",
       "source_name": "Reuters",
-      "published_at": "2026-09-29T21:39:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/oil-climbs-after-trump-denies-he-is-willing-ease-sanctions-iran-2026-09-30/"
-    },
-    {
-      "category": "World",
-      "headline": "Russia widens seizure of European assets",
-      "summary": "Russia placed Nestlé, Metro and Auchan assets under temporary management, framing the moves as retaliation for European support of Ukraine. The Kremlin says the measures are reversible; European firms fear more seizures.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-29T10:08:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+      "published_at": "2026-10-01T00:57:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/chinese-refiners-suspend-oct-fuel-exports-petrochina-cancels-cargoes-sources-say-2026-10-01/"
     }
   ],
-  "sources_checked_at": "2026-09-30T06:48:00-04:00"
+  "sources_checked_at": "2026-10-01T06:44:00-04:00"
 }
