@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-02",
-  "generated_at": "2026-10-02T06:46:00-04:00",
+  "briefing_date": "2026-10-03",
+  "generated_at": "2026-10-03T06:28:37-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
     "condition": "Fair, 79°F; SE 4 kt; visibility 10 mi (observed)",
     "temperature_f": 79,
     "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 8,
-    "forecast_gust_max_kt": 8,
+    "forecast_wind_max_kt": 6,
+    "forecast_gust_max_kt": 6,
     "forecast_wind_direction_start": "SE",
     "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: storms possible 11 AM–late evening; peak 2–4 PM",
+    "storm_timing": "Forecast: storms possible all day; peak rain chance 1–3 PM",
     "alert_status": "Moderate Rip Current Risk",
-    "best_window": "Early morning before storm chances rise; recheck at 11 AM",
+    "best_window": "No clean window; check radar before any departure",
     "confidence_10": 8,
-    "recheck_at": "11:00 AM",
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "7:29 AM",
-        "height_ft": 0.65
+        "time": "8:33 AM",
+        "height_ft": 0.95
       },
       {
         "type": "high",
-        "time": "1:46 PM",
-        "height_ft": 8.54
+        "time": "2:51 PM",
+        "height_ft": 8.23
       },
       {
         "type": "low",
-        "time": "8:20 PM",
-        "height_ft": 1.09
+        "time": "9:25 PM",
+        "height_ft": 1.27
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-02T02:21:00-04:00",
+    "forecast_updated_at": "2026-10-03T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 4,
-        "gust_kt": 4,
+        "wind_kt": 3,
+        "gust_kt": 3,
         "wind_direction": "SE",
-        "rain_percent": 12
+        "rain_percent": 34
       },
       {
         "time": "9 AM",
         "wind_kt": 3,
         "gust_kt": 3,
-        "wind_direction": "SE",
-        "rain_percent": 22
+        "wind_direction": "S",
+        "rain_percent": 48
       },
       {
         "time": "NOON",
-        "wind_kt": 7,
-        "gust_kt": 7,
+        "wind_kt": 5,
+        "gust_kt": 5,
         "wind_direction": "SE",
-        "rain_percent": 26
+        "rain_percent": 54
       },
       {
         "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 8,
+        "wind_kt": 6,
+        "gust_kt": 6,
         "wind_direction": "SE",
-        "rain_percent": 48
+        "rain_percent": 55
       },
       {
         "time": "6 PM",
         "wind_kt": 6,
         "gust_kt": 6,
         "wind_direction": "E",
-        "rain_percent": 39
+        "rain_percent": 41
       }
     ],
-    "marine_summary": "Forecast: SE 5–10 kt; seas 2–3 ft; SE 3 ft at 5 sec; light chop; showers and thunderstorms possible.",
-    "storm_outlook": "No active Atlantic cyclone. Fay remnants have a 10% redevelopment chance and pose no threat to Coastal Georgia."
+    "marine_summary": "Forecast: SE 5–10 kt; seas 2–3 ft; SE 2 ft at 5 sec; light chop; showers and thunderstorms possible.",
+    "storm_outlook": "No active Atlantic cyclone. Fay's remnants have near-zero redevelopment odds and pose no threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Broadcom offers Anthropic $42 billion financing",
-      "summary": "Broadcom agreed to lend Anthropic up to $42 billion toward a $125.2 billion TPU-compute lease. Anthropic disclosed potential conflicts from relying on one company as both supplier and financier.",
+      "headline": "AI investment race faces a revenue test",
+      "summary": "AI data-center spending could exceed $30 trillion by 2050, but economists say broad productivity gains remain elusive. Bain estimates builders need $4.2 trillion in new revenue within five years; applications may not arrive fast enough.",
       "source_name": "Reuters",
-      "published_at": "2026-10-01T06:06:00-04:00",
-      "source_url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+      "published_at": "2026-10-03T01:06:00-04:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
     },
     {
       "category": "AI & Regulation",
-      "headline": "California subpoenas OpenAI over cyber risks",
-      "summary": "California's attorney general issued an investigative subpoena over cybersecurity incidents involving OpenAI models. OpenAI had not immediately commented; the inquiry is not a finding of wrongdoing.",
+      "headline": "Trump favors voluntary AI safeguards",
+      "summary": "A White House pact with six AI companies calls for controls and external auditors but states no penalty for noncompliance. Critics question enforceability; supporters see acknowledgment of safety risks.",
       "source_name": "Reuters",
-      "published_at": "2026-10-01T14:11:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/california-attorney-general-issues-investigative-subpoena-openai-2026-10-01/"
+      "published_at": "2026-10-03T06:05:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/"
     },
     {
       "category": "United States",
-      "headline": "Supreme Court takes immigration detention case",
-      "summary": "The court will review a policy requiring detention without bond hearings for millions of immigrants during deportation cases. Lower courts largely rejected the policy; arguments come in the new term.",
+      "headline": "US plans $90 payments for 20 million seniors",
+      "summary": "President Trump said eligible Medicare enrollees will receive a one-time $90 payment in early October from the Medicare Improvement Fund. The White House says payments will arrive by deposit or check.",
       "source_name": "Reuters",
-      "published_at": "2026-10-01T09:40:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-supreme-court-hear-clash-over-trumps-immigration-detention-policy-2026-10-01/"
-    },
-    {
-      "category": "World & Economy",
-      "headline": "Oil jumps as Middle East risks and shortages grow",
-      "summary": "Brent settled above $102 after reports of more US forces heading to the Middle East and China's suspension of most fuel exports. Gulf exports are recovering, leaving the supply outlook mixed.",
-      "source_name": "Reuters",
-      "published_at": "2026-09-30T21:10:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/"
+      "published_at": "2026-10-03T00:51:00-04:00",
+      "source_url": "https://www.reuters.com/world/trump-says-us-send-one-time-90-payment-20-million-seniors-enrolled-medicare-2026-10-03/"
     },
     {
       "category": "World Security",
-      "headline": "Russia issues nuclear warning over Kaliningrad",
-      "summary": "Russia warned NATO it could use nuclear weapons if the alliance tried to isolate Kaliningrad. NATO rejected the premise and urged Moscow to stop its nuclear rhetoric; analysts warned of miscalculation.",
+      "headline": "Russia strikes another major Kyiv bridge",
+      "summary": "Kyiv's Northern Bridge was damaged in an air attack after repeated strikes on the Southern Bridge. Traffic was suspended; no casualties were reported. Ukraine expects a winter campaign against key infrastructure.",
       "source_name": "Reuters",
-      "published_at": "2026-09-30T05:41:00-04:00",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/russia-issues-nuclear-warning-nato-tensions-rise-baltic-2026-09-30/"
+      "published_at": "2026-10-03T01:36:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+    },
+    {
+      "category": "World Security",
+      "headline": "Saudi Arabia plans offensive against Houthis",
+      "summary": "Six sources told Reuters that Riyadh is weighing a coastal or multi-front operation to retake the Bab el-Mandeb route. Timing and scope remain uncertain, and Saudi, Yemeni and Houthi officials did not comment.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-02T14:13:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
     }
   ],
-  "sources_checked_at": "2026-10-02T06:46:00-04:00"
+  "sources_checked_at": "2026-10-03T06:28:37-04:00"
 }
