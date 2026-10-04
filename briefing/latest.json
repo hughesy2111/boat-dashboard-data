@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-03",
-  "generated_at": "2026-10-03T06:28:37-04:00",
+  "briefing_date": "2026-10-04",
+  "generated_at": "2026-10-04T06:27:47-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair, 79°F; SE 4 kt; visibility 10 mi (observed)",
-    "temperature_f": 79,
-    "forecast_wind_min_kt": 3,
+    "condition": "Fog/mist, 75°F; calm; visibility 4 mi (observed)",
+    "temperature_f": 75,
+    "forecast_wind_min_kt": 1,
     "forecast_wind_max_kt": 6,
     "forecast_gust_max_kt": 6,
-    "forecast_wind_direction_start": "SE",
-    "forecast_wind_direction_end": "E",
-    "storm_timing": "Forecast: storms possible all day; peak rain chance 1–3 PM",
+    "forecast_wind_direction_start": "S",
+    "forecast_wind_direction_end": "SE",
+    "storm_timing": "Forecast: storms possible after 7 AM; rain peaks tonight",
     "alert_status": "Moderate Rip Current Risk",
-    "best_window": "No clean window; check radar before any departure",
+    "best_window": "After fog lifts through 10 AM; monitor radar",
     "confidence_10": 8,
     "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "8:33 AM",
-        "height_ft": 0.95
+        "time": "9:41 AM",
+        "height_ft": 1.11
       },
       {
         "type": "high",
-        "time": "2:51 PM",
-        "height_ft": 8.23
+        "time": "4:02 PM",
+        "height_ft": 8.01
       },
       {
         "type": "low",
-        "time": "9:25 PM",
-        "height_ft": 1.27
+        "time": "10:29 PM",
+        "height_ft": 1.25
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-03T02:21:00-04:00",
+    "forecast_updated_at": "2026-10-04T02:35:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "SE",
-        "rain_percent": 34
+        "wind_kt": 2,
+        "gust_kt": 2,
+        "wind_direction": "S",
+        "rain_percent": 13
       },
       {
         "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 3,
+        "wind_kt": 2,
+        "gust_kt": 2,
         "wind_direction": "S",
-        "rain_percent": 48
+        "rain_percent": 18
       },
       {
         "time": "NOON",
         "wind_kt": 5,
         "gust_kt": 5,
-        "wind_direction": "SE",
-        "rain_percent": 54
+        "wind_direction": "S",
+        "rain_percent": 29
       },
       {
         "time": "3 PM",
         "wind_kt": 6,
         "gust_kt": 6,
         "wind_direction": "SE",
-        "rain_percent": 55
+        "rain_percent": 53
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "E",
-        "rain_percent": 41
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "SE",
+        "rain_percent": 65
       }
     ],
-    "marine_summary": "Forecast: SE 5–10 kt; seas 2–3 ft; SE 2 ft at 5 sec; light chop; showers and thunderstorms possible.",
-    "storm_outlook": "No active Atlantic cyclone. Fay's remnants have near-zero redevelopment odds and pose no threat to Coastal Georgia."
+    "marine_summary": "Forecast: SE 5–10 kt; seas 2–3 ft; SE 2 ft at 6 sec; light chop; showers and thunderstorms possible.",
+    "storm_outlook": "No active cyclone. A southwest Gulf low has near-0% odds in 48 hours and 30% in 7 days; no Coastal Georgia threat now."
   },
   "stories": [
     {
-      "category": "AI & Technology",
-      "headline": "AI investment race faces a revenue test",
-      "summary": "AI data-center spending could exceed $30 trillion by 2050, but economists say broad productivity gains remain elusive. Bain estimates builders need $4.2 trillion in new revenue within five years; applications may not arrive fast enough.",
+      "category": "AI & Government",
+      "headline": "Intelligence chief reportedly named AI czar",
+      "summary": "The Wall Street Journal reported that DNI Jay Clayton will lead a White House AI task force and deliver recommendations within 120 days. The panel will review AI risks, incident reporting and federal response capabilities.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T01:06:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
+      "published_at": "2026-10-03T18:46:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/"
     },
     {
-      "category": "AI & Regulation",
-      "headline": "Trump favors voluntary AI safeguards",
-      "summary": "A White House pact with six AI companies calls for controls and external auditors but states no penalty for noncompliance. Critics question enforceability; supporters see acknowledgment of safety risks.",
+      "category": "AI & Safety",
+      "headline": "OpenAI safety employee resigns with warning",
+      "summary": "Former safety employee David Robinson said OpenAI's rapid-release culture creates unacceptable risk. OpenAI says it holds back models when necessary and works to keep capabilities within safe limits.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T06:05:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/"
+      "published_at": "2026-10-03T15:00:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/openai-safety-employee-quits-says-time-trial-error-is-over-2026-10-03/"
     },
     {
       "category": "United States",
-      "headline": "US plans $90 payments for 20 million seniors",
-      "summary": "President Trump said eligible Medicare enrollees will receive a one-time $90 payment in early October from the Medicare Improvement Fund. The White House says payments will arrive by deposit or check.",
+      "headline": "Supreme Court opens with major climate case",
+      "summary": "Exxon and Suncor seek dismissal of Boulder's climate-damages lawsuit, arguing federal law precludes its state claims. The ruling could affect roughly 60 similar cases; Justice Samuel Alito recused himself.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T00:51:00-04:00",
-      "source_url": "https://www.reuters.com/world/trump-says-us-send-one-time-90-payment-20-million-seniors-enrolled-medicare-2026-10-03/"
+      "published_at": "2026-10-04T06:05:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/us-supreme-court-kick-off-term-with-bid-by-big-oil-toss-climate-suits-2026-10-04/"
+    },
+    {
+      "category": "World Politics",
+      "headline": "Brazil votes in closely divided election",
+      "summary": "President Lula and Senator Flavio Bolsonaro lead a polarized first-round vote shaped by corruption allegations and economic anxiety. Polls show a likely October 25 runoff, with neither side assured victory.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-04T06:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/americas/brazilians-head-polls-high-stakes-polarized-election-2026-10-04/"
     },
     {
       "category": "World Security",
-      "headline": "Russia strikes another major Kyiv bridge",
-      "summary": "Kyiv's Northern Bridge was damaged in an air attack after repeated strikes on the Southern Bridge. Traffic was suspended; no casualties were reported. Ukraine expects a winter campaign against key infrastructure.",
+      "headline": "Germany expands Ukraine aid as Kyiv is attacked",
+      "summary": "Chancellor Friedrich Merz arrived in Kyiv amid air alerts and explosions. Germany plans €1 billion in military aid, €350 million for energy repairs and a drone-production agreement as Russian strikes intensify.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T01:36:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
-    },
-    {
-      "category": "World Security",
-      "headline": "Saudi Arabia plans offensive against Houthis",
-      "summary": "Six sources told Reuters that Riyadh is weighing a coastal or multi-front operation to retake the Bab el-Mandeb route. Timing and scope remain uncertain, and Saudi, Yemeni and Houthi officials did not comment.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-02T14:13:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+      "published_at": "2026-10-04T00:53:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/germanys-merz-arrives-kyiv-finalize-drone-deal-release-aid-2026-10-04/"
     }
   ],
-  "sources_checked_at": "2026-10-03T06:28:37-04:00"
+  "sources_checked_at": "2026-10-04T06:27:47-04:00"
 }
