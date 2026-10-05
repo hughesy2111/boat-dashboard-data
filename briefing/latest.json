@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-04",
-  "generated_at": "2026-10-04T06:27:47-04:00",
+  "briefing_date": "2026-10-05",
+  "generated_at": "2026-10-05T06:26:26-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist, 75°F; calm; visibility 4 mi (observed)",
+    "condition": "Fog/mist, 75°F; calm; visibility 5 mi (observed)",
     "temperature_f": 75,
-    "forecast_wind_min_kt": 1,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 6,
-    "forecast_wind_direction_start": "S",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: storms possible after 7 AM; rain peaks tonight",
-    "alert_status": "Moderate Rip Current Risk",
-    "best_window": "After fog lifts through 10 AM; monitor radar",
-    "confidence_10": 8,
+    "forecast_wind_min_kt": 3,
+    "forecast_wind_max_kt": 7,
+    "forecast_gust_max_kt": 13,
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "NE",
+    "storm_timing": "Forecast: showers increase after 9 AM; storms most likely 2–7 PM",
+    "alert_status": "Small Craft Advisory tonight; Gale Watch Tue–Wed",
+    "best_window": "Wait for fog to lift; no clean window after midmorning",
+    "confidence_10": 9,
     "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "9:41 AM",
-        "height_ft": 1.11
+        "time": "10:47 AM",
+        "height_ft": 1.1
       },
       {
         "type": "high",
-        "time": "4:02 PM",
-        "height_ft": 8.01
+        "time": "5:13 PM",
+        "height_ft": 7.93
       },
       {
         "type": "low",
-        "time": "10:29 PM",
-        "height_ft": 1.25
+        "time": "11:29 PM",
+        "height_ft": 1.11
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-04T02:35:00-04:00",
+    "forecast_updated_at": "2026-10-05T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 2,
-        "gust_kt": 2,
-        "wind_direction": "S",
-        "rain_percent": 13
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "N",
+        "rain_percent": 26
       },
       {
         "time": "9 AM",
-        "wind_kt": 2,
-        "gust_kt": 2,
-        "wind_direction": "S",
-        "rain_percent": 18
+        "wind_kt": 5,
+        "gust_kt": 5,
+        "wind_direction": "N",
+        "rain_percent": 46
       },
       {
         "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "S",
-        "rain_percent": 29
+        "wind_kt": 6,
+        "gust_kt": 6,
+        "wind_direction": "N",
+        "rain_percent": 81
       },
       {
         "time": "3 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "SE",
-        "rain_percent": 53
+        "wind_kt": 7,
+        "gust_kt": 7,
+        "wind_direction": "N",
+        "rain_percent": 73
       },
       {
         "time": "6 PM",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "SE",
-        "rain_percent": 65
+        "wind_kt": 7,
+        "gust_kt": 13,
+        "wind_direction": "NE",
+        "rain_percent": 60
       }
     ],
-    "marine_summary": "Forecast: SE 5–10 kt; seas 2–3 ft; SE 2 ft at 6 sec; light chop; showers and thunderstorms possible.",
-    "storm_outlook": "No active cyclone. A southwest Gulf low has near-0% odds in 48 hours and 30% in 7 days; no Coastal Georgia threat now."
+    "marine_summary": "Forecast: N 5–10 kt becoming NE 10–15; seas 2–3 ft; moderate chop; showers likely with thunderstorms possible.",
+    "storm_outlook": "No active cyclone. Southwest Gulf trough has 10% formation odds in 48 hours and 50% in 7 days; no current Coastal Georgia threat."
   },
   "stories": [
     {
-      "category": "AI & Government",
-      "headline": "Intelligence chief reportedly named AI czar",
-      "summary": "The Wall Street Journal reported that DNI Jay Clayton will lead a White House AI task force and deliver recommendations within 120 days. The panel will review AI risks, incident reporting and federal response capabilities.",
+      "category": "AI & Safety",
+      "headline": "Former Anthropic researcher to testify on AI risks",
+      "summary": "Jacob Coxon is expected to testify at a New York City Council hearing as lawmakers consider AI-safety bills. Reuters could not independently verify Bloomberg's report; Coxon has accused leading labs of taking reckless risks.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T18:46:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/"
+      "published_at": "2026-10-04T16:46:00-04:00",
+      "source_url": "https://www.reuters.com/business/former-anthropic-researcher-coxon-testify-new-york-city-ai-hearing-bloomberg-2026-10-04/"
     },
     {
-      "category": "AI & Safety",
-      "headline": "OpenAI safety employee resigns with warning",
-      "summary": "Former safety employee David Robinson said OpenAI's rapid-release culture creates unacceptable risk. OpenAI says it holds back models when necessary and works to keep capabilities within safe limits.",
+      "category": "Technology & Trade",
+      "headline": "China's LOGINK shipping-data platform fades",
+      "summary": "Reuters found the state-backed logistics platform's global partnerships stalled and its Wenzhou hub apparently abandoned. US pressure coincided with the retreat, but Reuters could not establish why the project abruptly went dark.",
       "source_name": "Reuters",
-      "published_at": "2026-10-03T15:00:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/openai-safety-employee-quits-says-time-trial-error-is-over-2026-10-03/"
+      "published_at": "2026-10-05T06:01:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/us-said-china-was-priming-trade-superweapon-then-it-vanished-2026-10-05/"
     },
     {
       "category": "United States",
-      "headline": "Supreme Court opens with major climate case",
-      "summary": "Exxon and Suncor seek dismissal of Boulder's climate-damages lawsuit, arguing federal law precludes its state claims. The ruling could affect roughly 60 similar cases; Justice Samuel Alito recused himself.",
+      "headline": "US employment is full but less dynamic",
+      "summary": "Unemployment is 4.2% and layoffs remain low, but hiring, workforce growth and inflation-adjusted income gains are weak. Reuters says the mixed picture helps explain poor voter sentiment ahead of November's midterms.",
       "source_name": "Reuters",
-      "published_at": "2026-10-04T06:05:00-04:00",
-      "source_url": "https://www.reuters.com/legal/government/us-supreme-court-kick-off-term-with-bid-by-big-oil-toss-climate-suits-2026-10-04/"
+      "published_at": "2026-10-05T06:04:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/us-goes-into-midterm-elections-with-less-dynamic-form-full-employment-2026-10-05/"
     },
     {
       "category": "World Politics",
-      "headline": "Brazil votes in closely divided election",
-      "summary": "President Lula and Senator Flavio Bolsonaro lead a polarized first-round vote shaped by corruption allegations and economic anxiety. Polls show a likely October 25 runoff, with neither side assured victory.",
+      "headline": "Spain calls snap election for November 29",
+      "summary": "Prime Minister Pedro Sanchez called an early vote after parliament rejected housing decrees. His Socialists trail in most polls, making the election a high-risk attempt to break legislative deadlock.",
       "source_name": "Reuters",
-      "published_at": "2026-10-04T06:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/americas/brazilians-head-polls-high-stakes-polarized-election-2026-10-04/"
+      "published_at": "2026-10-05T02:26:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/spanish-pm-sanchez-make-morning-announcement-amid-speculation-about-early-2026-10-05/"
     },
     {
-      "category": "World Security",
-      "headline": "Germany expands Ukraine aid as Kyiv is attacked",
-      "summary": "Chancellor Friedrich Merz arrived in Kyiv amid air alerts and explosions. Germany plans €1 billion in military aid, €350 million for energy repairs and a drone-production agreement as Russian strikes intensify.",
+      "category": "World Economy",
+      "headline": "Oil bottlenecks persist despite export rebound",
+      "summary": "Hormuz crude flows recovered to nearly 80% of prewar levels, but record tanker rates, insurance costs and lost refining capacity keep prices elevated. The analysis is Reuters commentary, not a supply forecast.",
       "source_name": "Reuters",
-      "published_at": "2026-10-04T00:53:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/germanys-merz-arrives-kyiv-finalize-drone-deal-release-aid-2026-10-04/"
+      "published_at": "2026-10-05T02:00:00-04:00",
+      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/oils-new-problem-isnt-supply-its-logistics-2026-10-05/"
     }
   ],
-  "sources_checked_at": "2026-10-04T06:27:47-04:00"
+  "sources_checked_at": "2026-10-05T06:26:26-04:00"
 }
