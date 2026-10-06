@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-05",
-  "generated_at": "2026-10-05T06:26:26-04:00",
+  "briefing_date": "2026-10-06",
+  "generated_at": "2026-10-06T06:25:21-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist, 75°F; calm; visibility 5 mi (observed)",
-    "temperature_f": 75,
-    "forecast_wind_min_kt": 3,
-    "forecast_wind_max_kt": 7,
-    "forecast_gust_max_kt": 13,
-    "forecast_wind_direction_start": "N",
+    "condition": "Overcast, 73°F; N 7 kt; visibility 10 mi (observed)",
+    "temperature_f": 73,
+    "forecast_wind_min_kt": 11,
+    "forecast_wind_max_kt": 17,
+    "forecast_gust_max_kt": 27,
+    "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: showers increase after 9 AM; storms most likely 2–7 PM",
-    "alert_status": "Small Craft Advisory tonight; Gale Watch Tue–Wed",
-    "best_window": "Wait for fog to lift; no clean window after midmorning",
+    "storm_timing": "Forecast: showers all day; thunderstorms possible through evening",
+    "alert_status": "Small Craft Advisory; High Surf and Rip Current alerts",
+    "best_window": "No favorable window; remain in protected waters",
     "confidence_10": 9,
     "recheck_at": "9:00 AM",
     "tides": [
       {
+        "type": "high",
+        "time": "5:47 AM",
+        "height_ft": 7.32
+      },
+      {
         "type": "low",
-        "time": "10:47 AM",
-        "height_ft": 1.1
+        "time": "11:49 AM",
+        "height_ft": 0.99
       },
       {
         "type": "high",
-        "time": "5:13 PM",
-        "height_ft": 7.93
-      },
-      {
-        "type": "low",
-        "time": "11:29 PM",
-        "height_ft": 1.11
+        "time": "6:18 PM",
+        "height_ft": 7.98
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-05T02:21:00-04:00",
+    "forecast_updated_at": "2026-10-06T02:20:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "N",
-        "rain_percent": 26
+        "wind_kt": 11,
+        "gust_kt": 15,
+        "wind_direction": "NE",
+        "rain_percent": 77
       },
       {
         "time": "9 AM",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "N",
-        "rain_percent": 46
+        "wind_kt": 12,
+        "gust_kt": 16,
+        "wind_direction": "NE",
+        "rain_percent": 75
       },
       {
         "time": "NOON",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "N",
-        "rain_percent": 81
+        "wind_kt": 13,
+        "gust_kt": 19,
+        "wind_direction": "NE",
+        "rain_percent": 83
       },
       {
         "time": "3 PM",
-        "wind_kt": 7,
-        "gust_kt": 7,
-        "wind_direction": "N",
-        "rain_percent": 73
+        "wind_kt": 15,
+        "gust_kt": 24,
+        "wind_direction": "NE",
+        "rain_percent": 84
       },
       {
         "time": "6 PM",
-        "wind_kt": 7,
-        "gust_kt": 13,
+        "wind_kt": 17,
+        "gust_kt": 27,
         "wind_direction": "NE",
-        "rain_percent": 60
+        "rain_percent": 68
       }
     ],
-    "marine_summary": "Forecast: N 5–10 kt becoming NE 10–15; seas 2–3 ft; moderate chop; showers likely with thunderstorms possible.",
-    "storm_outlook": "No active cyclone. Southwest Gulf trough has 10% formation odds in 48 hours and 50% in 7 days; no current Coastal Georgia threat."
+    "marine_summary": "Forecast: NE 20–25 kt, increasing to 25–30; seas 5–7 ft building 6–9 ft, occasionally 11; very rough; showers and storms.",
+    "storm_outlook": "AL92 in the southwest Gulf has 80% formation odds in 48 hours and 7 days. Northern Gulf impacts remain uncertain; monitor closely."
   },
   "stories": [
     {
-      "category": "AI & Safety",
-      "headline": "Former Anthropic researcher to testify on AI risks",
-      "summary": "Jacob Coxon is expected to testify at a New York City Council hearing as lawmakers consider AI-safety bills. Reuters could not independently verify Bloomberg's report; Coxon has accused leading labs of taking reckless risks.",
+      "category": "AI & Regulation",
+      "headline": "AI labs support mandatory breach reporting",
+      "summary": "OpenAI and Anthropic told Australia's parliament they support mandatory disclosure rules after OpenAI waited three months to report an agent's health-portal breach. The inquiry is also weighing AI copyright and data-center rules.",
       "source_name": "Reuters",
-      "published_at": "2026-10-04T16:46:00-04:00",
-      "source_url": "https://www.reuters.com/business/former-anthropic-researcher-coxon-testify-new-york-city-ai-hearing-bloomberg-2026-10-04/"
+      "published_at": "2026-10-05T20:15:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-2026-10-06/"
     },
     {
-      "category": "Technology & Trade",
-      "headline": "China's LOGINK shipping-data platform fades",
-      "summary": "Reuters found the state-backed logistics platform's global partnerships stalled and its Wenzhou hub apparently abandoned. US pressure coincided with the retreat, but Reuters could not establish why the project abruptly went dark.",
+      "category": "AI & Technology",
+      "headline": "Mistral claims cybersecurity lead over Chinese AI",
+      "summary": "Mistral CEO Arthur Mensch says its new model beats Chinese rivals in some cybersecurity tests. He did not name the models or metrics, so the performance claim cannot yet be independently assessed.",
       "source_name": "Reuters",
-      "published_at": "2026-10-05T06:01:00-04:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/us-said-china-was-priming-trade-superweapon-then-it-vanished-2026-10-05/"
+      "published_at": "2026-10-06T04:29:00-04:00",
+      "source_url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
     },
     {
       "category": "United States",
-      "headline": "US employment is full but less dynamic",
-      "summary": "Unemployment is 4.2% and layoffs remain low, but hiring, workforce growth and inflation-adjusted income gains are weak. Reuters says the mixed picture helps explain poor voter sentiment ahead of November's midterms.",
+      "headline": "Disney challenges FCC's early license review",
+      "summary": "A federal judge will hear Disney's attempt to block early FCC reviews of eight ABC station licenses. Disney calls the action political retaliation; the case tests broadcasters' First Amendment protections.",
       "source_name": "Reuters",
-      "published_at": "2026-10-05T06:04:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/us-goes-into-midterm-elections-with-less-dynamic-form-full-employment-2026-10-05/"
+      "published_at": "2026-10-06T06:04:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/us-judge-hold-hearing-disney-bid-block-fcc-license-review-2026-10-06/"
     },
     {
-      "category": "World Politics",
-      "headline": "Spain calls snap election for November 29",
-      "summary": "Prime Minister Pedro Sanchez called an early vote after parliament rejected housing decrees. His Socialists trail in most polls, making the election a high-risk attempt to break legislative deadlock.",
+      "category": "World Security",
+      "headline": "Lithuania moves toward allowing nuclear arms",
+      "summary": "Lithuania's parliament backed the first of two votes needed to remove its constitutional ban on hosting nuclear weapons. Russia called the move escalatory; the measure is not yet final.",
       "source_name": "Reuters",
-      "published_at": "2026-10-05T02:26:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/spanish-pm-sanchez-make-morning-announcement-amid-speculation-about-early-2026-10-05/"
+      "published_at": "2026-10-06T06:08:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/kremlin-warns-lithuania-that-its-move-lift-nuclear-arms-ban-risks-further-2026-10-06/"
     },
     {
       "category": "World Economy",
-      "headline": "Oil bottlenecks persist despite export rebound",
-      "summary": "Hormuz crude flows recovered to nearly 80% of prewar levels, but record tanker rates, insurance costs and lost refining capacity keep prices elevated. The analysis is Reuters commentary, not a supply forecast.",
+      "headline": "Middle East oil exports steady near 14 million bpd",
+      "summary": "Vitol says roughly 12 million barrels of crude and 2 million barrels of refined products have left the region daily. Its CEO warned a major interruption could sharply destabilize markets; that is a risk scenario, not a forecast.",
       "source_name": "Reuters",
-      "published_at": "2026-10-05T02:00:00-04:00",
-      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/oils-new-problem-isnt-supply-its-logistics-2026-10-05/"
+      "published_at": "2026-10-06T05:58:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/around-14-million-bpd-leaving-middle-east-vitol-ceo-says-2026-10-06/"
     }
   ],
-  "sources_checked_at": "2026-10-05T06:26:26-04:00"
+  "sources_checked_at": "2026-10-06T06:25:21-04:00"
 }
