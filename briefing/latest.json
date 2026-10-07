@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-06",
-  "generated_at": "2026-10-06T06:25:21-04:00",
+  "briefing_date": "2026-10-07",
+  "generated_at": "2026-10-07T06:30:03-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Overcast, 73°F; N 7 kt; visibility 10 mi (observed)",
-    "temperature_f": 73,
-    "forecast_wind_min_kt": 11,
-    "forecast_wind_max_kt": 17,
-    "forecast_gust_max_kt": 27,
+    "condition": "Mostly cloudy, 75°F; NE 7 kt gust 13; visibility 10 mi (observed)",
+    "temperature_f": 75,
+    "forecast_wind_min_kt": 12,
+    "forecast_wind_max_kt": 15,
+    "forecast_gust_max_kt": 23,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: showers all day; thunderstorms possible through evening",
-    "alert_status": "Small Craft Advisory; High Surf and Rip Current alerts",
-    "best_window": "No favorable window; remain in protected waters",
+    "storm_timing": "Forecast: morning showers taper by late afternoon; no thunder signal",
+    "alert_status": "Small Craft Advisory; High Rip Current Risk",
+    "best_window": "No favorable window; seas 5–7 ft, occasionally 9 ft",
     "confidence_10": 9,
     "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "5:47 AM",
-        "height_ft": 7.32
+        "time": "6:49 AM",
+        "height_ft": 7.74
       },
       {
         "type": "low",
-        "time": "11:49 AM",
-        "height_ft": 0.99
+        "time": "12:47 PM",
+        "height_ft": 0.83
       },
       {
         "type": "high",
-        "time": "6:18 PM",
-        "height_ft": 7.98
+        "time": "7:14 PM",
+        "height_ft": 8.07
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-06T02:20:00-04:00",
+    "forecast_updated_at": "2026-10-07T02:20:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 11,
-        "gust_kt": 15,
+        "wind_kt": 12,
+        "gust_kt": 18,
         "wind_direction": "NE",
-        "rain_percent": 77
+        "rain_percent": 36
       },
       {
         "time": "9 AM",
-        "wind_kt": 12,
-        "gust_kt": 16,
+        "wind_kt": 13,
+        "gust_kt": 20,
         "wind_direction": "NE",
-        "rain_percent": 75
+        "rain_percent": 30
       },
       {
         "time": "NOON",
-        "wind_kt": 13,
-        "gust_kt": 19,
+        "wind_kt": 15,
+        "gust_kt": 22,
         "wind_direction": "NE",
-        "rain_percent": 83
+        "rain_percent": 27
       },
       {
         "time": "3 PM",
         "wind_kt": 15,
-        "gust_kt": 24,
+        "gust_kt": 23,
         "wind_direction": "NE",
-        "rain_percent": 84
+        "rain_percent": 22
       },
       {
         "time": "6 PM",
-        "wind_kt": 17,
-        "gust_kt": 27,
+        "wind_kt": 13,
+        "gust_kt": 21,
         "wind_direction": "NE",
-        "rain_percent": 68
+        "rain_percent": 10
       }
     ],
-    "marine_summary": "Forecast: NE 20–25 kt, increasing to 25–30; seas 5–7 ft building 6–9 ft, occasionally 11; very rough; showers and storms.",
-    "storm_outlook": "AL92 in the southwest Gulf has 80% formation odds in 48 hours and 7 days. Northern Gulf impacts remain uncertain; monitor closely."
+    "marine_summary": "Forecast: NE 15–20 kt; seas 5–7 ft, occasionally 9; NE wave 7 ft at 8 sec; choppy; showers likely.",
+    "storm_outlook": "Tropical Depression Nine may become a hurricane and approach the north-central Gulf Coast Friday; no direct Coastal Georgia threat yet."
   },
   "stories": [
     {
-      "category": "AI & Regulation",
-      "headline": "AI labs support mandatory breach reporting",
-      "summary": "OpenAI and Anthropic told Australia's parliament they support mandatory disclosure rules after OpenAI waited three months to report an agent's health-portal breach. The inquiry is also weighing AI copyright and data-center rules.",
+      "category": "AI & Technology",
+      "headline": "Microsoft and Nvidia unveil local-AI laptop",
+      "summary": "Microsoft plans to unveil the Nvidia-powered Surface Laptop Ultra for running AI agents locally. Analysts say price and safely containing agents on personal computers remain major unanswered questions.",
       "source_name": "Reuters",
-      "published_at": "2026-10-05T20:15:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-2026-10-06/"
+      "published_at": "2026-10-07T06:05:00-04:00",
+      "source_url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
     },
     {
-      "category": "AI & Technology",
-      "headline": "Mistral claims cybersecurity lead over Chinese AI",
-      "summary": "Mistral CEO Arthur Mensch says its new model beats Chinese rivals in some cybersecurity tests. He did not name the models or metrics, so the performance claim cannot yet be independently assessed.",
+      "category": "AI & Markets",
+      "headline": "AI labs face a difficult path to profitability",
+      "summary": "Reuters commentary notes Anthropic's 2025 revenue rose to $4.6 billion while its operating loss widened to $8.06 billion. Falling token prices may challenge profit assumptions, though the cited usage index is new and incomplete.",
       "source_name": "Reuters",
-      "published_at": "2026-10-06T04:29:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+      "published_at": "2026-10-07T03:52:00-04:00",
+      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/can-ai-labs-ever-turn-profit-joachim-klement-2026-10-07/"
     },
     {
       "category": "United States",
-      "headline": "Disney challenges FCC's early license review",
-      "summary": "A federal judge will hear Disney's attempt to block early FCC reviews of eight ABC station licenses. Disney calls the action political retaliation; the case tests broadcasters' First Amendment protections.",
+      "headline": "Republicans in tight races distance from Trump",
+      "summary": "A Reuters review found 41 of 62 Republican candidates in competitive congressional races diverged from Trump on policy or played down ties. Most splits concern individual issues rather than rejection of his broader agenda.",
       "source_name": "Reuters",
-      "published_at": "2026-10-06T06:04:00-04:00",
-      "source_url": "https://www.reuters.com/legal/government/us-judge-hold-hearing-disney-bid-block-fcc-license-review-2026-10-06/"
+      "published_at": "2026-10-07T06:03:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/most-republicans-tight-midterm-distance-themselves-trump-reuters-review-finds-2026-10-07/"
     },
     {
       "category": "World Security",
-      "headline": "Lithuania moves toward allowing nuclear arms",
-      "summary": "Lithuania's parliament backed the first of two votes needed to remove its constitutional ban on hosting nuclear weapons. Russia called the move escalatory; the measure is not yet final.",
+      "headline": "Russian attack kills at least 15 in Ukraine",
+      "summary": "Ukrainian officials said Russian missiles and drones killed at least 15 people and damaged homes, industry and energy infrastructure. Russia said it struck military-industrial targets; Reuters witnessed explosions and aftermath.",
       "source_name": "Reuters",
-      "published_at": "2026-10-06T06:08:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/kremlin-warns-lithuania-that-its-move-lift-nuclear-arms-ban-risks-further-2026-10-06/"
+      "published_at": "2026-10-06T21:45:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/"
     },
     {
       "category": "World Economy",
-      "headline": "Middle East oil exports steady near 14 million bpd",
-      "summary": "Vitol says roughly 12 million barrels of crude and 2 million barrels of refined products have left the region daily. Its CEO warned a major interruption could sharply destabilize markets; that is a risk scenario, not a forecast.",
+      "headline": "IEA weighs another oil and diesel reserve release",
+      "summary": "The IEA will discuss releasing oil and diesel stocks as wars constrain supply and lift prices. Diplomats said it remains unclear whether the proposal adds volumes beyond the 400-million-barrel release arranged in March.",
       "source_name": "Reuters",
-      "published_at": "2026-10-06T05:58:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/around-14-million-bpd-leaving-middle-east-vitol-ceo-says-2026-10-06/"
+      "published_at": "2026-10-07T03:09:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/"
     }
   ],
-  "sources_checked_at": "2026-10-06T06:25:21-04:00"
+  "sources_checked_at": "2026-10-07T06:30:03-04:00"
 }
