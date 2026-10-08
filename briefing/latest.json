@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-07",
-  "generated_at": "2026-10-07T06:30:03-04:00",
+  "briefing_date": "2026-10-08",
+  "generated_at": "2026-10-08T06:30:36-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy, 75°F; NE 7 kt gust 13; visibility 10 mi (observed)",
+    "condition": "Mostly cloudy, 75°F; NE 6 kt; visibility 10 mi (observed)",
     "temperature_f": 75,
-    "forecast_wind_min_kt": 12,
-    "forecast_wind_max_kt": 15,
-    "forecast_gust_max_kt": 23,
+    "forecast_wind_min_kt": 9,
+    "forecast_wind_max_kt": 13,
+    "forecast_gust_max_kt": 17,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: morning showers taper by late afternoon; no thunder signal",
-    "alert_status": "Small Craft Advisory; High Rip Current Risk",
-    "best_window": "No favorable window; seas 5–7 ft, occasionally 9 ft",
+    "storm_timing": "Forecast: slight afternoon thunder risk over coastal waters",
+    "alert_status": "High Rip Current Risk through late Saturday",
+    "best_window": "No offshore window; morning is least unfavorable",
     "confidence_10": 9,
-    "recheck_at": "9:00 AM",
+    "recheck_at": "10:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "6:49 AM",
-        "height_ft": 7.74
+        "time": "7:41 AM",
+        "height_ft": 8.16
       },
       {
         "type": "low",
-        "time": "12:47 PM",
-        "height_ft": 0.83
+        "time": "1:41 PM",
+        "height_ft": 0.67
       },
       {
         "type": "high",
-        "time": "7:14 PM",
-        "height_ft": 8.07
+        "time": "8:02 PM",
+        "height_ft": 8.11
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-07T02:20:00-04:00",
+    "forecast_updated_at": "2026-10-08T02:36:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 12,
-        "gust_kt": 18,
+        "wind_kt": 9,
+        "gust_kt": 13,
         "wind_direction": "NE",
-        "rain_percent": 36
+        "rain_percent": 7
       },
       {
         "time": "9 AM",
-        "wind_kt": 13,
-        "gust_kt": 20,
+        "wind_kt": 10,
+        "gust_kt": 15,
         "wind_direction": "NE",
-        "rain_percent": 30
+        "rain_percent": 16
       },
       {
         "time": "NOON",
-        "wind_kt": 15,
-        "gust_kt": 22,
+        "wind_kt": 13,
+        "gust_kt": 17,
         "wind_direction": "NE",
-        "rain_percent": 27
+        "rain_percent": 12
       },
       {
         "time": "3 PM",
-        "wind_kt": 15,
-        "gust_kt": 23,
+        "wind_kt": 12,
+        "gust_kt": 16,
         "wind_direction": "NE",
-        "rain_percent": 22
+        "rain_percent": 6
       },
       {
         "time": "6 PM",
-        "wind_kt": 13,
-        "gust_kt": 21,
+        "wind_kt": 10,
+        "gust_kt": 13,
         "wind_direction": "NE",
-        "rain_percent": 10
+        "rain_percent": 14
       }
     ],
-    "marine_summary": "Forecast: NE 15–20 kt; seas 5–7 ft, occasionally 9; NE wave 7 ft at 8 sec; choppy; showers likely.",
-    "storm_outlook": "Tropical Depression Nine may become a hurricane and approach the north-central Gulf Coast Friday; no direct Coastal Georgia threat yet."
+    "marine_summary": "Forecast: NE 15 kt; seas 4–5 ft, occasionally 6; east wave 5 ft at 8 sec; moderate chop; showers and slight thunder risk.",
+    "storm_outlook": "Hurricane Isaias may strengthen to 110 mph before a northern Gulf Coast landfall. Coastal Georgia faces worsening wind, seas and rain Friday–Saturday."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Microsoft and Nvidia unveil local-AI laptop",
-      "summary": "Microsoft plans to unveil the Nvidia-powered Surface Laptop Ultra for running AI agents locally. Analysts say price and safely containing agents on personal computers remain major unanswered questions.",
+      "headline": "Taiwan exports hit record on AI-chip demand",
+      "summary": "Taiwan's September exports rose 60.9% from a year earlier to a record $87.22 billion, beating forecasts. AI chips and computing products drove the gain, although energy costs and questions about the durability of AI spending remain risks.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T06:05:00-04:00",
-      "source_url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
+      "published_at": "2026-10-08T05:27:00-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/taiwan-september-exports-hit-fresh-monthly-record-ai-demand-us-leads-2026-10-08/"
     },
     {
-      "category": "AI & Markets",
-      "headline": "AI labs face a difficult path to profitability",
-      "summary": "Reuters commentary notes Anthropic's 2025 revenue rose to $4.6 billion while its operating loss widened to $8.06 billion. Falling token prices may challenge profit assumptions, though the cited usage index is new and incomplete.",
+      "category": "AI & Technology",
+      "headline": "Samsung forecasts record $80 billion profit",
+      "summary": "Samsung projected a nearly ninefold rise in quarterly operating profit as AI demand drives a memory-chip shortage. Its shares slipped as investors questioned whether the boom is sustainable; detailed results are due October 29.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T03:52:00-04:00",
-      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/can-ai-labs-ever-turn-profit-joachim-klement-2026-10-07/"
+      "published_at": "2026-10-07T18:48:00-04:00",
+      "source_url": "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/"
     },
     {
-      "category": "United States",
-      "headline": "Republicans in tight races distance from Trump",
-      "summary": "A Reuters review found 41 of 62 Republican candidates in competitive congressional races diverged from Trump on policy or played down ties. Most splits concern individual issues rather than rejection of his broader agenda.",
+      "category": "AI & United States",
+      "headline": "US voters want stronger action on AI risks",
+      "summary": "A Reuters/Ipsos poll found 57% of registered voters say the Trump administration is not taking AI risks seriously enough, while 84% see AI as a threat to workers. The online survey's margin of error was two percentage points.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T06:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/most-republicans-tight-midterm-distance-themselves-trump-reuters-review-finds-2026-10-07/"
+      "published_at": "2026-10-07T06:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/most-us-voters-say-trump-congress-dont-take-ai-risks-seriously-reutersipsos-poll-2026-10-07/"
     },
     {
       "category": "World Security",
-      "headline": "Russian attack kills at least 15 in Ukraine",
-      "summary": "Ukrainian officials said Russian missiles and drones killed at least 15 people and damaged homes, industry and energy infrastructure. Russia said it struck military-industrial targets; Reuters witnessed explosions and aftermath.",
+      "headline": "Ukraine strike death toll rises to at least 32",
+      "summary": "Ukrainian authorities raised the death toll from Russia's missile and drone attack to at least 32, with about 100 injured. Russia said it targeted military-industrial sites; Ukraine reported residential and energy damage.",
       "source_name": "Reuters",
       "published_at": "2026-10-06T21:45:00-04:00",
       "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/"
     },
     {
       "category": "World Economy",
-      "headline": "IEA weighs another oil and diesel reserve release",
-      "summary": "The IEA will discuss releasing oil and diesel stocks as wars constrain supply and lift prices. Diplomats said it remains unclear whether the proposal adds volumes beyond the 400-million-barrel release arranged in March.",
+      "headline": "Hormuz vessel traffic falls after attacks",
+      "summary": "Commodity-vessel transits fell to their lowest level since July 23 after tanker attacks intensified. Crude flow through Hormuz dropped to 74% of its prewar level, although alternative Gulf of Oman and Red Sea exports offset much of the loss.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T03:09:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/"
+      "published_at": "2026-10-07T23:39:00-04:00",
+      "source_url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
     }
   ],
-  "sources_checked_at": "2026-10-07T06:30:03-04:00"
+  "sources_checked_at": "2026-10-08T06:30:36-04:00"
 }
