@@ -1,125 +1,125 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-08",
-  "generated_at": "2026-10-08T06:30:36-04:00",
+  "briefing_date": "2026-10-09",
+  "generated_at": "2026-10-09T06:27:17-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Mostly cloudy, 75°F; NE 6 kt; visibility 10 mi (observed)",
+    "condition": "Mostly cloudy, 75°F; N 8 kt; visibility 9 mi (observed)",
     "temperature_f": 75,
-    "forecast_wind_min_kt": 9,
-    "forecast_wind_max_kt": 13,
-    "forecast_gust_max_kt": 17,
+    "forecast_wind_min_kt": 12,
+    "forecast_wind_max_kt": 19,
+    "forecast_gust_max_kt": 30,
     "forecast_wind_direction_start": "NE",
     "forecast_wind_direction_end": "NE",
-    "storm_timing": "Forecast: slight afternoon thunder risk over coastal waters",
-    "alert_status": "High Rip Current Risk through late Saturday",
-    "best_window": "No offshore window; morning is least unfavorable",
+    "storm_timing": "Forecast: thunderstorms increase sharply after noon",
+    "alert_status": "Small Craft Advisory; High Rip Current Risk",
+    "best_window": "No favorable window; hazardous wind, seas and storms",
     "confidence_10": 9,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "high",
-        "time": "7:41 AM",
-        "height_ft": 8.16
+        "time": "8:26 AM",
+        "height_ft": 8.47
       },
       {
         "type": "low",
-        "time": "1:41 PM",
-        "height_ft": 0.67
+        "time": "2:30 PM",
+        "height_ft": 0.55
       },
       {
         "type": "high",
-        "time": "8:02 PM",
-        "height_ft": 8.11
+        "time": "8:44 PM",
+        "height_ft": 8.07
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-08T02:36:00-04:00",
+    "forecast_updated_at": "2026-10-09T02:21:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 9,
-        "gust_kt": 13,
+        "wind_kt": 12,
+        "gust_kt": 15,
         "wind_direction": "NE",
-        "rain_percent": 7
+        "rain_percent": 51
       },
       {
         "time": "9 AM",
-        "wind_kt": 10,
-        "gust_kt": 15,
+        "wind_kt": 14,
+        "gust_kt": 17,
         "wind_direction": "NE",
-        "rain_percent": 16
+        "rain_percent": 33
       },
       {
         "time": "NOON",
-        "wind_kt": 13,
-        "gust_kt": 17,
+        "wind_kt": 17,
+        "gust_kt": 23,
         "wind_direction": "NE",
-        "rain_percent": 12
+        "rain_percent": 53
       },
       {
         "time": "3 PM",
-        "wind_kt": 12,
-        "gust_kt": 16,
-        "wind_direction": "NE",
-        "rain_percent": 6
+        "wind_kt": 18,
+        "gust_kt": 27,
+        "wind_direction": "E",
+        "rain_percent": 91
       },
       {
         "time": "6 PM",
-        "wind_kt": 10,
-        "gust_kt": 13,
+        "wind_kt": 19,
+        "gust_kt": 30,
         "wind_direction": "NE",
-        "rain_percent": 14
+        "rain_percent": 79
       }
     ],
-    "marine_summary": "Forecast: NE 15 kt; seas 4–5 ft, occasionally 6; east wave 5 ft at 8 sec; moderate chop; showers and slight thunder risk.",
-    "storm_outlook": "Hurricane Isaias may strengthen to 110 mph before a northern Gulf Coast landfall. Coastal Georgia faces worsening wind, seas and rain Friday–Saturday."
+    "marine_summary": "Forecast: E 20–25 kt; seas 4–6 ft building 5–8, occasionally 10; rough; showers and thunderstorms.",
+    "storm_outlook": "Hurricane Isaias is 110 mph and approaching the northern Gulf Coast. Coastal Georgia faces indirect wind, sea, rain and tornado impacts."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Taiwan exports hit record on AI-chip demand",
-      "summary": "Taiwan's September exports rose 60.9% from a year earlier to a record $87.22 billion, beating forecasts. AI chips and computing products drove the gain, although energy costs and questions about the durability of AI spending remain risks.",
+      "headline": "OpenAI fires three researchers after inquiry",
+      "summary": "OpenAI says three researchers violated sensitive-information rules and were dismissed after an internal investigation. The researchers say the action may chill safety concerns; OpenAI says the firings were unrelated to raising safety issues.",
       "source_name": "Reuters",
-      "published_at": "2026-10-08T05:27:00-04:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/taiwan-september-exports-hit-fresh-monthly-record-ai-demand-us-leads-2026-10-08/"
+      "published_at": "2026-10-09T02:30:00-04:00",
+      "source_url": "https://www.reuters.com/business/openai-says-it-has-fired-three-researchers-violating-sensitive-information-2026-10-09/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Samsung forecasts record $80 billion profit",
-      "summary": "Samsung projected a nearly ninefold rise in quarterly operating profit as AI demand drives a memory-chip shortage. Its shares slipped as investors questioned whether the boom is sustainable; detailed results are due October 29.",
+      "headline": "Firmus scraps $5 billion Australian IPO",
+      "summary": "Nvidia-backed Firmus shelved its offering after investors questioned its valuation, debt, execution record and a partner's exit. Firmus will seek private capital; a possible Nasdaq listing remains unconfirmed.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T18:48:00-04:00",
-      "source_url": "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/"
+      "published_at": "2026-10-08T18:12:32-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/"
     },
     {
-      "category": "AI & United States",
-      "headline": "US voters want stronger action on AI risks",
-      "summary": "A Reuters/Ipsos poll found 57% of registered voters say the Trump administration is not taking AI risks seriously enough, while 84% see AI as a threat to workers. The online survey's margin of error was two percentage points.",
+      "category": "United States",
+      "headline": "Poll: 78% blame Trump policies for rising prices",
+      "summary": "A Reuters/Ipsos poll found 78% of US adults assign some blame to Trump policies for rising prices, including majorities across parties. The poll measures opinion, not a causal economic estimate; overall margin of error was two points.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T06:02:00-04:00",
-      "source_url": "https://www.reuters.com/world/most-us-voters-say-trump-congress-dont-take-ai-risks-seriously-reutersipsos-poll-2026-10-07/"
+      "published_at": "2026-10-09T06:02:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/bipartisan-majority-americans-blame-trump-policies-rising-costs-reutersipsos-2026-10-09/"
     },
     {
       "category": "World Security",
-      "headline": "Ukraine strike death toll rises to at least 32",
-      "summary": "Ukrainian authorities raised the death toll from Russia's missile and drone attack to at least 32, with about 100 injured. Russia said it targeted military-industrial sites; Ukraine reported residential and energy damage.",
+      "headline": "Riyadh airport attacks kill three Saudis",
+      "summary": "Saudi authorities said Houthi attacks on Riyadh's airport killed three Saudis, injured several people and damaged an aircraft. Flights resumed, but the strikes mark a serious expansion of the regional conflict.",
       "source_name": "Reuters",
-      "published_at": "2026-10-06T21:45:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/"
+      "published_at": "2026-10-09T05:18:24-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/three-killed-attacks-riyadh-airport-saudi-aviation-authority-says-2026-10-09/"
     },
     {
       "category": "World Economy",
-      "headline": "Hormuz vessel traffic falls after attacks",
-      "summary": "Commodity-vessel transits fell to their lowest level since July 23 after tanker attacks intensified. Crude flow through Hormuz dropped to 74% of its prewar level, although alternative Gulf of Oman and Red Sea exports offset much of the loss.",
+      "headline": "UNCTAD cuts 2026 global growth forecast",
+      "summary": "UNCTAD projects 2.6% global growth in 2026, down from 2.9% in 2025, citing the Middle East energy shock. Its estimate differs modestly from the IMF and World Bank because institutions use different assumptions and timing.",
       "source_name": "Reuters",
-      "published_at": "2026-10-07T23:39:00-04:00",
-      "source_url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+      "published_at": "2026-10-09T05:02:28-04:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/world-economic-growth-slow-26-2026-un-trade-body-says-2026-10-09/"
     }
   ],
-  "sources_checked_at": "2026-10-08T06:30:36-04:00"
+  "sources_checked_at": "2026-10-09T06:27:17-04:00"
 }
