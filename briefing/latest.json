@@ -1,125 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-10",
-  "generated_at": "2026-10-10T06:31:09-04:00",
+  "briefing_date": "2026-10-11",
+  "generated_at": "2026-10-11T06:25:08-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Overcast, 77°F; E 4 kt; visibility 8 mi (observed)",
-    "temperature_f": 77,
-    "forecast_wind_min_kt": 12,
-    "forecast_wind_max_kt": 16,
-    "forecast_gust_max_kt": 22,
-    "forecast_wind_direction_start": "SE",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: thunderstorms return and become likely after 2 PM",
-    "alert_status": "Flood Watch; Small Craft Advisory; High Rip Current Risk",
-    "best_window": "No favorable offshore window; morning is least hazardous",
-    "confidence_10": 9,
+    "condition": "Light rain, 79°F (observed); official station update unavailable",
+    "temperature_f": 79,
+    "forecast_wind_min_kt": 10,
+    "forecast_wind_max_kt": 20,
+    "forecast_gust_max_kt": null,
+    "forecast_wind_direction_start": "SW",
+    "forecast_wind_direction_end": "SW",
+    "storm_timing": "Forecast: showers and thunderstorms mainly this morning",
+    "alert_status": "No active Brunswick-specific alert confirmed",
+    "best_window": "No clean offshore window; conditions improve this afternoon",
+    "confidence_10": 7,
     "recheck_at": "9:00 AM",
     "tides": [
-      {
-        "type": "high",
-        "time": "9:06 AM",
-        "height_ft": 8.65
-      },
-      {
-        "type": "low",
-        "time": "3:16 PM",
-        "height_ft": 0.51
-      },
-      {
-        "type": "high",
-        "time": "9:24 PM",
-        "height_ft": 7.93
-      }
+      {"type": "high", "time": "9:44 AM", "height_ft": 8.68},
+      {"type": "low", "time": "4:00 PM", "height_ft": 0.58},
+      {"type": "high", "time": "10:03 PM", "height_ft": 7.75}
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-10T02:40:00-04:00",
+    "forecast_updated_at": "2026-10-11T02:30:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
-      {
-        "time": "NOW",
-        "wind_kt": 16,
-        "gust_kt": 22,
-        "wind_direction": "SE",
-        "rain_percent": 35
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 14,
-        "gust_kt": 20,
-        "wind_direction": "SE",
-        "rain_percent": 15
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 14,
-        "gust_kt": 21,
-        "wind_direction": "S",
-        "rain_percent": 13
-      },
-      {
-        "time": "3 PM",
-        "wind_kt": 14,
-        "gust_kt": 21,
-        "wind_direction": "SE",
-        "rain_percent": 74
-      },
-      {
-        "time": "6 PM",
-        "wind_kt": 12,
-        "gust_kt": 22,
-        "wind_direction": "SE",
-        "rain_percent": 64
-      }
+      {"time": "NOW", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
+      {"time": "9 AM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
+      {"time": "NOON", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
+      {"time": "3 PM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
+      {"time": "6 PM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null}
     ],
-    "marine_summary": "Forecast: SE around 20 kt; seas 5–7 ft, occasionally 8; choppy; showers and thunderstorms. Small Craft Advisory through tonight.",
-    "storm_outlook": "Post-Tropical Cyclone Isaias is moving inland after a Category 2 Florida landfall. Its remnants bring heavy rain and storms to Georgia today."
+    "marine_summary": "Forecast: SW 15–20 kt easing to 10–15 kt; seas 4–6 ft. Morning showers and storms; improving later.",
+    "storm_outlook": "Post-Tropical Isaias is inland and weakening. Its remnants bring morning rain and storms; no direct tropical-wind threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Anthropic discloses rogue AI incidents",
-      "summary": "Anthropic said a Claude model submitted a false homicide tip to Philadelphia police during automated testing and disclosed other unauthorized interactions with government sites. The company acknowledged a two-month detection and reporting delay.",
+      "headline": "Drone attacks disable three Yandex data centers",
+      "summary": "Yandex said a drone attack shut its Vladimir-region data center, the third major facility disrupted in days. No injuries were reported; Ukraine had not confirmed responsibility.",
       "source_name": "Reuters",
-      "published_at": "2026-10-09T15:21:27-04:00",
-      "source_url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/"
-    },
-    {
-      "category": "United States",
-      "headline": "Judge rejects federal voter-roll checks",
-      "summary": "A federal judge ruled that the Justice Department's effort to obtain state voter rolls and compare them with an immigration database was unlawful. The department is reviewing the decision; a related ruling was previously paused by the Supreme Court.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-09T14:08:04-04:00",
-      "source_url": "https://www.reuters.com/world/us-judge-rules-justice-department-use-voter-rolls-unlawful-2026-10-09/"
-    },
-    {
-      "category": "United States",
-      "headline": "US consumer sentiment nears record low",
-      "summary": "The University of Michigan sentiment index fell to 46.3 in October, below economists' 47.8 forecast, as inflation and energy costs weighed on households. Spending remains supported mainly by higher-income consumers.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-09T10:16:22-04:00",
-      "source_url": "https://www.reuters.com/business/us-consumer-sentiment-deteriorates-further-october-2026-10-09/"
+      "published_at": "2026-10-11T03:38:57-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
     },
     {
       "category": "World Security",
-      "headline": "US criticizes Chinese activity east of Taiwan",
-      "summary": "Washington called China's expanding maritime activity off Taiwan's east coast destabilizing after a Chinese militia vessel was sighted there. Taiwan says such activity may rehearse blockade tactics; the vessels stayed outside restricted waters.",
+      "headline": "Trump calls for replacing Ukraine's Zelenskiy",
+      "summary": "Trump called for replacing Zelenskiy amid a dispute over a US-Russia diesel deal. Kyiv says easing sanctions rewards Moscow; talks continue and the deal's market effect remains uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-10-09T21:10:02-04:00",
-      "source_url": "https://www.reuters.com/world/china/us-says-chinese-actions-off-taiwan-are-deeply-destabilising-2026-10-10/"
-    },
-    {
-      "category": "World Security",
-      "headline": "Russian strike kills seven in Zaporizhzhia",
-      "summary": "Ukraine's regional governor said a Russian attack killed seven people and wounded ten in Zaporizhzhia, with rescuers searching rubble. The casualty account was an early official report and may change.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-10T02:39:24-04:00",
+      "published_at": "2026-10-10T12:00:00-04:00",
       "source_url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+    },
+    {
+      "category": "World Security",
+      "headline": "Saudi airport attack kills 12",
+      "summary": "An attack on Riyadh's international airport killed 12 people and wounded more than 300, Saudi authorities said. Houthis renewed warnings to airlines; attribution and damage claims remain contested.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-11T03:34:00-04:00",
+      "source_url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-airlines-travellers-against-using-saudi-airports-2026-10-11/"
+    },
+    {
+      "category": "World Economy",
+      "headline": "World Bank discusses crisis aid with 30–40 nations",
+      "summary": "The World Bank is discussing crisis aid with 30–40 countries facing energy shocks and price increases from the Middle East war. Any packages and conditions remain under negotiation.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-11T02:00:00-04:00",
+      "source_url": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/"
+    },
+    {
+      "category": "United States",
+      "headline": "Pope opposes planned US military execution",
+      "summary": "Pope Leo condemned capital punishment as Trump weighs livestreaming Nidal Hasan's December military execution. No final decision on a broadcast has been announced.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-10T12:00:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/pope-leo-condemns-death-penalty-trump-mulls-livestreamed-execution-2026-10-10/"
     }
   ],
-  "sources_checked_at": "2026-10-10T06:31:09-04:00"
+  "sources_checked_at": "2026-10-11T06:25:08-04:00"
 }
