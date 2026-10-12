@@ -1,83 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-11",
-  "generated_at": "2026-10-11T06:25:08-04:00",
+  "briefing_date": "2026-10-12",
+  "generated_at": "2026-10-12T06:28:07-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Light rain, 79°F (observed); official station update unavailable",
-    "temperature_f": 79,
-    "forecast_wind_min_kt": 10,
-    "forecast_wind_max_kt": 20,
-    "forecast_gust_max_kt": null,
-    "forecast_wind_direction_start": "SW",
-    "forecast_wind_direction_end": "SW",
-    "storm_timing": "Forecast: showers and thunderstorms mainly this morning",
-    "alert_status": "No active Brunswick-specific alert confirmed",
-    "best_window": "No clean offshore window; conditions improve this afternoon",
-    "confidence_10": 7,
-    "recheck_at": "9:00 AM",
+    "condition": "Fair, 68°F; W 4 kt; visibility 10 mi (observed)",
+    "temperature_f": 68,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 10,
+    "forecast_gust_max_kt": 10,
+    "forecast_wind_direction_start": "W",
+    "forecast_wind_direction_end": "NW",
+    "storm_timing": "Forecast: no rain or thunderstorm signal today",
+    "alert_status": "No active Brunswick-specific alerts confirmed",
+    "best_window": "Late morning through afternoon as residual seas ease",
+    "confidence_10": 8,
+    "recheck_at": "10:00 AM",
     "tides": [
-      {"type": "high", "time": "9:44 AM", "height_ft": 8.68},
-      {"type": "low", "time": "4:00 PM", "height_ft": 0.58},
-      {"type": "high", "time": "10:03 PM", "height_ft": 7.75}
+      {"type":"high","time":"10:23 AM","height_ft":8.6},
+      {"type":"low","time":"4:42 PM","height_ft":0.8},
+      {"type":"high","time":"10:42 PM","height_ft":7.5}
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-11T02:30:00-04:00",
+    "forecast_updated_at": "2026-10-12T02:30:00-04:00",
     "secondary_models_checked": [],
     "timeline": [
-      {"time": "NOW", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
-      {"time": "9 AM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
-      {"time": "NOON", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
-      {"time": "3 PM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null},
-      {"time": "6 PM", "wind_kt": null, "gust_kt": null, "wind_direction": null, "rain_percent": null}
+      {"time":"NOW","wind_kt":4,"gust_kt":4,"wind_direction":"W","rain_percent":0},
+      {"time":"9 AM","wind_kt":5,"gust_kt":5,"wind_direction":"W","rain_percent":0},
+      {"time":"NOON","wind_kt":6,"gust_kt":6,"wind_direction":"WNW","rain_percent":0},
+      {"time":"3 PM","wind_kt":9,"gust_kt":9,"wind_direction":"NW","rain_percent":0},
+      {"time":"6 PM","wind_kt":8,"gust_kt":8,"wind_direction":"NW","rain_percent":0}
     ],
-    "marine_summary": "Forecast: SW 15–20 kt easing to 10–15 kt; seas 4–6 ft. Morning showers and storms; improving later.",
-    "storm_outlook": "Post-Tropical Isaias is inland and weakening. Its remnants bring morning rain and storms; no direct tropical-wind threat to Coastal Georgia."
+    "marine_summary": "Forecast: NW 10–15 kt easing to 5–10 kt; seas 2–4 ft, occasionally 5; moderate chop. Dry with good visibility.",
+    "storm_outlook": "Former Isaias has dissipated inland. No named Atlantic or Gulf storm currently threatens Coastal Georgia."
   },
   "stories": [
     {
-      "category": "AI & Technology",
-      "headline": "Drone attacks disable three Yandex data centers",
-      "summary": "Yandex said a drone attack shut its Vladimir-region data center, the third major facility disrupted in days. No injuries were reported; Ukraine had not confirmed responsibility.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-11T03:38:57-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
+      "category":"AI & Technology",
+      "headline":"Microsoft calls for urgent global AI regulation",
+      "summary":"Microsoft President Brad Smith called for independent model evaluations, mandatory incident reports, victim notification and emergency shutdown capabilities. Current UK model reviews remain voluntary.",
+      "source_name":"Reuters",
+      "published_at":"2026-10-12T05:23:09-04:00",
+      "source_url":"https://www.reuters.com/legal/litigation/microsoft-president-says-milk-faces-more-regulation-than-ai-2026-10-12/"
     },
     {
-      "category": "World Security",
-      "headline": "Trump calls for replacing Ukraine's Zelenskiy",
-      "summary": "Trump called for replacing Zelenskiy amid a dispute over a US-Russia diesel deal. Kyiv says easing sanctions rewards Moscow; talks continue and the deal's market effect remains uncertain.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-10T12:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+      "category":"AI & Technology",
+      "headline":"IMF says AI investment supports global growth",
+      "summary":"The IMF says AI infrastructure spending is helping keep 2026 global growth near 3%, with large benefits for Asian hardware suppliers. It also warns that roughly 40% of jobs could be changed or eliminated.",
+      "source_name":"Reuters",
+      "published_at":"2026-10-11T23:50:15-04:00",
+      "source_url":"https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
     },
     {
-      "category": "World Security",
-      "headline": "Saudi airport attack kills 12",
-      "summary": "An attack on Riyadh's international airport killed 12 people and wounded more than 300, Saudi authorities said. Houthis renewed warnings to airlines; attribution and damage claims remain contested.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-11T03:34:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-airlines-travellers-against-using-saudi-airports-2026-10-11/"
+      "category":"World Security",
+      "headline":"Ukraine says Russia broke energy ceasefire",
+      "summary":"Zelenskiy accused Russia of violating an energy ceasefire after a strike on a Kharkiv power plant. Moscow and Kyiv have not jointly confirmed the arrangement; the EU imposed additional Russia sanctions.",
+      "source_name":"Reuters",
+      "published_at":"2026-10-12T04:00:00-04:00",
+      "source_url":"https://www.reuters.com/business/energy/ukraine-accuses-russia-violating-trumps-energy-ceasefire-eu-imposes-new-2026-10-12/"
     },
     {
-      "category": "World Economy",
-      "headline": "World Bank discusses crisis aid with 30–40 nations",
-      "summary": "The World Bank is discussing crisis aid with 30–40 countries facing energy shocks and price increases from the Middle East war. Any packages and conditions remain under negotiation.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-11T02:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/"
+      "category":"United States",
+      "headline":"Senate control turns on expanding battleground map",
+      "summary":"Republicans hold a 53–47 Senate majority, but contests in Georgia, Michigan, North Carolina, Ohio, Texas and several other states are competitive. Polls remain close and control is unresolved.",
+      "source_name":"Reuters",
+      "published_at":"2026-10-12T06:00:00-04:00",
+      "source_url":"https://www.reuters.com/legal/government/races-that-will-decide-control-us-senate-2026-10-12/"
     },
     {
-      "category": "United States",
-      "headline": "Pope opposes planned US military execution",
-      "summary": "Pope Leo condemned capital punishment as Trump weighs livestreaming Nidal Hasan's December military execution. No final decision on a broadcast has been announced.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-10T12:00:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/pope-leo-condemns-death-penalty-trump-mulls-livestreamed-execution-2026-10-10/"
+      "category":"World Security",
+      "headline":"Riyadh air traffic falls after deadly strikes",
+      "summary":"Riyadh's skies were largely empty after Houthi strikes on the international airport killed at least 12 people. Airlines suspended or rerouted flights, and the security outlook remains uncertain.",
+      "source_name":"Reuters",
+      "published_at":"2026-10-12T04:19:00-04:00",
+      "source_url":"https://www.reuters.com/world/middle-east/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-2026-10-12/"
     }
   ],
-  "sources_checked_at": "2026-10-11T06:25:08-04:00"
+  "sources_checked_at": "2026-10-12T06:28:07-04:00"
 }
