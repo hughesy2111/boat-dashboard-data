@@ -1,48 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-13",
-  "generated_at": "2026-10-13T06:34:45-04:00",
+  "briefing_date": "2026-10-14",
+  "generated_at": "2026-10-14T06:29:24-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair, 68°F; NW 5 kt; visibility 10 mi (observed)",
-    "temperature_f": 68,
-    "forecast_wind_min_kt": 3,
+    "condition": "Fog, 66°F; calm; visibility 0.15 mi (observed)",
+    "temperature_f": 66,
+    "forecast_wind_min_kt": 0,
     "forecast_wind_max_kt": 6,
     "forecast_gust_max_kt": 6,
-    "forecast_wind_direction_start": "NW",
-    "forecast_wind_direction_end": "E",
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "SE",
     "storm_timing": "Forecast: no rain or thunderstorm signal today",
-    "alert_status": "No active Brunswick-specific NWS alerts",
-    "best_window": "Morning through afternoon; light wind and low seas",
+    "alert_status": "Dense Fog Special Weather Statement until 7:15 AM",
+    "best_window": "After fog lifts through afternoon; light wind and low seas",
     "confidence_10": 9,
-    "recheck_at": "12:00 PM",
+    "recheck_at": "8:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "4:49 AM",
-        "height_ft": 0.7
+        "time": "5:29 AM",
+        "height_ft": 1
       },
       {
         "type": "high",
-        "time": "11:01 AM",
-        "height_ft": 8.4
+        "time": "11:40 AM",
+        "height_ft": 8.1
       },
       {
         "type": "low",
-        "time": "5:23 PM",
-        "height_ft": 0.9
+        "time": "6:05 PM",
+        "height_ft": 1.2
       },
       {
         "type": "high",
-        "time": "11:18 PM",
-        "height_ft": 7.2
+        "time": "11:57 PM",
+        "height_ft": 6.9
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-13T02:20:00-04:00",
+    "forecast_updated_at": "2026-10-14T02:21:00-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -51,23 +51,23 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "NW",
-        "rain_percent": 0
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 4,
+        "wind_kt": 0,
+        "gust_kt": 0,
         "wind_direction": "N",
         "rain_percent": 0
       },
       {
+        "time": "9 AM",
+        "wind_kt": 2,
+        "gust_kt": 2,
+        "wind_direction": "NW",
+        "rain_percent": 0
+      },
+      {
         "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 5,
-        "wind_direction": "NE",
+        "wind_kt": 3,
+        "gust_kt": 3,
+        "wind_direction": "N",
         "rain_percent": 0
       },
       {
@@ -81,54 +81,54 @@
         "time": "6 PM",
         "wind_kt": 5,
         "gust_kt": 5,
-        "wind_direction": "E",
+        "wind_direction": "SE",
         "rain_percent": 0
       }
     ],
-    "marine_summary": "Forecast: NE 5–10 kt; seas near 2 ft; north wave 2 ft/6 sec; light chop. Dry with good visibility.",
-    "storm_outlook": "No active Atlantic cyclone or highlighted Atlantic/Gulf development area; no tropical threat to Coastal Georgia."
+    "marine_summary": "Forecast: N 5–10 kt becoming NE; seas near 2 ft; east wave 2 ft/7 sec; light chop. Dry after morning fog.",
+    "storm_outlook": "No active Atlantic cyclone or highlighted Atlantic/Gulf disturbance; no tropical threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Anthropic warns small AI models may self-replicate",
-      "summary": "Anthropic says experiments suggest small models may be months from spreading across vulnerable consumer devices. Full end-to-end replication still failed under normal test conditions.",
+      "headline": "DeepMind calls AI hacks early warning shots",
+      "summary": "Demis Hassabis says recent AI-agent hacking incidents show the need for stronger security practices and eventually an international standards body. His warning concerns future risk, not a current major AI incident.",
       "source_name": "Reuters",
-      "published_at": "2026-10-13T01:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/"
+      "published_at": "2026-10-14T06:13:00-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Starlink limits disrupt Ukrainian drone missions",
+      "summary": "Ukrainian officials say a new speed-related limit on some Starlink services caused connection drops and cancelled missions. SpaceX had not explained or publicly confirmed the reason for the change.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-14T02:34:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/spacex-limits-starlink-operations-ukraine-disrupting-military-missions-2026-10-14/"
     },
     {
       "category": "United States",
-      "headline": "Bank watchdogs intensify scrutiny of AI agents",
-      "summary": "US regulators are asking banks how they constrain, audit and shut down autonomous AI agents. European supervisors are also pressing lenders on recovery plans; no new binding rules were announced.",
+      "headline": "Judge extends White House access for three outlets",
+      "summary": "A federal judge kept White House access in place for CNN, MS NOW and Politico, finding the administration likely engaged in unlawful viewpoint discrimination. The preliminary injunction can still be appealed.",
       "source_name": "Reuters",
-      "published_at": "2026-10-13T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/banking-watchdogs-ramp-up-ai-scrutiny-stability-fears-mount-sources-say-2026-10-13/"
+      "published_at": "2026-10-13T23:12:00-04:00",
+      "source_url": "https://www.reuters.com/world/judge-extends-white-house-access-cnn-ms-now-politico-amid-legal-fight-2026-10-14/"
+    },
+    {
+      "category": "World Security",
+      "headline": "Russian strikes hit 30 Ukrainian energy sites",
+      "summary": "Ukraine says overnight Russian strikes killed three people and left at least 600,000 without power. Russia confirmed attacks on six power plants; neither side has jointly confirmed an energy ceasefire.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-14T00:14:00-04:00",
+      "source_url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/"
     },
     {
       "category": "World Economy",
-      "headline": "IMF flags AI-correction, war and debt risks",
-      "summary": "The IMF lifted its 2026 global-growth forecast to 3.1% but warned that an AI-investment reversal could cut global GDP 1.1% by 2028. Its outlook also assumes Hormuz shipping improves.",
+      "headline": "Italy calls US–Russia diesel deal very risky",
+      "summary": "Prime Minister Giorgia Meloni says easing sanctions for Russian diesel weakens Western leverage and risks rewarding Moscow. Italy remains open to European-led negotiations; the deal's market effect is uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-10-13T05:00:00-04:00",
-      "source_url": "https://www.reuters.com/business/finance/imf-flags-risks-global-economy-ai-market-correction-war-debt-2026-10-13/"
-    },
-    {
-      "category": "World Security",
-      "headline": "Russia says energy-ceasefire contacts continue",
-      "summary": "The Kremlin says contacts continue over a Russia–Ukraine energy ceasefire announced by President Trump, but did not identify participants. Moscow and Kyiv have not jointly confirmed the arrangement.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-13T05:52:00-04:00",
-      "source_url": "https://www.reuters.com/world/kremlin-says-contacts-trumps-russia-ukraine-energy-ceasefire-are-continuing-2026-10-13/"
-    },
-    {
-      "category": "World Security",
-      "headline": "Eleven missing after drone sinks ship off Bulgaria",
-      "summary": "Bulgarian officials say two cargo ships were struck and one sank; five crew were rescued and 11 remained missing. Bulgaria summoned Russia's ambassador but stopped short of assigning responsibility.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-13T01:27:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/"
+      "published_at": "2026-10-14T04:07:00-04:00",
+      "source_url": "https://www.reuters.com/business/us-russia-deal-diesel-is-very-risky-choice-italy-pm-meloni-says-2026-10-14/"
     }
   ],
-  "sources_checked_at": "2026-10-13T06:34:45-04:00"
+  "sources_checked_at": "2026-10-14T06:29:24-04:00"
 }
