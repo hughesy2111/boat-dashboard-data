@@ -1,48 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-14",
-  "generated_at": "2026-10-14T06:29:24-04:00",
+  "briefing_date": "2026-10-15",
+  "generated_at": "2026-10-15T06:30:37-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog, 66°F; calm; visibility 0.15 mi (observed)",
-    "temperature_f": 66,
+    "condition": "Fog/mist, 70°F; calm; visibility 6 mi (observed)",
+    "temperature_f": 70,
     "forecast_wind_min_kt": 0,
     "forecast_wind_max_kt": 6,
     "forecast_gust_max_kt": 6,
     "forecast_wind_direction_start": "N",
     "forecast_wind_direction_end": "SE",
     "storm_timing": "Forecast: no rain or thunderstorm signal today",
-    "alert_status": "Dense Fog Special Weather Statement until 7:15 AM",
-    "best_window": "After fog lifts through afternoon; light wind and low seas",
+    "alert_status": "Fog statement until 10 AM; pockets near 1/4 mi",
+    "best_window": "After fog lifts, late morning through afternoon",
     "confidence_10": 9,
-    "recheck_at": "8:00 AM",
+    "recheck_at": "10:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "5:29 AM",
-        "height_ft": 1
+        "time": "6:10 AM",
+        "height_ft": 1.3
       },
       {
         "type": "high",
-        "time": "11:40 AM",
-        "height_ft": 8.1
+        "time": "12:21 PM",
+        "height_ft": 7.8
       },
       {
         "type": "low",
-        "time": "6:05 PM",
-        "height_ft": 1.2
-      },
-      {
-        "type": "high",
-        "time": "11:57 PM",
-        "height_ft": 6.9
+        "time": "6:49 PM",
+        "height_ft": 1.6
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-14T02:21:00-04:00",
+    "forecast_updated_at": "2026-10-15T06:01:00-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -58,16 +53,16 @@
       },
       {
         "time": "9 AM",
-        "wind_kt": 2,
-        "gust_kt": 2,
-        "wind_direction": "NW",
+        "wind_kt": 1,
+        "gust_kt": 1,
+        "wind_direction": "W",
         "rain_percent": 0
       },
       {
         "time": "NOON",
         "wind_kt": 3,
         "gust_kt": 3,
-        "wind_direction": "N",
+        "wind_direction": "S",
         "rain_percent": 0
       },
       {
@@ -79,56 +74,56 @@
       },
       {
         "time": "6 PM",
-        "wind_kt": 5,
-        "gust_kt": 5,
+        "wind_kt": 6,
+        "gust_kt": 6,
         "wind_direction": "SE",
         "rain_percent": 0
       }
     ],
-    "marine_summary": "Forecast: N 5–10 kt becoming NE; seas near 2 ft; east wave 2 ft/7 sec; light chop. Dry after morning fog.",
+    "marine_summary": "Forecast: E 5–10 kt this afternoon; seas 2 ft; east wave 2 ft/7 sec; light chop. Fog early, otherwise dry.",
     "storm_outlook": "No active Atlantic cyclone or highlighted Atlantic/Gulf disturbance; no tropical threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "DeepMind calls AI hacks early warning shots",
-      "summary": "Demis Hassabis says recent AI-agent hacking incidents show the need for stronger security practices and eventually an international standards body. His warning concerns future risk, not a current major AI incident.",
+      "headline": "AI credit fears push tech default costs higher",
+      "summary": "Default-insurance costs for major US tech firms hit records as investors question debt-funded AI spending. CoreWeave's market-implied five-year default risk reached nearly 63%; that is a market signal, not a forecast.",
       "source_name": "Reuters",
-      "published_at": "2026-10-14T06:13:00-04:00",
-      "source_url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/"
+      "published_at": "2026-10-15T01:18:00-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Starlink limits disrupt Ukrainian drone missions",
-      "summary": "Ukrainian officials say a new speed-related limit on some Starlink services caused connection drops and cancelled missions. SpaceX had not explained or publicly confirmed the reason for the change.",
+      "headline": "Cohere moves to buy cybersecurity startup AISLE",
+      "summary": "Cohere signed a letter of intent to acquire AISLE, adding AI-based vulnerability detection to the group it is forming with Aleph Alpha. Deal terms were not disclosed, and completion has not been announced.",
       "source_name": "Reuters",
-      "published_at": "2026-10-14T02:34:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/spacex-limits-starlink-operations-ukraine-disrupting-military-missions-2026-10-14/"
+      "published_at": "2026-10-15T05:02:00-04:00",
+      "source_url": "https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/"
     },
     {
       "category": "United States",
-      "headline": "Judge extends White House access for three outlets",
-      "summary": "A federal judge kept White House access in place for CNN, MS NOW and Politico, finding the administration likely engaged in unlawful viewpoint discrimination. The preliminary injunction can still be appealed.",
+      "headline": "US military weighs larger bomb in Iran plans",
+      "summary": "CNN reports that US contingency plans for renewed Iran strikes could include the GBU-43/B bomb against energy or nuclear sites. No strike has been ordered, questions remain about effectiveness, and Reuters could not verify the report.",
       "source_name": "Reuters",
-      "published_at": "2026-10-13T23:12:00-04:00",
-      "source_url": "https://www.reuters.com/world/judge-extends-white-house-access-cnn-ms-now-politico-amid-legal-fight-2026-10-14/"
+      "published_at": "2026-10-15T00:23:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-military-weighs-use-mother-all-bombs-potential-future-strikes-iran-cnn-says-2026-10-15/"
     },
     {
       "category": "World Security",
-      "headline": "Russian strikes hit 30 Ukrainian energy sites",
-      "summary": "Ukraine says overnight Russian strikes killed three people and left at least 600,000 without power. Russia confirmed attacks on six power plants; neither side has jointly confirmed an energy ceasefire.",
+      "headline": "Ukraine resumes strikes on Russian refineries",
+      "summary": "President Zelenskiy said Ukraine would resume refinery attacks after concluding Russia had abandoned an energy ceasefire. A fire hit the Ryazan refinery; Russia and Ukraine continue giving competing accounts of the truce.",
       "source_name": "Reuters",
-      "published_at": "2026-10-14T00:14:00-04:00",
-      "source_url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/"
+      "published_at": "2026-10-15T02:03:00-04:00",
+      "source_url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/"
     },
     {
-      "category": "World Economy",
-      "headline": "Italy calls US–Russia diesel deal very risky",
-      "summary": "Prime Minister Giorgia Meloni says easing sanctions for Russian diesel weakens Western leverage and risks rewarding Moscow. Italy remains open to European-led negotiations; the deal's market effect is uncertain.",
+      "category": "United States",
+      "headline": "Supreme Court lets FCC ad-rate policy continue",
+      "summary": "The Supreme Court let the FCC avoid a pre-midterm deadline to rule on a Democratic challenge to discounted ad rates for party committees. The underlying case remains unresolved; two liberal justices would have denied the stay.",
       "source_name": "Reuters",
-      "published_at": "2026-10-14T04:07:00-04:00",
-      "source_url": "https://www.reuters.com/business/us-russia-deal-diesel-is-very-risky-choice-italy-pm-meloni-says-2026-10-14/"
+      "published_at": "2026-10-14T16:40:00-04:00",
+      "source_url": "https://www.reuters.com/world/us-supreme-court-again-backs-republicans-clash-over-political-ad-rates-2026-10-14/"
     }
   ],
-  "sources_checked_at": "2026-10-14T06:29:24-04:00"
+  "sources_checked_at": "2026-10-15T06:30:37-04:00"
 }
