@@ -1,43 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-15",
-  "generated_at": "2026-10-15T06:30:37-04:00",
+  "briefing_date": "2026-10-16",
+  "generated_at": "2026-10-16T06:28:12-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fog/mist, 70°F; calm; visibility 6 mi (observed)",
-    "temperature_f": 70,
-    "forecast_wind_min_kt": 0,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 6,
-    "forecast_wind_direction_start": "N",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: no rain or thunderstorm signal today",
-    "alert_status": "Fog statement until 10 AM; pockets near 1/4 mi",
-    "best_window": "After fog lifts, late morning through afternoon",
+    "condition": "Clear, 68°F; calm; visibility 7 mi (observed 5:55 AM)",
+    "temperature_f": 68,
+    "forecast_wind_min_kt": 2,
+    "forecast_wind_max_kt": 5,
+    "forecast_gust_max_kt": 9,
+    "forecast_wind_direction_start": "WSW",
+    "forecast_wind_direction_end": "S",
+    "storm_timing": "Forecast: slight marine storm chance this afternoon",
+    "alert_status": "Gale Watch Saturday–Monday; no land alert",
+    "best_window": "Late morning–afternoon; return before tonight's front",
     "confidence_10": 9,
-    "recheck_at": "10:00 AM",
+    "recheck_at": "12:00 PM",
     "tides": [
       {
+        "type": "high",
+        "time": "12:38 AM",
+        "height_ft": 6.63
+      },
+      {
         "type": "low",
-        "time": "6:10 AM",
-        "height_ft": 1.3
+        "time": "6:54 AM",
+        "height_ft": 1.65
       },
       {
         "type": "high",
-        "time": "12:21 PM",
-        "height_ft": 7.8
+        "time": "1:04 PM",
+        "height_ft": 7.54
       },
       {
         "type": "low",
-        "time": "6:49 PM",
-        "height_ft": 1.6
+        "time": "7:38 PM",
+        "height_ft": 1.91
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-15T06:01:00-04:00",
+    "forecast_updated_at": "2026-10-16T04:41:31-04:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +51,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 0,
-        "gust_kt": 0,
-        "wind_direction": "N",
+        "wind_kt": 2,
+        "gust_kt": 3,
+        "wind_direction": "WSW",
         "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 1,
-        "gust_kt": 1,
+        "wind_kt": 2,
+        "gust_kt": 3,
         "wind_direction": "W",
         "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 3,
-        "gust_kt": 3,
-        "wind_direction": "S",
+        "wind_kt": 4,
+        "gust_kt": 6,
+        "wind_direction": "W",
         "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "E",
-        "rain_percent": 0
+        "wind_kt": 5,
+        "gust_kt": 9,
+        "wind_direction": "WSW",
+        "rain_percent": 1
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 6,
-        "wind_direction": "SE",
-        "rain_percent": 0
+        "wind_kt": 4,
+        "gust_kt": 8,
+        "wind_direction": "S",
+        "rain_percent": 1
       }
     ],
-    "marine_summary": "Forecast: E 5–10 kt this afternoon; seas 2 ft; east wave 2 ft/7 sec; light chop. Fog early, otherwise dry.",
-    "storm_outlook": "No active Atlantic cyclone or highlighted Atlantic/Gulf disturbance; no tropical threat to Coastal Georgia."
+    "marine_summary": "Forecast: NW 5 kt becoming SE 5–10 kt; seas 2 ft; east wave 2 ft/7 sec. Slight afternoon shower or thunderstorm chance.",
+    "storm_outlook": "No active Atlantic cyclone; NHC expects no Atlantic, Caribbean or Gulf tropical formation during the next seven days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "AI credit fears push tech default costs higher",
-      "summary": "Default-insurance costs for major US tech firms hit records as investors question debt-funded AI spending. CoreWeave's market-implied five-year default risk reached nearly 63%; that is a market signal, not a forecast.",
+      "headline": "IMF chief urges safeguards for AI",
+      "summary": "IMF chief Kristalina Georgieva said AI risks could exceed its benefits without safeguards and an ethical framework. She supports industry standards with government and public involvement; the warning is a risk assessment, not a forecast.",
       "source_name": "Reuters",
-      "published_at": "2026-10-15T01:18:00-04:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/"
+      "published_at": "2026-10-16T04:19:00-04:00",
+      "source_url": "https://www.reuters.com/technology/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-ethical-2026-10-16/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Cohere moves to buy cybersecurity startup AISLE",
-      "summary": "Cohere signed a letter of intent to acquire AISLE, adding AI-based vulnerability detection to the group it is forming with Aleph Alpha. Deal terms were not disclosed, and completion has not been announced.",
+      "headline": "OpenAI and Meta warn courts about deepfakes",
+      "summary": "OpenAI and Meta told a US judicial panel that realistic AI media is becoming harder to authenticate and no universal watermark system exists. Only 15 of 931 surveyed judges had faced a deepfake-evidence challenge, so officials cautioned against rushing new rules.",
       "source_name": "Reuters",
-      "published_at": "2026-10-15T05:02:00-04:00",
-      "source_url": "https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/"
+      "published_at": "2026-10-15T14:12:00-04:00",
+      "source_url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/"
     },
     {
       "category": "United States",
-      "headline": "US military weighs larger bomb in Iran plans",
-      "summary": "CNN reports that US contingency plans for renewed Iran strikes could include the GBU-43/B bomb against energy or nuclear sites. No strike has been ordered, questions remain about effectiveness, and Reuters could not verify the report.",
+      "headline": "Four killed in Oregon elementary-school shooting",
+      "summary": "Police say a 16-year-old killed three children and a teacher at a Bend elementary school before an armed community member shot the attacker. A student and teacher were critically injured. The investigation remains ongoing.",
       "source_name": "Reuters",
-      "published_at": "2026-10-15T00:23:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-military-weighs-use-mother-all-bombs-potential-future-strikes-iran-cnn-says-2026-10-15/"
+      "published_at": "2026-10-15T17:55:00-04:00",
+      "source_url": "https://www.reuters.com/world/shooter-is-killed-oregon-elementary-school-least-two-taken-away-ambulance-2026-10-15/"
+    },
+    {
+      "category": "United States",
+      "headline": "DOJ seeks block on 20,000 California ballots",
+      "summary": "The Justice Department sued to stop California counting mail ballots from more than 20,000 voters it alleges may be noncitizens until status checks occur. California has not conceded the claim, and election-law experts expect substantial legal hurdles.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-15T13:12:00-04:00",
+      "source_url": "https://www.reuters.com/world/doj-sues-california-to-block-votes-alleged-non-citizens-2026-10-15/"
     },
     {
       "category": "World Security",
-      "headline": "Ukraine resumes strikes on Russian refineries",
-      "summary": "President Zelenskiy said Ukraine would resume refinery attacks after concluding Russia had abandoned an energy ceasefire. A fire hit the Ryazan refinery; Russia and Ukraine continue giving competing accounts of the truce.",
+      "headline": "EU rallies around Ukraine as US tensions deepen",
+      "summary": "EU leaders backed Zelenskiy as Trump criticized Ukrainian refinery strikes and uncertainty grew over US support. Europe lacks a near-term Starlink replacement and remains divided over new financing; Ukraine says its 2027 budget gap exceeds $32 billion.",
       "source_name": "Reuters",
-      "published_at": "2026-10-15T02:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/"
-    },
-    {
-      "category": "United States",
-      "headline": "Supreme Court lets FCC ad-rate policy continue",
-      "summary": "The Supreme Court let the FCC avoid a pre-midterm deadline to rule on a Democratic challenge to discounted ad rates for party committees. The underlying case remains unresolved; two liberal justices would have denied the stay.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-14T16:40:00-04:00",
-      "source_url": "https://www.reuters.com/world/us-supreme-court-again-backs-republicans-clash-over-political-ad-rates-2026-10-14/"
+      "published_at": "2026-10-16T03:59:00-04:00",
+      "source_url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/"
     }
   ],
-  "sources_checked_at": "2026-10-15T06:30:37-04:00"
+  "sources_checked_at": "2026-10-16T06:28:12-04:00"
 }
