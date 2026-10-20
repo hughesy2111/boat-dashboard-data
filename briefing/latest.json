@@ -1,134 +1,84 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-19",
-  "generated_at": "2026-10-19T06:33:37-04:00",
+  "briefing_date": "2026-10-20",
+  "generated_at": "2026-10-20T06:30:06-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Clear, 57°F; N 13 kt; visibility over 10 mi (observed 6:15 AM)",
-    "temperature_f": 57,
-    "forecast_wind_min_kt": 8,
-    "forecast_wind_max_kt": 13,
-    "forecast_gust_max_kt": 21,
-    "forecast_wind_direction_start": "NNE",
+    "condition": "Clear, 54°F; N 6 kt; visibility 10 mi (observed 5:35 AM)",
+    "temperature_f": 54,
+    "forecast_wind_min_kt": 7,
+    "forecast_wind_max_kt": 11,
+    "forecast_gust_max_kt": 16,
+    "forecast_wind_direction_start": "N",
     "forecast_wind_direction_end": "NNE",
     "storm_timing": "Forecast: dry; no rain or thunder expected",
-    "alert_status": "Small Craft Advisory; high surf and high rip-current risk",
-    "best_window": "No offshore window; protected waters improve late afternoon",
+    "alert_status": "Small Craft Advisory; high rip-current risk",
+    "best_window": "No offshore window; protected waters less hazardous late day",
     "confidence_10": 9,
     "recheck_at": "12:00 PM",
     "tides": [
-      {
-        "type": "high",
-        "time": "3:11 AM",
-        "height_ft": 6.22
-      },
-      {
-        "type": "low",
-        "time": "9:40 AM",
-        "height_ft": 2.2
-      },
-      {
-        "type": "high",
-        "time": "3:41 PM",
-        "height_ft": 6.96
-      },
-      {
-        "type": "low",
-        "time": "10:22 PM",
-        "height_ft": 2.1
-      }
+      { "type": "high", "time": "4:12 AM", "height_ft": 6.37 },
+      { "type": "low", "time": "10:38 AM", "height_ft": 2.07 },
+      { "type": "high", "time": "4:39 PM", "height_ft": 6.98 },
+      { "type": "low", "time": "11:12 PM", "height_ft": 1.84 }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-19T05:51:59-04:00",
-    "secondary_models_checked": [
-      "NBM",
-      "HRRR",
-      "ECMWF"
-    ],
+    "forecast_updated_at": "2026-10-20T05:26:21-04:00",
+    "secondary_models_checked": ["NBM", "HRRR", "ECMWF"],
     "timeline": [
-      {
-        "time": "NOW",
-        "wind_kt": 13,
-        "gust_kt": 21,
-        "wind_direction": "NNE",
-        "rain_percent": 0
-      },
-      {
-        "time": "9 AM",
-        "wind_kt": 12,
-        "gust_kt": 18,
-        "wind_direction": "NNE",
-        "rain_percent": 0
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 12,
-        "gust_kt": 17,
-        "wind_direction": "NNE",
-        "rain_percent": 0
-      },
-      {
-        "time": "3 PM",
-        "wind_kt": 11,
-        "gust_kt": 16,
-        "wind_direction": "NNE",
-        "rain_percent": 0
-      },
-      {
-        "time": "6 PM",
-        "wind_kt": 8,
-        "gust_kt": 12,
-        "wind_direction": "NNE",
-        "rain_percent": 0
-      }
+      { "time": "NOW", "wind_kt": 8, "gust_kt": 14, "wind_direction": "N", "rain_percent": 0 },
+      { "time": "9 AM", "wind_kt": 10, "gust_kt": 13, "wind_direction": "N", "rain_percent": 0 },
+      { "time": "NOON", "wind_kt": 11, "gust_kt": 16, "wind_direction": "NNE", "rain_percent": 0 },
+      { "time": "3 PM", "wind_kt": 10, "gust_kt": 16, "wind_direction": "NNE", "rain_percent": 0 },
+      { "time": "6 PM", "wind_kt": 7, "gust_kt": 12, "wind_direction": "NNE", "rain_percent": 0 }
     ],
-    "marine_summary": "Forecast: N 20–25 kt easing to 15–20 kt; seas 6–9 ft, occasionally 11 ft. East swell 9 ft/12 sec; Intracoastal waters rough.",
-    "storm_outlook": "Offshore non-tropical low: near 0% formation in 48 hours, 40% in seven days. Subtropical development is possible later this week."
+    "marine_summary": "Forecast: N 15–20 kt; seas 5–7 ft, occasionally 9 ft. East swell 7 ft/13 sec; Intracoastal waters choppy.",
+    "storm_outlook": "No active Atlantic cyclone or highlighted development area; no tropical threat to Coastal Georgia."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Fed sees AI boom adding to inflation pressure",
-      "summary": "Federal Reserve officials increasingly view AI investment as an inflationary demand shock. Because large AI firms are less sensitive to interest rates, economists warn that efforts to cool inflation may fall disproportionately on households and smaller businesses.",
+      "headline": "Chinese tech giants order $35 billion in Nvidia chips",
+      "summary": "Sources say ByteDance, Alibaba and Tencent ordered over 3 million export-compliant Nvidia RTX PRO 5500 cards. Nvidia may fill only 5%–10% because demand exceeds planned production; the companies did not comment.",
       "source_name": "Reuters",
-      "published_at": "2026-10-19T06:05:00-04:00",
-      "source_url": "https://www.reuters.com/markets/wealth/fed-sees-ai-boom-adding-inflation-headache-others-may-pay-medicine-2026-10-19/"
+      "published_at": "2026-10-20T05:04:00-04:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "US orders DeepSeek removed from federal systems",
+      "summary": "DHS ordered civilian agencies to remove DeepSeek products and services, citing data-transfer and security risks. The notice states the government's assessment; China's embassy did not immediately comment.",
+      "source_name": "Reuters",
+      "published_at": "2026-10-19T09:28:00-04:00",
+      "source_url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
     },
     {
       "category": "United States",
-      "headline": "Control of Congress at stake in US midterms",
-      "summary": "Early voting is underway before November 3. Republicans hold narrow House and Senate majorities; Democrats need four net seats in each chamber. Ten Senate contests could decide control, while polling and turnout remain uncertain.",
+      "headline": "Trump approval falls to 31% before midterms",
+      "summary": "A Reuters/Ipsos poll found Trump's approval at a record-low 31% and Democrats leading the generic congressional ballot 47%–35%. National generic ballots do not capture district and state dynamics; the voter margin of error was 3 points.",
       "source_name": "Reuters",
-      "published_at": "2026-10-19T05:03:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/what-you-need-know-about-2026-us-midterm-elections-2026-10-19/"
-    },
-    {
-      "category": "World Economy",
-      "headline": "China growth rebounds but consumers remain weak",
-      "summary": "China's third-quarter growth accelerated to 4.5%, beating expectations as exports surged. Retail sales lagged industrial output and property remained weak, leaving the recovery dependent on foreign demand and vulnerable to trade restrictions.",
-      "source_name": "Reuters",
-      "published_at": "2026-10-18T22:22:00-04:00",
-      "source_url": "https://www.reuters.com/world/china/chinas-economic-growth-picks-up-third-quarter-beating-expectations-2026-10-19/"
+      "published_at": "2026-10-19T15:42:00-04:00",
+      "source_url": "https://www.reuters.com/world/us/trump-approval-falls-record-low-31-midterms-near-reutersipsos-poll-finds-2026-10-19/"
     },
     {
       "category": "World Security",
-      "headline": "Russian strike hits Kyiv subway and homes",
-      "summary": "Kyiv's mayor said a Russian strike killed one woman, injured three people and damaged a subway station, residential building and medical facility. Zelenskiy said the US has resumed intelligence sharing needed for missile warnings.",
+      "headline": "Zelenskiy meets US envoy as relations deteriorate",
+      "summary": "Zelenskiy is meeting US envoy Steve Witkoff in Oslo to repair strained ties. Kyiv says US missile warnings and satellite support have weakened; Trump says intelligence sharing continues. Norway seeks a more constructive diplomatic path.",
       "source_name": "Reuters",
-      "published_at": "2026-10-18T21:11:00-04:00",
-      "source_url": "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/"
+      "published_at": "2026-10-20T01:47:00-04:00",
+      "source_url": "https://www.reuters.com/world/ukraines-zelenskiy-travels-norway-talks-war-security-tuesday-2026-10-20/"
     },
     {
       "category": "World",
-      "headline": "WFP cuts food aid for 500,000 people in Gaza",
-      "summary": "The World Food Programme says funding shortages are cutting monthly assistance from 1.6 million to 1.1 million recipients. Rations, cash support and hot meals are also being reduced while about 1.4 million people face crisis-level food insecurity.",
+      "headline": "France stays calm under curfews after riots",
+      "summary": "French cities were calm overnight after targeted curfews, but student and yellow-vest groups called new protests for Saturday. About 2,500 people remained in custody; major labor unions had not joined the new protest call.",
       "source_name": "Reuters",
-      "published_at": "2026-10-19T03:21:00-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages-2026-10-19/"
+      "published_at": "2026-10-20T01:40:00-04:00",
+      "source_url": "https://www.reuters.com/world/targeted-curfews-helped-keep-peace-overnight-france-pm-says-2026-10-20/"
     }
   ],
-  "sources_checked_at": "2026-10-19T06:33:37-04:00"
+  "sources_checked_at": "2026-10-20T06:30:06-04:00"
 }
