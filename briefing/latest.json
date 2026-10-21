@@ -1,84 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-20",
-  "generated_at": "2026-10-20T06:30:06-04:00",
+  "briefing_date": "2026-10-21",
+  "generated_at": "2026-10-21T06:31:35-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Clear, 54°F; N 6 kt; visibility 10 mi (observed 5:35 AM)",
-    "temperature_f": 54,
-    "forecast_wind_min_kt": 7,
-    "forecast_wind_max_kt": 11,
+    "condition": "Clear, 55°F; N 8 kt; visibility 10 mi (observed 5:55 AM)",
+    "temperature_f": 55,
+    "forecast_wind_min_kt": 5,
+    "forecast_wind_max_kt": 10,
     "forecast_gust_max_kt": 16,
     "forecast_wind_direction_start": "N",
-    "forecast_wind_direction_end": "NNE",
+    "forecast_wind_direction_end": "NE",
     "storm_timing": "Forecast: dry; no rain or thunder expected",
-    "alert_status": "Small Craft Advisory; high rip-current risk",
-    "best_window": "No offshore window; protected waters less hazardous late day",
+    "alert_status": "High rip-current risk; Small Craft Exercise Caution",
+    "best_window": "No offshore window; protected waters improve late afternoon",
     "confidence_10": 9,
     "recheck_at": "12:00 PM",
     "tides": [
-      { "type": "high", "time": "4:12 AM", "height_ft": 6.37 },
-      { "type": "low", "time": "10:38 AM", "height_ft": 2.07 },
-      { "type": "high", "time": "4:39 PM", "height_ft": 6.98 },
-      { "type": "low", "time": "11:12 PM", "height_ft": 1.84 }
+      { "type": "high", "time": "5:12 AM", "height_ft": 6.71 },
+      { "type": "low", "time": "11:31 AM", "height_ft": 1.8 },
+      { "type": "high", "time": "5:36 PM", "height_ft": 7.13 }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-20T05:26:21-04:00",
+    "forecast_updated_at": "2026-10-21T05:16:27-04:00",
     "secondary_models_checked": ["NBM", "HRRR", "ECMWF"],
     "timeline": [
-      { "time": "NOW", "wind_kt": 8, "gust_kt": 14, "wind_direction": "N", "rain_percent": 0 },
-      { "time": "9 AM", "wind_kt": 10, "gust_kt": 13, "wind_direction": "N", "rain_percent": 0 },
-      { "time": "NOON", "wind_kt": 11, "gust_kt": 16, "wind_direction": "NNE", "rain_percent": 0 },
-      { "time": "3 PM", "wind_kt": 10, "gust_kt": 16, "wind_direction": "NNE", "rain_percent": 0 },
-      { "time": "6 PM", "wind_kt": 7, "gust_kt": 12, "wind_direction": "NNE", "rain_percent": 0 }
+      { "time": "NOW", "wind_kt": 5, "gust_kt": 16, "wind_direction": "N", "rain_percent": 0 },
+      { "time": "9 AM", "wind_kt": 8, "gust_kt": 12, "wind_direction": "NNE", "rain_percent": 0 },
+      { "time": "NOON", "wind_kt": 10, "gust_kt": 13, "wind_direction": "NNE", "rain_percent": 0 },
+      { "time": "3 PM", "wind_kt": 9, "gust_kt": 14, "wind_direction": "NE", "rain_percent": 0 },
+      { "time": "6 PM", "wind_kt": 6, "gust_kt": 10, "wind_direction": "NE", "rain_percent": 0 }
     ],
-    "marine_summary": "Forecast: N 15–20 kt; seas 5–7 ft, occasionally 9 ft. East swell 7 ft/13 sec; Intracoastal waters choppy.",
-    "storm_outlook": "No active Atlantic cyclone or highlighted development area; no tropical threat to Coastal Georgia."
+    "marine_summary": "Forecast: NE 10–15 kt; seas 4–6 ft, occasionally 8 ft. East swell 6 ft/12 sec; Intracoastal waters moderately choppy.",
+    "storm_outlook": "AL93 has a 40% subtropical formation chance through 48 hours and seven days; it should move northeast away from the US coast."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Chinese tech giants order $35 billion in Nvidia chips",
-      "summary": "Sources say ByteDance, Alibaba and Tencent ordered over 3 million export-compliant Nvidia RTX PRO 5500 cards. Nvidia may fill only 5%–10% because demand exceeds planned production; the companies did not comment.",
+      "headline": "OpenAI president's political spending draws scrutiny",
+      "summary": "OpenAI President Greg Brockman calls for federal AI safeguards, while a political group he helped fund backs candidates skeptical of restrictions. OpenAI says his $25 million contribution was personal; critics question the apparent conflict.",
       "source_name": "Reuters",
-      "published_at": "2026-10-20T05:04:00-04:00",
-      "source_url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"
+      "published_at": "2026-10-21T06:02:56-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/openai-president-urges-ai-safeguards-group-he-funds-opposes-regulation-2026-10-21/"
     },
     {
       "category": "AI & Technology",
-      "headline": "US orders DeepSeek removed from federal systems",
-      "summary": "DHS ordered civilian agencies to remove DeepSeek products and services, citing data-transfer and security risks. The notice states the government's assessment; China's embassy did not immediately comment.",
+      "headline": "SpaceX and Tesla form merger committees",
+      "summary": "Musk said a merger could benefit AI, chip and robotics work after SpaceX reported its first quarterly profit. Independent committees are discussing a deal, but no terms are agreed and Musk cautioned that a transaction may never occur.",
       "source_name": "Reuters",
-      "published_at": "2026-10-19T09:28:00-04:00",
-      "source_url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+      "published_at": "2026-10-20T16:08:33-04:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"
     },
     {
       "category": "United States",
-      "headline": "Trump approval falls to 31% before midterms",
-      "summary": "A Reuters/Ipsos poll found Trump's approval at a record-low 31% and Democrats leading the generic congressional ballot 47%–35%. National generic ballots do not capture district and state dynamics; the voter margin of error was 3 points.",
+      "headline": "States prepare to shadow federal election monitors",
+      "summary": "DOJ plans roughly 1,000 election monitors across all 50 states, about triple the previous midterm deployment. Some states will shadow them over intimidation and federal-overreach concerns; DOJ says its aim is civil-rights compliance.",
       "source_name": "Reuters",
-      "published_at": "2026-10-19T15:42:00-04:00",
-      "source_url": "https://www.reuters.com/world/us/trump-approval-falls-record-low-31-midterms-near-reutersipsos-poll-finds-2026-10-19/"
+      "published_at": "2026-10-21T06:06:22-04:00",
+      "source_url": "https://www.reuters.com/legal/government/monitoring-monitors-us-states-prepare-surge-justice-dept-election-watchers-2026-10-21/"
     },
     {
       "category": "World Security",
-      "headline": "Zelenskiy meets US envoy as relations deteriorate",
-      "summary": "Zelenskiy is meeting US envoy Steve Witkoff in Oslo to repair strained ties. Kyiv says US missile warnings and satellite support have weakened; Trump says intelligence sharing continues. Norway seeks a more constructive diplomatic path.",
+      "headline": "Putin meets US envoy over Ukraine ceasefire",
+      "summary": "Russian agencies say Putin met US envoy Steve Witkoff for talks on ending the war. Witkoff reportedly said there was a basis for a ceasefire and urged renewed Russia-US-Ukraine talks; no agreement was announced.",
       "source_name": "Reuters",
-      "published_at": "2026-10-20T01:47:00-04:00",
-      "source_url": "https://www.reuters.com/world/ukraines-zelenskiy-travels-norway-talks-war-security-tuesday-2026-10-20/"
+      "published_at": "2026-10-21T05:21:49-04:00",
+      "source_url": "https://www.reuters.com/world/europe/russias-putin-meets-us-envoy-witkoff-agencies-report-2026-10-21/"
     },
     {
       "category": "World",
-      "headline": "France stays calm under curfews after riots",
-      "summary": "French cities were calm overnight after targeted curfews, but student and yellow-vest groups called new protests for Saturday. About 2,500 people remained in custody; major labor unions had not joined the new protest call.",
+      "headline": "Abyei official says drone strike killed over 150",
+      "summary": "An Abyei official blamed Sudan's military for a market strike that killed at least 153 people, but provided no evidence. Reuters verified aftermath video but could not determine responsibility; Sudan's army did not respond.",
       "source_name": "Reuters",
-      "published_at": "2026-10-20T01:40:00-04:00",
-      "source_url": "https://www.reuters.com/world/targeted-curfews-helped-keep-peace-overnight-france-pm-says-2026-10-20/"
+      "published_at": "2026-10-20T01:42:54-04:00",
+      "source_url": "https://www.reuters.com/world/africa/drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says-2026-10-20/"
     }
   ],
-  "sources_checked_at": "2026-10-20T06:30:06-04:00"
+  "sources_checked_at": "2026-10-21T06:31:35-04:00"
 }
