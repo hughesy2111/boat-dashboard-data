@@ -1,83 +1,83 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-10-22",
-  "generated_at": "2026-10-22T06:34:45-04:00",
+  "briefing_date": "2026-10-23",
+  "generated_at": "2026-10-23T06:26:57-04:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Fair, 54°F; calm; visibility 9 mi (observed 6:15 AM)",
-    "temperature_f": 54,
+    "condition": "Fair, 57°F; N 7 kt; visibility 10 mi (observed 4:55 AM)",
+    "temperature_f": 57,
     "forecast_wind_min_kt": 5,
-    "forecast_wind_max_kt": 9,
-    "forecast_gust_max_kt": 12,
-    "forecast_wind_direction_start": "NNW",
-    "forecast_wind_direction_end": "ENE",
-    "storm_timing": "Forecast: dry; no rain or thunder expected",
-    "alert_status": "High rip-current risk through late Friday night",
-    "best_window": "Morning in protected waters; avoid offshore due 4–5 ft seas",
+    "forecast_wind_max_kt": 12,
+    "forecast_gust_max_kt": 17,
+    "forecast_wind_direction_start": "N",
+    "forecast_wind_direction_end": "NE",
+    "storm_timing": "Forecast: dry today; slight shower chance after midnight",
+    "alert_status": "SCA from 2 PM; Gale Watch Saturday–Monday",
+    "best_window": "No offshore window; remain secured before afternoon surge",
     "confidence_10": 9,
     "recheck_at": "12:00 PM",
     "tides": [
-      {"type": "high", "time": "6:07 AM", "height_ft": 7.22},
-      {"type": "low", "time": "12:23 PM", "height_ft": 1.44},
-      {"type": "high", "time": "6:28 PM", "height_ft": 7.38}
+      {"type": "high", "time": "6:56 AM", "height_ft": 7.82},
+      {"type": "low", "time": "1:13 PM", "height_ft": 1.03},
+      {"type": "high", "time": "7:15 PM", "height_ft": 7.66}
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-10-22T04:46:35-04:00",
+    "forecast_updated_at": "2026-10-23T05:51:45-04:00",
     "secondary_models_checked": ["NBM", "HRRR", "ECMWF"],
     "timeline": [
-      {"time": "NOW", "wind_kt": 5, "gust_kt": 7, "wind_direction": "NNW", "rain_percent": 0},
-      {"time": "9 AM", "wind_kt": 5, "gust_kt": 8, "wind_direction": "N", "rain_percent": 0},
-      {"time": "NOON", "wind_kt": 8, "gust_kt": 11, "wind_direction": "NNE", "rain_percent": 0},
-      {"time": "3 PM", "wind_kt": 9, "gust_kt": 12, "wind_direction": "NE", "rain_percent": 0},
-      {"time": "6 PM", "wind_kt": 5, "gust_kt": 8, "wind_direction": "ENE", "rain_percent": 0}
+      {"time": "NOW", "wind_kt": 5, "gust_kt": 9, "wind_direction": "N", "rain_percent": 0},
+      {"time": "9 AM", "wind_kt": 8, "gust_kt": 13, "wind_direction": "N", "rain_percent": 0},
+      {"time": "NOON", "wind_kt": 11, "gust_kt": 16, "wind_direction": "NNE", "rain_percent": 0},
+      {"time": "3 PM", "wind_kt": 12, "gust_kt": 17, "wind_direction": "NE", "rain_percent": 0},
+      {"time": "6 PM", "wind_kt": 11, "gust_kt": 17, "wind_direction": "NE", "rain_percent": 0}
     ],
-    "marine_summary": "Forecast: NE 10–15 kt; seas 4–5 ft, occasionally 6 ft. East swell 5 ft/12 sec; Intracoastal waters moderately choppy.",
-    "storm_outlook": "Josephine is moving away from the US; a separate central-Atlantic trough has a 10% formation chance through seven days."
+    "marine_summary": "Forecast: NE 15–20 kt, rising to 20–25 kt; seas 4–6 ft, occasionally 8 ft. Intracoastal waters rough.",
+    "storm_outlook": "Josephine is post-tropical and moving away. A central-Atlantic trough has a 10% formation chance through seven days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Meta puts Muse at center of AI strategy",
-      "summary": "Meta says Muse gained more than 10 million US and Canadian users in six weeks and plans non-voting shares to support AI investment. Revenue beat estimates, but quarterly free cash flow turned negative as spending rose.",
+      "headline": "AI-discovered bugs compress cyber response time",
+      "summary": "Experts say AI has doubled the pace of vulnerability discovery and can help create exploits in hours. More flaws do not automatically mean successful attacks, but defenders may face repeated urgent patching cycles.",
       "source_name": "Reuters",
-      "published_at": "2026-10-21T16:05:07-04:00",
-      "source_url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+      "published_at": "2026-10-23T06:03:35-04:00",
+      "source_url": "https://www.reuters.com/legal/litigation/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-2026-10-23/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Tesla targets public Cybercab sales this year",
-      "summary": "Tesla aims to sell steering-wheel-free Cybercabs by year-end while NHTSA examines how they comply with existing safety rules. The company says scaling is manageable, but it has until October 30 to answer the agency.",
+      "headline": "AI spending fears trigger broad tech selloff",
+      "summary": "The Nasdaq fell 2.6% as investors questioned returns from heavy AI infrastructure spending. Meta lost 7% after reporting negative free cash flow and plans for new non-voting shares; long-term outcomes remain uncertain.",
       "source_name": "Reuters",
-      "published_at": "2026-10-21T21:36:43-04:00",
-      "source_url": "https://www.reuters.com/business/autos-transportation/tesla-aims-sell-cybercab-robotaxis-by-end-year-despite-federal-probe-2026-10-22/"
+      "published_at": "2026-10-22T18:33:08-04:00",
+      "source_url": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
     },
     {
       "category": "United States",
-      "headline": "Supreme Court rulings reshape midterm map",
-      "summary": "Recent election rulings have generally helped Republican redistricting and spending priorities, though the court also blocked some GOP-backed maps and mail-ballot limits. Experts expect further litigation after voting.",
+      "headline": "DOJ escalates California ballot dispute",
+      "summary": "The Justice Department asked an appeals court to intervene before a trial judge rules on its request to block more than 20,000 mail ballots pending citizenship checks. California has not conceded DOJ's allegations.",
       "source_name": "Reuters",
-      "published_at": "2026-10-22T06:02:36-04:00",
-      "source_url": "https://www.reuters.com/legal/government/us-supreme-court-rulings-reshape-midterm-election-battlefield-2026-10-22/"
+      "published_at": "2026-10-22T20:18:34-04:00",
+      "source_url": "https://www.reuters.com/world/justice-department-asks-appeals-court-intervene-california-ballot-case-2026-10-23/"
     },
     {
       "category": "World Security",
-      "headline": "Houthi attacks raise Gulf escalation risk",
-      "summary": "Fresh attacks killed people at a Saudi airport and oil field, prompting Saudi retaliatory strikes and US diplomatic drawdowns. Iran separately reported vessel attacks; independent confirmation of several claims remains limited.",
+      "headline": "Putin rejects a short-term Ukraine ceasefire",
+      "summary": "Putin said renewed talks should produce final security arrangements for Russia, Ukraine and Europe rather than a temporary ceasefire. US-led diplomacy has restarted, but no agreement or negotiating timetable is settled.",
       "source_name": "Reuters",
-      "published_at": "2026-10-22T03:59:31-04:00",
-      "source_url": "https://www.reuters.com/world/middle-east/gulf-markets-fall-fresh-houthi-strikes-saudi-arabia-raise-regional-risk-2026-10-22/"
+      "published_at": "2026-10-22T17:24:02-04:00",
+      "source_url": "https://www.reuters.com/world/europe/putin-says-talks-must-focus-security-russia-ukraine-europe-overall-2026-10-22/"
     },
     {
       "category": "World",
-      "headline": "Ukraine backs ceasefire and trilateral talks",
-      "summary": "Zelenskiy supports a ceasefire and talks with the US and Russia after Washington's envoy met Putin. Moscow agreed to resume US-mediated discussions as soon as next month, but no ceasefire terms have been agreed.",
+      "headline": "Typhoon Champi shuts down Taiwan",
+      "summary": "Taiwan closed most schools, offices and markets and cancelled nearly 1,000 flights as Champi approached. One person died, 163 were injured and more than 2,600 evacuated; landfall remained possible.",
       "source_name": "Reuters",
-      "published_at": "2026-10-21T07:33:29-04:00",
-      "source_url": "https://www.reuters.com/world/europe/ukraines-zelenskiy-says-he-supports-ceasefire-trilateral-talks-with-us-russia-2026-10-21/"
+      "published_at": "2026-10-22T19:23:25-04:00",
+      "source_url": "https://www.reuters.com/business/environment/taiwan-shuts-down-ahead-weakening-typhoon-champi-hundreds-flights-cancelled-2026-10-22/"
     }
   ],
-  "sources_checked_at": "2026-10-22T06:34:45-04:00"
+  "sources_checked_at": "2026-10-23T06:26:57-04:00"
 }
