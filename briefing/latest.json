@@ -1,1 +1,129 @@
-{"schema_version":3,"briefing_date":"2026-11-02","generated_at":"2026-11-02T06:36:18-05:00","timezone":"America/New_York","region":"Coastal Georgia","at_a_glance":{"condition":"Observed 6:15 AM: fog/mist; visibility 6 mi; N 11 kt; no gust reported","temperature_f":70,"forecast_wind_min_kt":9,"forecast_wind_max_kt":13,"forecast_gust_max_kt":20,"forecast_wind_direction_start":"NE","forecast_wind_direction_end":"NE","storm_timing":"Showers today; slight afternoon thunder risk offshore, not in land grid","alert_status":"SCA until 7 AM today; high rip-current risk until 4 AM Wednesday","best_window":"No GO offshore window today; reassess at noon","confidence_10":7,"recheck_at":"12:00 PM","tides":[{"type":"low","time":"8:29 AM","height_ft":1.15},{"type":"high","time":"2:48 PM","height_ft":7.86},{"type":"low","time":"9:09 PM","height_ft":1.01}]},"day_ahead":{"forecast_source":"NWS NDFD","forecast_updated_at":"2026-11-02T01:21:24-05:00","secondary_models_checked":["NBM","HRRR","ECMWF"],"timeline":[{"time":"NOW","wind_kt":9,"gust_kt":14,"wind_direction":"NE","rain_percent":26},{"time":"9 AM","wind_kt":10,"gust_kt":16,"wind_direction":"NE","rain_percent":31},{"time":"NOON","wind_kt":12,"gust_kt":19,"wind_direction":"NE","rain_percent":32},{"time":"3 PM","wind_kt":13,"gust_kt":20,"wind_direction":"NE","rain_percent":32},{"time":"6 PM","wind_kt":12,"gust_kt":18,"wind_direction":"NE","rain_percent":24}],"marine_summary":"Forecast: NE around 15 kt; significant seas 5–6 ft, occasional 8 ft; showers, slight afternoon thunder. SCA until 7 AM.","storm_outlook":"NHC 1 AM Nov 2: no Atlantic, Caribbean or Gulf tropical formation expected for seven days; no active Atlantic cyclone."},"stories":[{"category":"AI & Technology","headline":"OpenAI signs energy-sector deal with ADNOC and G42","summary":"ADNOC and G42 signed a deal to deploy OpenAI technology across the UAE energy firm's operations. The announcement shows enterprise adoption, but claims of operational benefits remain to be demonstrated.","source_name":"Reuters","published_at":"2026-11-02T01:40:00-05:00","source_url":"https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"},{"category":"AI & Technology","headline":"China's robot makers race to improve AI brains","summary":"Chinese robotics firms are shifting investment from acrobatic hardware toward adaptable AI. Embodied-AI funding reached $13 billion in the first half, Reuters reports; demos do not establish reliable general-purpose operation.","source_name":"Reuters","published_at":"2026-11-01T18:08:00-05:00","source_url":"https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/"},{"category":"US","headline":"Midterm closing day brings Michigan party split","summary":"Democrat Haley Stevens endorsed Republican Mike Rogers in Michigan's Senate race. A judge also rejected DOJ's bid to block Alaska certification if Dan Sullivan narrowly loses. Congressional control remains undecided.","source_name":"Reuters","published_at":"2026-11-02T06:07:00-05:00","source_url":"https://www.reuters.com/world/us/republicans-democrats-set-midterm-closing-arguments-michigan-endorsement-roils-2026-11-02/"},{"category":"World","headline":"US-Iran draft proposal circulates after Doha talks","summary":"Iranian negotiators left Doha as a draft deal circulated, an official told Reuters. A follow-up meeting is possible, but no agreement is announced; reopening Hormuz and ending the US blockade remain disputed.","source_name":"Reuters","published_at":"2026-11-02T04:33:00-05:00","source_url":"https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/"},{"category":"World","headline":"Ukraine disputes Russia's use of humanitarian pause","summary":"Ukraine's military says Russia reinforced positions during the Oleshky ceasefire, which enabled nearly 800 evacuations. Ukraine's ombudsman said both sides met their obligations; the competing assessments are unresolved.","source_name":"Reuters","published_at":"2026-11-02T04:29:00-05:00","source_url":"https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/"}],"sources_checked_at":"2026-11-02T06:36:18-05:00"}
+{
+  "schema_version": 3,
+  "briefing_date": "2026-11-03",
+  "generated_at": "2026-11-03T06:40:00-05:00",
+  "timezone": "America/New_York",
+  "region": "Coastal Georgia",
+  "at_a_glance": {
+    "condition": "Observed 6:15 AM: few clouds; visibility 8 mi; NE 7 kt, gust 13 kt",
+    "temperature_f": 73,
+    "forecast_wind_min_kt": 6,
+    "forecast_wind_max_kt": 11,
+    "forecast_gust_max_kt": 18,
+    "forecast_wind_direction_start": "ENE",
+    "forecast_wind_direction_end": "ENE",
+    "storm_timing": "Forecast: low shower chance; no land-grid thunder; offshore showers",
+    "alert_status": "High rip-current risk until 4 AM Wed; offshore caution until 11 AM",
+    "best_window": "Local winds ease after 6 PM; offshore seas remain marginal",
+    "confidence_10": 7,
+    "recheck_at": "12:00 PM",
+    "tides": [
+      {
+        "type": "low",
+        "time": "9:33 AM",
+        "height_ft": 1.22
+      },
+      {
+        "type": "high",
+        "time": "3:54 PM",
+        "height_ft": 7.63
+      },
+      {
+        "type": "low",
+        "time": "10:06 PM",
+        "height_ft": 0.94
+      }
+    ]
+  },
+  "day_ahead": {
+    "forecast_source": "NWS NDFD",
+    "forecast_updated_at": "2026-11-03T01:21:31-05:00",
+    "secondary_models_checked": [
+      "NBM",
+      "HRRR",
+      "ECMWF"
+    ],
+    "timeline": [
+      {
+        "time": "NOW",
+        "wind_kt": 6,
+        "gust_kt": 13,
+        "wind_direction": "ENE",
+        "rain_percent": 9
+      },
+      {
+        "time": "9 AM",
+        "wind_kt": 9,
+        "gust_kt": 15,
+        "wind_direction": "ENE",
+        "rain_percent": 11
+      },
+      {
+        "time": "NOON",
+        "wind_kt": 11,
+        "gust_kt": 18,
+        "wind_direction": "E",
+        "rain_percent": 8
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 10,
+        "gust_kt": 17,
+        "wind_direction": "E",
+        "rain_percent": 7
+      },
+      {
+        "time": "6 PM",
+        "wind_kt": 8,
+        "gust_kt": 13,
+        "wind_direction": "ENE",
+        "rain_percent": 3
+      }
+    ],
+    "marine_summary": "Forecast: E 10–15 kt; total significant seas 4–6 ft, occasional 8 ft; showers. Exercise caution through 11 AM; no local SCA.",
+    "storm_outlook": "NHC 1 AM Nov 3: Atlantic low NE of Bahamas may develop late week; formation 10%/48h, 30%/7d. No active named Atlantic cyclone."
+  },
+  "stories": [
+    {
+      "category": "AI & Technology",
+      "headline": "Oracle raises $20 billion for AI cloud expansion",
+      "summary": "Oracle is raising $10 billion each in equity and debt to fund cloud expansion. Its shares fell 8.8%; the financing highlights both AI demand and concern about the cost of building capacity.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-02T08:22:00-05:00",
+      "source_url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "AI borrowing wave reaches Europe's bond markets",
+      "summary": "US technology companies are increasingly borrowing in euros to finance AI investment. Reuters reports $39.3 billion of European issuance; investors warn that further supply could raise borrowing costs.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-03T00:03:00-05:00",
+      "source_url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
+    },
+    {
+      "category": "US",
+      "headline": "Election Day puts control of Congress at stake",
+      "summary": "Americans vote for all 435 House seats and 35 Senate seats. Polling favors Democrats taking the House, while Senate control remains uncertain. These are expectations, not election results.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-03T01:04:22-05:00",
+      "source_url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/"
+    },
+    {
+      "category": "World",
+      "headline": "US officials report defensive strikes on Iran",
+      "summary": "US officials describe strikes on Qeshm Island as limited action against air defenses, not a return to major combat. Iranian media reported explosions; CENTCOM had not responded to Reuters.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-02T20:05:00-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/"
+    },
+    {
+      "category": "World",
+      "headline": "Ukraine says Russian bombing killed 31",
+      "summary": "Ukrainian officials say Russian bombing hit a school used for aid distribution in Komyshuvakha, killing 31. Russia says it struck a military target. The competing claims and toll are not independently verified.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-02T12:28:00-05:00",
+      "source_url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"
+    }
+  ],
+  "sources_checked_at": "2026-11-03T06:40:00-05:00"
+}
