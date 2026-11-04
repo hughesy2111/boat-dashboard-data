@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-03",
-  "generated_at": "2026-11-03T06:40:00-05:00",
+  "briefing_date": "2026-11-04",
+  "generated_at": "2026-11-04T06:32:13-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: few clouds; visibility 8 mi; NE 7 kt, gust 13 kt",
+    "condition": "Observed 6:15 AM: overcast; E 9 kt, gust 16 kt; visibility 7 mi",
     "temperature_f": 73,
-    "forecast_wind_min_kt": 6,
-    "forecast_wind_max_kt": 11,
-    "forecast_gust_max_kt": 18,
-    "forecast_wind_direction_start": "ENE",
-    "forecast_wind_direction_end": "ENE",
-    "storm_timing": "Forecast: low shower chance; no land-grid thunder; offshore showers",
-    "alert_status": "High rip-current risk until 4 AM Wed; offshore caution until 11 AM",
-    "best_window": "Local winds ease after 6 PM; offshore seas remain marginal",
+    "forecast_wind_min_kt": 5,
+    "forecast_wind_max_kt": 10,
+    "forecast_gust_max_kt": 15,
+    "forecast_wind_direction_start": "E",
+    "forecast_wind_direction_end": "ESE",
+    "storm_timing": "Forecast: mostly dry locally; no land-grid thunder today",
+    "alert_status": "No active Brunswick land or AMZ450 marine alerts at source check",
+    "best_window": "Light local winds; use passage-specific sea and access checks",
     "confidence_10": 7,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "9:33 AM",
-        "height_ft": 1.22
+        "time": "10:34 AM",
+        "height_ft": 1.18
       },
       {
         "type": "high",
-        "time": "3:54 PM",
-        "height_ft": 7.63
+        "time": "4:56 PM",
+        "height_ft": 7.51
       },
       {
         "type": "low",
-        "time": "10:06 PM",
-        "height_ft": 0.94
+        "time": "10:58 PM",
+        "height_ft": 0.84
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-03T01:21:31-05:00",
+    "forecast_updated_at": "2026-11-04T01:21:28-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 6,
-        "gust_kt": 13,
-        "wind_direction": "ENE",
-        "rain_percent": 9
+        "wind_kt": 5,
+        "gust_kt": 11,
+        "wind_direction": "E",
+        "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 9,
-        "gust_kt": 15,
-        "wind_direction": "ENE",
-        "rain_percent": 11
+        "wind_kt": 8,
+        "gust_kt": 14,
+        "wind_direction": "ESE",
+        "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 11,
-        "gust_kt": 18,
-        "wind_direction": "E",
-        "rain_percent": 8
+        "wind_kt": 9,
+        "gust_kt": 15,
+        "wind_direction": "SE",
+        "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 10,
-        "gust_kt": 17,
-        "wind_direction": "E",
-        "rain_percent": 7
+        "wind_kt": 8,
+        "gust_kt": 15,
+        "wind_direction": "ESE",
+        "rain_percent": 1
       },
       {
         "time": "6 PM",
-        "wind_kt": 8,
-        "gust_kt": 13,
-        "wind_direction": "ENE",
+        "wind_kt": 6,
+        "gust_kt": 10,
+        "wind_direction": "ESE",
         "rain_percent": 3
       }
     ],
-    "marine_summary": "Forecast: E 10–15 kt; total significant seas 4–6 ft, occasional 8 ft; showers. Exercise caution through 11 AM; no local SCA.",
-    "storm_outlook": "NHC 1 AM Nov 3: Atlantic low NE of Bahamas may develop late week; formation 10%/48h, 30%/7d. No active named Atlantic cyclone."
+    "marine_summary": "Forecast: E 5–10 kt; total significant seas 3–4 ft, occasional 5 ft. Tonight SE around 5 kt; seas 3–4 ft. No local Small Craft Advisory.",
+    "storm_outlook": "NHC 1 AM Nov 4: low south of Bermuda may develop; 20%/48h, 40%/7d. No active Atlantic cyclone; offshore gale area lies east of coastal routes."
   },
   "stories": [
     {
-      "category": "AI & Technology",
-      "headline": "Oracle raises $20 billion for AI cloud expansion",
-      "summary": "Oracle is raising $10 billion each in equity and debt to fund cloud expansion. Its shares fell 8.8%; the financing highlights both AI demand and concern about the cost of building capacity.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-02T08:22:00-05:00",
-      "source_url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "AI borrowing wave reaches Europe's bond markets",
-      "summary": "US technology companies are increasingly borrowing in euros to finance AI investment. Reuters reports $39.3 billion of European issuance; investors warn that further supply could raise borrowing costs.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-03T00:03:00-05:00",
-      "source_url": "https://www.reuters.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-2026-11-03/"
-    },
-    {
       "category": "US",
-      "headline": "Election Day puts control of Congress at stake",
-      "summary": "Americans vote for all 435 House seats and 35 Senate seats. Polling favors Democrats taking the House, while Senate control remains uncertain. These are expectations, not election results.",
+      "headline": "Democrats win control of both chambers of Congress",
+      "summary": "Reuters and AP report Democratic majorities in the House and Senate following Tuesday's election. Several races remain unresolved and totals are not certified. The new Congress takes office in January.",
       "source_name": "Reuters",
-      "published_at": "2026-11-03T01:04:22-05:00",
-      "source_url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/"
+      "published_at": "2026-11-04T01:58:00-05:00",
+      "source_url": "https://www.investing.com/news/politics-news/democrats-seize-congress-in-sweeping-midterm-repudiation-of-trump-4997528"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "OCC tells bank examiners how to assess AI risk",
+      "summary": "New OCC guidance focuses on consequences, autonomy and oversight rather than treating AI as a separate risk category, Reuters reports. Higher-risk uses can warrant tighter controls. Guidance is not a binding rule.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-04T06:02:29-05:00",
+      "source_url": "https://www.reuters.com/business/finance/us-bank-regulator-issues-first-ever-ai-guidance-examiners-2026-11-04/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "AMD data-center sales nearly double",
+      "summary": "AMD's third-quarter data-center revenue rose 97% to $8.55 billion. Management forecasts more than 80% overall revenue growth in 2027. The earnings are reported results; the growth outlook remains a company forecast.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-04T04:50:00-05:00",
+      "source_url": "https://www.reuters.com/business/amd-shares-jump-ai-driven-data-center-strength-fuels-growth-outlook-2026-11-04/"
     },
     {
       "category": "World",
-      "headline": "US officials report defensive strikes on Iran",
-      "summary": "US officials describe strikes on Qeshm Island as limited action against air defenses, not a return to major combat. Iranian media reported explosions; CENTCOM had not responded to Reuters.",
+      "headline": "Iran claims tankers hit mines near Hormuz",
+      "summary": "Iran's Revolutionary Guard says four tankers struck mines south of Hormuz and two other vessels were seized. Reuters reports the claim; vessel identities, casualties and independent confirmation remain unavailable.",
       "source_name": "Reuters",
-      "published_at": "2026-11-02T20:05:00-05:00",
-      "source_url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/"
+      "published_at": "2026-11-03T22:50:37-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-near-strait-hormuz-2026-11-04/"
     },
     {
       "category": "World",
-      "headline": "Ukraine says Russian bombing killed 31",
-      "summary": "Ukrainian officials say Russian bombing hit a school used for aid distribution in Komyshuvakha, killing 31. Russia says it struck a military target. The competing claims and toll are not independently verified.",
+      "headline": "Russia reports strikes on Ukrainian power stations",
+      "summary": "Russia says it hit power stations in Kyiv and Zhytomyr regions. Ukrainian officials report strikes elsewhere as energy attacks continue ahead of planned peace talks. Details remain dependent on official accounts.",
       "source_name": "Reuters",
-      "published_at": "2026-11-02T12:28:00-05:00",
-      "source_url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"
+      "published_at": "2026-11-04T00:56:00-05:00",
+      "source_url": "https://www.marketscreener.com/news/russia-hits-power-stations-in-ukraine-s-regions-of-kyiv-zhytomyr-ce785fded188f327"
     }
   ],
-  "sources_checked_at": "2026-11-03T06:40:00-05:00"
+  "sources_checked_at": "2026-11-04T06:32:13-05:00"
 }
