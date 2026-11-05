@@ -1,43 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-04",
-  "generated_at": "2026-11-04T06:32:13-05:00",
+  "briefing_date": "2026-11-05",
+  "generated_at": "2026-11-05T06:35:41-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: overcast; E 9 kt, gust 16 kt; visibility 7 mi",
-    "temperature_f": 73,
-    "forecast_wind_min_kt": 5,
-    "forecast_wind_max_kt": 10,
-    "forecast_gust_max_kt": 15,
-    "forecast_wind_direction_start": "E",
-    "forecast_wind_direction_end": "ESE",
-    "storm_timing": "Forecast: mostly dry locally; no land-grid thunder today",
+    "condition": "Observed 6:15 AM: calm; mist; visibility 5 mi; gust not reported",
+    "temperature_f": 72,
+    "forecast_wind_min_kt": 1,
+    "forecast_wind_max_kt": 7,
+    "forecast_gust_max_kt": 10,
+    "forecast_wind_direction_start": "SSE",
+    "forecast_wind_direction_end": "SSE",
+    "storm_timing": "Forecast: low shower chance, highest afternoon; wetter ECMWF guidance",
     "alert_status": "No active Brunswick land or AMZ450 marine alerts at source check",
-    "best_window": "Light local winds; use passage-specific sea and access checks",
+    "best_window": "Light forecast winds; recheck mist, seas and passage access",
     "confidence_10": 7,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "10:34 AM",
-        "height_ft": 1.18
+        "time": "11:29 AM",
+        "height_ft": 1.09
       },
       {
         "type": "high",
-        "time": "4:56 PM",
-        "height_ft": 7.51
+        "time": "5:51 PM",
+        "height_ft": 7.45
       },
       {
         "type": "low",
-        "time": "10:58 PM",
-        "height_ft": 0.84
+        "time": "11:47 PM",
+        "height_ft": 0.75
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-04T01:21:28-05:00",
+    "forecast_updated_at": "2026-11-05T04:36:33-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 5,
-        "gust_kt": 11,
-        "wind_direction": "E",
-        "rain_percent": 0
+        "wind_kt": 1,
+        "gust_kt": 3,
+        "wind_direction": "SSE",
+        "rain_percent": 2
       },
       {
         "time": "9 AM",
-        "wind_kt": 8,
-        "gust_kt": 14,
-        "wind_direction": "ESE",
-        "rain_percent": 0
+        "wind_kt": 3,
+        "gust_kt": 4,
+        "wind_direction": "S",
+        "rain_percent": 2
       },
       {
         "time": "NOON",
-        "wind_kt": 9,
-        "gust_kt": 15,
-        "wind_direction": "SE",
-        "rain_percent": 0
+        "wind_kt": 6,
+        "gust_kt": 8,
+        "wind_direction": "S",
+        "rain_percent": 7
       },
       {
         "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 15,
-        "wind_direction": "ESE",
-        "rain_percent": 1
+        "wind_kt": 7,
+        "gust_kt": 10,
+        "wind_direction": "SE",
+        "rain_percent": 13
       },
       {
         "time": "6 PM",
-        "wind_kt": 6,
-        "gust_kt": 10,
-        "wind_direction": "ESE",
-        "rain_percent": 3
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "SSE",
+        "rain_percent": 4
       }
     ],
-    "marine_summary": "Forecast: E 5–10 kt; total significant seas 3–4 ft, occasional 5 ft. Tonight SE around 5 kt; seas 3–4 ft. No local Small Craft Advisory.",
-    "storm_outlook": "NHC 1 AM Nov 4: low south of Bermuda may develop; 20%/48h, 40%/7d. No active Atlantic cyclone; offshore gale area lies east of coastal routes."
+    "marine_summary": "Forecast: SE 5 kt, increasing 5–10 kt; significant seas 3–4 ft, occasional 5 ft. Tonight seas 3 ft. No local Small Craft Advisory.",
+    "storm_outlook": "NHC 1 AM Nov 5: low south of Bermuda; formation 30%/48h, 50%/7d. No active Atlantic cyclone. Offshore gale lies east of coastal routes."
   },
   "stories": [
     {
+      "category": "AI & Technology",
+      "headline": "OpenAI says enterprise sales now lead revenue",
+      "summary": "Greg Brockman says most OpenAI revenue now comes from enterprises and the company could be ready for an IPO in 2027. This is management's assessment, not an announced offering.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-04T21:05:00-05:00",
+      "source_url": "https://www.reuters.com/legal/transactional/openai-ready-ipo-2027-now-counts-majority-sales-enterprises-brockman-says-2026-11-05/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "China blocks SoftBank's ABB robotics acquisition",
+      "summary": "ABB confirms China has prohibited SoftBank's $5.4 billion robotics acquisition. The FT attributes the decision to data and AI-training concerns; that explanation has not been confirmed by the regulator.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-04T22:15:00-05:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+    },
+    {
       "category": "US",
-      "headline": "Democrats win control of both chambers of Congress",
-      "summary": "Reuters and AP report Democratic majorities in the House and Senate following Tuesday's election. Several races remain unresolved and totals are not certified. The new Congress takes office in January.",
+      "headline": "Democrats plan oversight; funding deadline looms",
+      "summary": "After winning Congress, Democrats plan investigations and checks on Trump. Their majorities take office in January; Republicans still face a lame-duck funding deadline. Campaign plans are not enacted policy.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T01:58:00-05:00",
-      "source_url": "https://www.investing.com/news/politics-news/democrats-seize-congress-in-sweeping-midterm-repudiation-of-trump-4997528"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "OCC tells bank examiners how to assess AI risk",
-      "summary": "New OCC guidance focuses on consequences, autonomy and oversight rather than treating AI as a separate risk category, Reuters reports. Higher-risk uses can warrant tighter controls. Guidance is not a binding rule.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-04T06:02:29-05:00",
-      "source_url": "https://www.reuters.com/business/finance/us-bank-regulator-issues-first-ever-ai-guidance-examiners-2026-11-04/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "AMD data-center sales nearly double",
-      "summary": "AMD's third-quarter data-center revenue rose 97% to $8.55 billion. Management forecasts more than 80% overall revenue growth in 2027. The earnings are reported results; the growth outlook remains a company forecast.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-04T04:50:00-05:00",
-      "source_url": "https://www.reuters.com/business/amd-shares-jump-ai-driven-data-center-strength-fuels-growth-outlook-2026-11-04/"
+      "published_at": "2026-11-04T01:59:00-05:00",
+      "source_url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/"
     },
     {
       "category": "World",
-      "headline": "Iran claims tankers hit mines near Hormuz",
-      "summary": "Iran's Revolutionary Guard says four tankers struck mines south of Hormuz and two other vessels were seized. Reuters reports the claim; vessel identities, casualties and independent confirmation remain unavailable.",
+      "headline": "Vance distances himself from Iran war",
+      "summary": "Vance publicly questioned the Iran war's costs after the election defeat, while Trump defended it. The disagreement does not establish a ceasefire or a change in military operations.",
       "source_name": "Reuters",
-      "published_at": "2026-11-03T22:50:37-05:00",
-      "source_url": "https://www.reuters.com/world/middle-east/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-near-strait-hormuz-2026-11-04/"
+      "published_at": "2026-11-04T12:26:00-05:00",
+      "source_url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/"
     },
     {
       "category": "World",
-      "headline": "Russia reports strikes on Ukrainian power stations",
-      "summary": "Russia says it hit power stations in Kyiv and Zhytomyr regions. Ukrainian officials report strikes elsewhere as energy attacks continue ahead of planned peace talks. Details remain dependent on official accounts.",
+      "headline": "Hong Kong's Joshua Wong receives ten-year sentence",
+      "summary": "Joshua Wong received a ten-year sentence after pleading guilty to foreign collusion under Hong Kong's national security law. He has been imprisoned since 2020.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T00:56:00-05:00",
-      "source_url": "https://www.marketscreener.com/news/russia-hits-power-stations-in-ukraine-s-regions-of-kyiv-zhytomyr-ce785fded188f327"
+      "published_at": "2026-11-05T03:53:00-05:00",
+      "source_url": "https://www.reuters.com/world/china/hong-kongs-joshua-wong-teenage-protest-leader-decade-behind-bars-2026-11-05/"
     }
   ],
-  "sources_checked_at": "2026-11-04T06:32:13-05:00"
+  "sources_checked_at": "2026-11-05T06:35:41-05:00"
 }
