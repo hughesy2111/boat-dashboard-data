@@ -1,43 +1,38 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-05",
-  "generated_at": "2026-11-05T06:35:41-05:00",
+  "briefing_date": "2026-11-06",
+  "generated_at": "2026-11-06T06:37:14-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: calm; mist; visibility 5 mi; gust not reported",
+    "condition": "Observed 6:15 AM: overcast; SW 5 kt; visibility 10 mi; gust not reported",
     "temperature_f": 72,
-    "forecast_wind_min_kt": 1,
+    "forecast_wind_min_kt": 2,
     "forecast_wind_max_kt": 7,
-    "forecast_gust_max_kt": 10,
-    "forecast_wind_direction_start": "SSE",
-    "forecast_wind_direction_end": "SSE",
-    "storm_timing": "Forecast: low shower chance, highest afternoon; wetter ECMWF guidance",
+    "forecast_gust_max_kt": 11,
+    "forecast_wind_direction_start": "SSW",
+    "forecast_wind_direction_end": "WSW",
+    "storm_timing": "Forecast: showers 3–6 PM; slight thunder chance 4–6 PM",
     "alert_status": "No active Brunswick land or AMZ450 marine alerts at source check",
-    "best_window": "Light forecast winds; recheck mist, seas and passage access",
+    "best_window": "Morning before shower risk; passage seas and arrivals need checks",
     "confidence_10": 7,
     "recheck_at": "12:00 PM",
     "tides": [
       {
         "type": "low",
-        "time": "11:29 AM",
-        "height_ft": 1.09
+        "time": "12:21 PM",
+        "height_ft": 0.99
       },
       {
         "type": "high",
-        "time": "5:51 PM",
-        "height_ft": 7.45
-      },
-      {
-        "type": "low",
-        "time": "11:47 PM",
-        "height_ft": 0.75
+        "time": "6:39 PM",
+        "height_ft": 7.4
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-05T04:36:33-05:00",
+    "forecast_updated_at": "2026-11-06T05:31:06-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +41,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 1,
-        "gust_kt": 3,
-        "wind_direction": "SSE",
-        "rain_percent": 2
+        "wind_kt": 3,
+        "gust_kt": 5,
+        "wind_direction": "SSW",
+        "rain_percent": 3
       },
       {
         "time": "9 AM",
-        "wind_kt": 3,
-        "gust_kt": 4,
-        "wind_direction": "S",
-        "rain_percent": 2
+        "wind_kt": 4,
+        "gust_kt": 7,
+        "wind_direction": "WSW",
+        "rain_percent": 1
       },
       {
         "time": "NOON",
-        "wind_kt": 6,
-        "gust_kt": 8,
-        "wind_direction": "S",
-        "rain_percent": 7
+        "wind_kt": 7,
+        "gust_kt": 10,
+        "wind_direction": "WSW",
+        "rain_percent": 3
       },
       {
         "time": "3 PM",
-        "wind_kt": 7,
+        "wind_kt": 6,
         "gust_kt": 10,
-        "wind_direction": "SE",
-        "rain_percent": 13
+        "wind_direction": "SW",
+        "rain_percent": 17
       },
       {
         "time": "6 PM",
-        "wind_kt": 5,
-        "gust_kt": 8,
-        "wind_direction": "SSE",
-        "rain_percent": 4
+        "wind_kt": 2,
+        "gust_kt": 4,
+        "wind_direction": "WSW",
+        "rain_percent": 16
       }
     ],
-    "marine_summary": "Forecast: SE 5 kt, increasing 5–10 kt; significant seas 3–4 ft, occasional 5 ft. Tonight seas 3 ft. No local Small Craft Advisory.",
-    "storm_outlook": "NHC 1 AM Nov 5: low south of Bermuda; formation 30%/48h, 50%/7d. No active Atlantic cyclone. Offshore gale lies east of coastal routes."
+    "marine_summary": "Forecast: SW 5 kt, SE afternoon; significant seas 3–4 ft. Slight PM thunder risk. Tonight NW 10–15 kt after midnight; seas 3–4 ft. No local SCA.",
+    "storm_outlook": "NHC 1 AM Nov 6: non-tropical low south of Bermuda; formation 20%/48h, 30%/7d. No active Atlantic cyclone. Central Atlantic offshore gale persists."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI says enterprise sales now lead revenue",
-      "summary": "Greg Brockman says most OpenAI revenue now comes from enterprises and the company could be ready for an IPO in 2027. This is management's assessment, not an announced offering.",
+      "headline": "Democrats plan AI safety and data-center bills",
+      "summary": "Democrats plan bills on AI testing, liability and data-center electricity costs when they take control of Congress in January. These are proposals, not enacted rules, and face presidential opposition.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T21:05:00-05:00",
-      "source_url": "https://www.reuters.com/legal/transactional/openai-ready-ipo-2027-now-counts-majority-sales-enterprises-brockman-says-2026-11-05/"
+      "published_at": "2026-11-06T06:05:00-05:00",
+      "source_url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/"
     },
     {
       "category": "AI & Technology",
-      "headline": "China blocks SoftBank's ABB robotics acquisition",
-      "summary": "ABB confirms China has prohibited SoftBank's $5.4 billion robotics acquisition. The FT attributes the decision to data and AI-training concerns; that explanation has not been confirmed by the regulator.",
+      "headline": "Tech stocks attempt rebound after AI-led selloff",
+      "summary": "Nasdaq futures rose early Friday after Thursday's sharp technology selloff put the Nasdaq in correction territory. Concerns include AI spending returns and future regulation. Premarket gains do not predict the closing result.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T22:15:00-05:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+      "published_at": "2026-11-06T04:41:00-05:00",
+      "source_url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
     },
     {
       "category": "US",
-      "headline": "Democrats plan oversight; funding deadline looms",
-      "summary": "After winning Congress, Democrats plan investigations and checks on Trump. Their majorities take office in January; Republicans still face a lame-duck funding deadline. Campaign plans are not enacted policy.",
+      "headline": "Fed's Williams says inflation remains too high",
+      "summary": "John Williams says growth and employment remain resilient but inflation must return sustainably to 2%. He did not specify the Fed's next rate decision; market expectations are not policy commitments.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T01:59:00-05:00",
-      "source_url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/"
+      "published_at": "2026-11-06T05:31:00-05:00",
+      "source_url": "https://www.reuters.com/world/us/us-inflation-too-high-essential-get-back-2-feds-williams-2026-11-06/"
     },
     {
       "category": "World",
-      "headline": "Vance distances himself from Iran war",
-      "summary": "Vance publicly questioned the Iran war's costs after the election defeat, while Trump defended it. The disagreement does not establish a ceasefire or a change in military operations.",
+      "headline": "Iran sends nuclear proposal through Qatar",
+      "summary": "A senior Iranian official says Tehran sent a nuclear proposal via Qatar, conditional on Washington meeting seven demands. Reuters attributes the account to that official; it does not establish an agreement or reopening of Hormuz.",
       "source_name": "Reuters",
-      "published_at": "2026-11-04T12:26:00-05:00",
-      "source_url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/"
+      "published_at": "2026-11-05T14:48:00-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/"
     },
     {
       "category": "World",
-      "headline": "Hong Kong's Joshua Wong receives ten-year sentence",
-      "summary": "Joshua Wong received a ten-year sentence after pleading guilty to foreign collusion under Hong Kong's national security law. He has been imprisoned since 2020.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-05T03:53:00-05:00",
-      "source_url": "https://www.reuters.com/world/china/hong-kongs-joshua-wong-teenage-protest-leader-decade-behind-bars-2026-11-05/"
+      "headline": "Ukraine seeks explicit postwar security guarantees",
+      "summary": "Zelenskyy wants written clarity on who would respond to another Russian attack, and how. Allied discussions continue ahead of planned trilateral talks, while attacks persist. No settlement or binding guarantee has been announced.",
+      "source_name": "AP",
+      "published_at": "2026-11-06T05:58:30-05:00",
+      "source_url": "https://apnews.com/article/ukraine-russia-war-trump-kushner-peace-713268db3dac59bff6ad6c831c72cdb6"
     }
   ],
-  "sources_checked_at": "2026-11-05T06:35:41-05:00"
+  "sources_checked_at": "2026-11-06T06:37:14-05:00"
 }
