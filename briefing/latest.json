@@ -1,38 +1,43 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-06",
-  "generated_at": "2026-11-06T06:37:14-05:00",
+  "briefing_date": "2026-11-07",
+  "generated_at": "2026-11-07T06:36:03-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: overcast; SW 5 kt; visibility 10 mi; gust not reported",
-    "temperature_f": 72,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 7,
-    "forecast_gust_max_kt": 11,
-    "forecast_wind_direction_start": "SSW",
-    "forecast_wind_direction_end": "WSW",
-    "storm_timing": "Forecast: showers 3–6 PM; slight thunder chance 4–6 PM",
+    "condition": "Observed 6:15 AM: clear; NW 8 kt; visibility 10 mi; gust not reported",
+    "temperature_f": 61,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 6,
+    "forecast_gust_max_kt": 9,
+    "forecast_wind_direction_start": "NW",
+    "forecast_wind_direction_end": "ENE",
+    "storm_timing": "Forecast: dry today; no local thunderstorm period identified",
     "alert_status": "No active Brunswick land or AMZ450 marine alerts at source check",
-    "best_window": "Morning before shower risk; passage seas and arrivals need checks",
+    "best_window": "Dry locally; offshore swell and inlet access remain limiting",
     "confidence_10": 7,
     "recheck_at": "12:00 PM",
     "tides": [
       {
+        "type": "high",
+        "time": "7:04 AM",
+        "height_ft": 8.33
+      },
+      {
         "type": "low",
-        "time": "12:21 PM",
-        "height_ft": 0.99
+        "time": "1:08 PM",
+        "height_ft": 0.9
       },
       {
         "type": "high",
-        "time": "6:39 PM",
-        "height_ft": 7.4
+        "time": "7:20 PM",
+        "height_ft": 7.34
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-06T05:31:06-05:00",
+    "forecast_updated_at": "2026-11-07T01:20:54-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -41,84 +46,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 3,
-        "gust_kt": 5,
-        "wind_direction": "SSW",
-        "rain_percent": 3
+        "wind_kt": 6,
+        "gust_kt": 8,
+        "wind_direction": "NW",
+        "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 4,
-        "gust_kt": 7,
-        "wind_direction": "WSW",
-        "rain_percent": 1
+        "wind_kt": 6,
+        "gust_kt": 9,
+        "wind_direction": "NNW",
+        "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 7,
-        "gust_kt": 10,
-        "wind_direction": "WSW",
-        "rain_percent": 3
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "N",
+        "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 6,
-        "gust_kt": 10,
-        "wind_direction": "SW",
-        "rain_percent": 17
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "NE",
+        "rain_percent": 0
       },
       {
         "time": "6 PM",
-        "wind_kt": 2,
-        "gust_kt": 4,
-        "wind_direction": "WSW",
-        "rain_percent": 16
+        "wind_kt": 4,
+        "gust_kt": 6,
+        "wind_direction": "ENE",
+        "rain_percent": 0
       }
     ],
-    "marine_summary": "Forecast: SW 5 kt, SE afternoon; significant seas 3–4 ft. Slight PM thunder risk. Tonight NW 10–15 kt after midnight; seas 3–4 ft. No local SCA.",
-    "storm_outlook": "NHC 1 AM Nov 6: non-tropical low south of Bermuda; formation 20%/48h, 30%/7d. No active Atlantic cyclone. Central Atlantic offshore gale persists."
+    "marine_summary": "Forecast: N 10–15 kt; significant seas 3–5 ft, occasional 6 ft. Tonight NE 5–10 kt; seas 3–4 ft. No local Small Craft Advisory.",
+    "storm_outlook": "NHC 1 AM Nov 7: AL94 south-southeast of Bermuda; formation 10%/48h, 10%/7d. No active Atlantic cyclone. Central Atlantic offshore gales persist."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Democrats plan AI safety and data-center bills",
-      "summary": "Democrats plan bills on AI testing, liability and data-center electricity costs when they take control of Congress in January. These are proposals, not enacted rules, and face presidential opposition.",
+      "headline": "OpenAI raises $11 billion, sources say",
+      "summary": "Reuters sources say OpenAI closed $11 billion in initial funding at a $1.25 trillion valuation, below the $1.5 trillion initially sought. The report is source-based, not an independently reviewed company filing.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T06:05:00-05:00",
-      "source_url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/"
-    },
-    {
-      "category": "AI & Technology",
-      "headline": "Tech stocks attempt rebound after AI-led selloff",
-      "summary": "Nasdaq futures rose early Friday after Thursday's sharp technology selloff put the Nasdaq in correction territory. Concerns include AI spending returns and future regulation. Premarket gains do not predict the closing result.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-06T04:41:00-05:00",
-      "source_url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+      "published_at": "2026-11-06T16:12:26-05:00",
+      "source_url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
     },
     {
       "category": "US",
-      "headline": "Fed's Williams says inflation remains too high",
-      "summary": "John Williams says growth and employment remain resilient but inflation must return sustainably to 2%. He did not specify the Fed's next rate decision; market expectations are not policy commitments.",
+      "headline": "US adds 165,000 jobs; unemployment at 4.1%",
+      "summary": "BLS reports October payroll employment rose 165,000 and unemployment was 4.1%. These are survey estimates subject to revision, not a forecast of the Fed's next decision.",
+      "source_name": "BLS",
+      "published_at": "2026-11-06T08:30:00-05:00",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+      "category": "US",
+      "headline": "Trump names Stephen Miller chief of staff",
+      "summary": "Trump named Stephen Miller to replace Susie Wiles as chief of staff effective Monday, November 9. The personnel change is confirmed; predictions of a more confrontational policy approach remain analysis.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T05:31:00-05:00",
-      "source_url": "https://www.reuters.com/world/us/us-inflation-too-high-essential-get-back-2-feds-williams-2026-11-06/"
+      "published_at": "2026-11-06T14:01:41-05:00",
+      "source_url": "https://www.reuters.com/world/us/trump-says-stephen-miller-become-chief-staff-2026-11-06/"
     },
     {
       "category": "World",
-      "headline": "Iran sends nuclear proposal through Qatar",
-      "summary": "A senior Iranian official says Tehran sent a nuclear proposal via Qatar, conditional on Washington meeting seven demands. Reuters attributes the account to that official; it does not establish an agreement or reopening of Hormuz.",
+      "headline": "Qatar says US–Iran mediation continues",
+      "summary": "Qatar's prime minister says mediation continues and progress has been made. Iranian media separately report possible missile strikes on Qeshm; damage and attribution remain unconfirmed in this report. No agreement is announced.",
       "source_name": "Reuters",
-      "published_at": "2026-11-05T14:48:00-05:00",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/"
+      "published_at": "2026-11-06T23:23:45-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/"
     },
     {
       "category": "World",
-      "headline": "Ukraine seeks explicit postwar security guarantees",
-      "summary": "Zelenskyy wants written clarity on who would respond to another Russian attack, and how. Allied discussions continue ahead of planned trilateral talks, while attacks persist. No settlement or binding guarantee has been announced.",
-      "source_name": "AP",
-      "published_at": "2026-11-06T05:58:30-05:00",
-      "source_url": "https://apnews.com/article/ukraine-russia-war-trump-kushner-peace-713268db3dac59bff6ad6c831c72cdb6"
+      "headline": "Russian strikes damage Kyiv power infrastructure",
+      "summary": "Ukrainian officials report serious damage to energy infrastructure and Kyiv's Northern Bridge after overnight attacks. Casualty and interception figures remain official accounts. Planned peace talks have not halted the fighting.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-06T20:23:51-05:00",
+      "source_url": "https://www.reuters.com/world/russian-forces-launch-missile-attack-ukrainian-capital-kyiv-mayor-says-2026-11-07/"
     }
   ],
-  "sources_checked_at": "2026-11-06T06:37:14-05:00"
+  "sources_checked_at": "2026-11-07T06:36:03-05:00"
 }
