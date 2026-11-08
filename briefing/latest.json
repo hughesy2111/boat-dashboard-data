@@ -1,43 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-07",
-  "generated_at": "2026-11-07T06:36:03-05:00",
+  "briefing_date": "2026-11-08",
+  "generated_at": "2026-11-08T06:35:39-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: clear; NW 8 kt; visibility 10 mi; gust not reported",
+    "condition": "Observed 6:15 AM: mist, nearby thunder; NNW 5 kt; visibility 6 mi; gust not reported",
     "temperature_f": 61,
-    "forecast_wind_min_kt": 4,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 9,
-    "forecast_wind_direction_start": "NW",
+    "forecast_wind_min_kt": 5,
+    "forecast_wind_max_kt": 11,
+    "forecast_gust_max_kt": 17,
+    "forecast_wind_direction_start": "NNE",
     "forecast_wind_direction_end": "ENE",
-    "storm_timing": "Forecast: dry today; no local thunderstorm period identified",
-    "alert_status": "No active Brunswick land or AMZ450 marine alerts at source check",
-    "best_window": "Dry locally; offshore swell and inlet access remain limiting",
-    "confidence_10": 7,
-    "recheck_at": "12:00 PM",
+    "storm_timing": "Forecast: 0% rain today; nearby thunder observed 6:15 AM—recheck radar",
+    "alert_status": "Land and nearshore Dense Fog Advisories until 9 AM; visibility locally 1/4 mi or less",
+    "best_window": "After 9 AM only if fog and nearby thunder have cleared",
+    "confidence_10": 6,
+    "recheck_at": "9:00 AM",
     "tides": [
       {
+        "type": "low",
+        "time": "1:16 AM",
+        "height_ft": 0.67
+      },
+      {
         "type": "high",
-        "time": "7:04 AM",
-        "height_ft": 8.33
+        "time": "7:43 AM",
+        "height_ft": 8.42
       },
       {
         "type": "low",
-        "time": "1:08 PM",
-        "height_ft": 0.9
+        "time": "1:53 PM",
+        "height_ft": 0.85
       },
       {
         "type": "high",
-        "time": "7:20 PM",
-        "height_ft": 7.34
+        "time": "7:58 PM",
+        "height_ft": 7.24
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-07T01:20:54-05:00",
+    "forecast_updated_at": "2026-11-08T05:16:26-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -46,84 +51,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 6,
+        "wind_kt": 5,
         "gust_kt": 8,
-        "wind_direction": "NW",
+        "wind_direction": "NNE",
         "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 6,
-        "gust_kt": 9,
-        "wind_direction": "NNW",
-        "rain_percent": 0
-      },
-      {
-        "time": "NOON",
-        "wind_kt": 5,
-        "gust_kt": 8,
-        "wind_direction": "N",
-        "rain_percent": 0
-      },
-      {
-        "time": "3 PM",
-        "wind_kt": 5,
-        "gust_kt": 8,
+        "wind_kt": 10,
+        "gust_kt": 15,
         "wind_direction": "NE",
         "rain_percent": 0
       },
       {
+        "time": "NOON",
+        "wind_kt": 11,
+        "gust_kt": 17,
+        "wind_direction": "NE",
+        "rain_percent": 0
+      },
+      {
+        "time": "3 PM",
+        "wind_kt": 10,
+        "gust_kt": 15,
+        "wind_direction": "ENE",
+        "rain_percent": 0
+      },
+      {
         "time": "6 PM",
-        "wind_kt": 4,
-        "gust_kt": 6,
+        "wind_kt": 8,
+        "gust_kt": 12,
         "wind_direction": "ENE",
         "rain_percent": 0
       }
     ],
-    "marine_summary": "Forecast: N 10–15 kt; significant seas 3–5 ft, occasional 6 ft. Tonight NE 5–10 kt; seas 3–4 ft. No local Small Craft Advisory.",
-    "storm_outlook": "NHC 1 AM Nov 7: AL94 south-southeast of Bermuda; formation 10%/48h, 10%/7d. No active Atlantic cyclone. Central Atlantic offshore gales persist."
+    "marine_summary": "Forecast: NE 10–15 kt; significant seas 3–4 ft, occasional 5 ft. Dense fog until 9 AM. E swell near 10 s; inlet conditions need separate checks.",
+    "storm_outlook": "NHC 1 AM Nov 8: no Atlantic tropical cyclones; formation not expected in the Atlantic, Caribbean or Gulf over the next 7 days."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "OpenAI raises $11 billion, sources say",
-      "summary": "Reuters sources say OpenAI closed $11 billion in initial funding at a $1.25 trillion valuation, below the $1.5 trillion initially sought. The report is source-based, not an independently reviewed company filing.",
+      "headline": "Anthropic IPO timing faces investor doubts",
+      "summary": "Reuters sources say investors want a lower valuation and question Anthropic's planned November IPO timetable after the AI-stock selloff. Anthropic declined comment; no delay has been confirmed.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T16:12:26-05:00",
-      "source_url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
+      "published_at": "2026-11-05T18:41:00-05:00",
+      "source_url": "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/"
     },
     {
       "category": "US",
-      "headline": "US adds 165,000 jobs; unemployment at 4.1%",
-      "summary": "BLS reports October payroll employment rose 165,000 and unemployment was 4.1%. These are survey estimates subject to revision, not a forecast of the Fed's next decision.",
-      "source_name": "BLS",
-      "published_at": "2026-11-06T08:30:00-05:00",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm"
-    },
-    {
-      "category": "US",
-      "headline": "Trump names Stephen Miller chief of staff",
-      "summary": "Trump named Stephen Miller to replace Susie Wiles as chief of staff effective Monday, November 9. The personnel change is confirmed; predictions of a more confrontational policy approach remain analysis.",
+      "headline": "State AG election wins could reshape US litigation",
+      "summary": "Democrats won attorney general offices in Georgia, Iowa, Ohio, Kansas and Texas. Pending abortion, immigration and environmental cases could change direction, but withdrawals or new legal outcomes are not yet established.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T14:01:41-05:00",
-      "source_url": "https://www.reuters.com/world/us/trump-says-stephen-miller-become-chief-staff-2026-11-06/"
+      "published_at": "2026-11-08T06:05:00-05:00",
+      "source_url": "https://www.reuters.com/legal/litigation/democratic-attorney-general-wins-could-reshape-us-lawsuits-abortion-immigration-2026-11-08/"
     },
     {
       "category": "World",
-      "headline": "Qatar says US–Iran mediation continues",
-      "summary": "Qatar's prime minister says mediation continues and progress has been made. Iranian media separately report possible missile strikes on Qeshm; damage and attribution remain unconfirmed in this report. No agreement is announced.",
+      "headline": "Aramco building damaged after attempted Riyadh attack",
+      "summary": "Saudi Arabia's Energy Ministry reports limited debris damage to an Aramco administrative building in Riyadh and no casualties. The coalition reports missile interceptions; the Houthis had not immediately commented.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T23:23:45-05:00",
-      "source_url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/"
+      "published_at": "2026-11-08T00:24:00-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/"
     },
     {
       "category": "World",
-      "headline": "Russian strikes damage Kyiv power infrastructure",
-      "summary": "Ukrainian officials report serious damage to energy infrastructure and Kyiv's Northern Bridge after overnight attacks. Casualty and interception figures remain official accounts. Planned peace talks have not halted the fighting.",
+      "headline": "Zaporizhzhia loses external power again",
+      "summary": "The IAEA and plant management say Zaporizhzhia is using backup generators for cooling after losing external power. The cause is unknown. The IAEA reports roughly two weeks' fuel for a limited number of generators.",
       "source_name": "Reuters",
-      "published_at": "2026-11-06T20:23:51-05:00",
-      "source_url": "https://www.reuters.com/world/russian-forces-launch-missile-attack-ukrainian-capital-kyiv-mayor-says-2026-11-07/"
+      "published_at": "2026-11-08T03:41:00-05:00",
+      "source_url": "https://www.reuters.com/world/zaporizhzhia-nuclear-plant-loses-external-power-supply-russian-installed-2026-11-08/"
+    },
+    {
+      "category": "World",
+      "headline": "New Zealand awaits decisive final election count",
+      "summary": "Preliminary results give the governing coalition a narrow majority, while National and Labour are nearly tied in popular votes. Special votes could change the outcome; final results are due November 27.",
+      "source_name": "Reuters via MarketScreener",
+      "published_at": "2026-11-07T13:05:00-05:00",
+      "source_url": "https://www.marketscreener.com/news/new-zealand-vote-leaves-national-labour-nearly-deadlocked-ce785fd2d180f124"
     }
   ],
-  "sources_checked_at": "2026-11-07T06:36:03-05:00"
+  "sources_checked_at": "2026-11-08T06:35:39-05:00"
 }
