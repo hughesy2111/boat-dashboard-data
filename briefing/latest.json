@@ -1,48 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-09",
-  "generated_at": "2026-11-09T06:34:42-05:00",
+  "briefing_date": "2026-11-10",
+  "generated_at": "2026-11-10T06:36:14-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed 6:15 AM: clear, calm, visibility 9 mi; distant lightning SW; gust not reported",
-    "temperature_f": 57,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 6,
-    "forecast_gust_max_kt": 9,
-    "forecast_wind_direction_start": "NNW",
-    "forecast_wind_direction_end": "SE",
-    "storm_timing": "Forecast: 0% rain through 6 PM; no thunder period. Morning patchy fog.",
-    "alert_status": "NWS fog statements: locally 1/2 mi or less until around 9 AM; no active coastal marine warnings",
-    "best_window": "After morning fog clears; offshore swell remains relevant",
+    "condition": "Observed fog/mist; 1/2-mile visibility at 6:15 AM",
+    "temperature_f": 54,
+    "forecast_wind_min_kt": 1,
+    "forecast_wind_max_kt": 7,
+    "forecast_gust_max_kt": 11,
+    "forecast_wind_direction_start": "WNW",
+    "forecast_wind_direction_end": "SSW",
+    "storm_timing": "Forecast rain chance 0% morning, 6% afternoon; no local thunder timing identified.",
+    "alert_status": "Special Weather Statement: patchy dense fog; no active local marine alert.",
+    "best_window": "Forecast: after fog clears; recheck visibility around 9 AM",
     "confidence_10": 7,
     "recheck_at": "9:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "1:58 AM",
-        "height_ft": 0.69
+        "time": "2:39 AM",
+        "height_ft": 0.76
       },
       {
         "type": "high",
-        "time": "8:19 AM",
-        "height_ft": 8.42
+        "time": "8:54 AM",
+        "height_ft": 8.33
       },
       {
         "type": "low",
-        "time": "2:35 PM",
-        "height_ft": 0.84
+        "time": "3:17 PM",
+        "height_ft": 0.9
       },
       {
         "type": "high",
-        "time": "8:34 PM",
-        "height_ft": 7.12
+        "time": "9:10 PM",
+        "height_ft": 6.97
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-09T04:35:41-05:00",
+    "forecast_updated_at": "2026-11-10T01:20:56-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -51,84 +51,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 2,
-        "gust_kt": 3,
-        "wind_direction": "NNW",
+        "wind_kt": 1,
+        "gust_kt": 2,
+        "wind_direction": "WNW",
         "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 6,
-        "gust_kt": 9,
-        "wind_direction": "NNW",
+        "wind_kt": 4,
+        "gust_kt": 6,
+        "wind_direction": "WNW",
         "rain_percent": 0
       },
       {
         "time": "NOON",
         "wind_kt": 6,
         "gust_kt": 9,
-        "wind_direction": "NNW",
+        "wind_direction": "WSW",
         "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 6,
-        "gust_kt": 9,
-        "wind_direction": "N",
-        "rain_percent": 0
+        "wind_kt": 7,
+        "gust_kt": 11,
+        "wind_direction": "SW",
+        "rain_percent": 6
       },
       {
         "time": "6 PM",
-        "wind_kt": 4,
-        "gust_kt": 6,
-        "wind_direction": "SE",
-        "rain_percent": 0
+        "wind_kt": 5,
+        "gust_kt": 8,
+        "wind_direction": "SSW",
+        "rain_percent": 6
       }
     ],
-    "marine_summary": "Forecast: N 5–10 kt, turning NE; total significant seas 3–4 ft, occasional 5 ft. E swell near 12 s. Fog pockets; inlet access not cleared.",
-    "storm_outlook": "NHC 1 AM Nov 9: no Atlantic tropical cyclones; no formation expected in the Atlantic, Caribbean or Gulf during the next 7 days."
+    "marine_summary": "Forecast today: NW around 5 kt becoming S; seas 2-3 ft. Fog limits visibility early. Stronger W winds forecast later Thursday.",
+    "storm_outlook": "NHC forecast: no Atlantic, Caribbean or Gulf formation expected within 7 days; no active Atlantic tropical cyclone."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Nvidia opens independent review of Huang allegations",
-      "summary": "Nvidia is reviewing allegations that CEO Jensen Huang was targeted by a foreign intelligence effort. Reuters could not independently verify the claims. Nvidia says it has no reason to believe national security or company secrets were compromised.",
+      "headline": "Australia plans stronger AI oversight",
+      "summary": "Australia accepted recommendations for mandatory AI incident reporting and a new regulator. Legislation is planned for next year; these are proposed changes, not enacted rules.",
       "source_name": "Reuters",
-      "published_at": "2026-11-09T01:50:00-05:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/what-we-know-about-nvidias-probe-into-ceo-jensen-huang-2026-11-09/"
+      "published_at": "2026-11-09T20:30:00-05:00",
+      "source_url": "https://www.reuters.com/world/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-2026-11-10/"
+    },
+    {
+      "category": "AI & Technology",
+      "headline": "Anthropic IPO terms withdrawn as inaccurate",
+      "summary": "Banks briefly circulated, then withdrew, proposed IPO terms. Reuters could not establish which details were wrong. The reported fundraising figure should not be treated as final.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-09T20:22:00-05:00",
+      "source_url": "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/"
     },
     {
       "category": "US",
-      "headline": "Trump signals openness to AI safeguards",
-      "summary": "Trump said on CBS he was open to AI safeguards and working with Democrats, while opposing restrictions that disadvantage the US against China. No specific legislation, regulatory framework or enacted policy was announced.",
+      "headline": "Poll favors ending Iran war and repealing tariffs",
+      "summary": "A Reuters/Ipsos poll found 71% support legislation ending the Iran war and 62% favor tariff repeal. The online survey covered 1,705 US adults; polling does not determine congressional action.",
       "source_name": "Reuters",
-      "published_at": "2026-11-08T19:29:00-05:00",
-      "source_url": "https://www.reuters.com/world/trump-says-ai-risks-can-be-managed-signals-openness-guardrails-2026-11-09/"
+      "published_at": "2026-11-10T06:03:39-05:00",
+      "source_url": "https://www.reuters.com/world/us/most-americans-want-new-democratic-congress-end-trumps-iran-war-reutersipsos-2026-11-10/"
     },
     {
       "category": "World",
-      "headline": "China extends US trade truce by two months",
-      "summary": "China extended the suspension of a 24% additional tariff on US imports; a 10% tariff remains. Critical-mineral waivers and other suspensions also continue. This extends a truce rather than completing a comprehensive trade agreement.",
+      "headline": "Russia and Ukraine resume US-backed talks",
+      "summary": "Russian and Ukrainian representatives are meeting in Abu Dhabi. US officials describe narrower differences, but the sides remain far apart and no settlement is confirmed.",
       "source_name": "Reuters",
-      "published_at": "2026-11-08T21:48:00-05:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/china-extends-suspension-24-tariff-us-imports-two-months-2026-11-09/"
+      "published_at": "2026-11-09T19:03:00-05:00",
+      "source_url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
     },
     {
       "category": "World",
-      "headline": "Qatar mediation continues; Iran deal not imminent",
-      "summary": "Trump and Vance are due to meet Qatar's prime minister today. US and Gulf officials see substantial obstacles to an Iran settlement. Iranian reports of overnight strikes are not independently established in this account.",
+      "headline": "Oil falls as Trump holds off fresh Iran strikes",
+      "summary": "Trump said he would hold off new strikes after regional appeals. Oil prices fell, although shipping attacks continue and oversupply concerns also weighed on prices. No ceasefire was announced.",
       "source_name": "Reuters",
-      "published_at": "2026-11-09T06:16:00-05:00",
-      "source_url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
-    },
-    {
-      "category": "World",
-      "headline": "COP31 opens with electrification push",
-      "summary": "COP31 opened in Turkey with a proposed goal to electrify more than one-third of the global economy by 2035. Critics say the pledge does not require low-carbon electricity. An opening proposal is not an agreed final summit outcome.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-08T20:04:00-05:00",
-      "source_url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/"
+      "published_at": "2026-11-09T20:43:36-05:00",
+      "source_url": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/"
     }
   ],
-  "sources_checked_at": "2026-11-09T06:34:42-05:00"
+  "sources_checked_at": "2026-11-10T06:36:14-05:00"
 }
