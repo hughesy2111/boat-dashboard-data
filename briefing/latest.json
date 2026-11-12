@@ -1,48 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-11",
-  "generated_at": "2026-11-11T06:30:10-05:00",
+  "briefing_date": "2026-11-12",
+  "generated_at": "2026-11-12T06:31:20-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed overcast at 6:15 AM; visibility 10 miles",
-    "temperature_f": 63,
-    "forecast_wind_min_kt": 2,
-    "forecast_wind_max_kt": 8,
-    "forecast_gust_max_kt": 12,
-    "forecast_wind_direction_start": "W",
+    "condition": "Observed clear at 6:15 AM; visibility 10 miles",
+    "temperature_f": 61,
+    "forecast_wind_min_kt": 6,
+    "forecast_wind_max_kt": 15,
+    "forecast_gust_max_kt": 23,
+    "forecast_wind_direction_start": "WSW",
     "forecast_wind_direction_end": "W",
-    "storm_timing": "Forecast: slight shower chance late afternoon/evening; no local thunder period identified.",
-    "alert_status": "No active local land alert or marine alert in checked coastal zones.",
-    "best_window": "Forecast: morning; recheck radar and gusts before afternoon",
-    "confidence_10": 6,
+    "storm_timing": "Forecast: rain chance 0-5% through 6 PM; no local thunder period identified.",
+    "alert_status": "Small Craft Advisory issued: 7 PM today-7 AM Friday; marine gusts up to 30 kt expected.",
+    "best_window": "Forecast: morning is less windy; not a passage clearance",
+    "confidence_10": 7,
     "recheck_at": "11:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "3:19 AM",
-        "height_ft": 0.87
+        "time": "3:59 AM",
+        "height_ft": 1.03
       },
       {
         "type": "high",
-        "time": "9:31 AM",
-        "height_ft": 8.18
+        "time": "10:08 AM",
+        "height_ft": 7.99
       },
       {
         "type": "low",
-        "time": "3:58 PM",
-        "height_ft": 1.01
+        "time": "4:39 PM",
+        "height_ft": 1.18
       },
       {
         "type": "high",
-        "time": "9:46 PM",
-        "height_ft": 6.8
+        "time": "10:25 PM",
+        "height_ft": 6.64
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-11T05:06:20-05:00",
+    "forecast_updated_at": "2026-11-12T05:01:21-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -51,84 +51,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 2,
-        "gust_kt": 3,
-        "wind_direction": "W",
+        "wind_kt": 6,
+        "gust_kt": 9,
+        "wind_direction": "WSW",
         "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 5,
-        "gust_kt": 8,
+        "wind_kt": 11,
+        "gust_kt": 17,
         "wind_direction": "W",
         "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 7,
-        "gust_kt": 11,
+        "wind_kt": 14,
+        "gust_kt": 21,
         "wind_direction": "WSW",
-        "rain_percent": 6
+        "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 8,
-        "gust_kt": 12,
-        "wind_direction": "WSW",
-        "rain_percent": 8
+        "wind_kt": 15,
+        "gust_kt": 23,
+        "wind_direction": "W",
+        "rain_percent": 0
       },
       {
         "time": "6 PM",
-        "wind_kt": 8,
-        "gust_kt": 12,
+        "wind_kt": 11,
+        "gust_kt": 17,
         "wind_direction": "W",
-        "rain_percent": 17
+        "rain_percent": 1
       }
     ],
-    "marine_summary": "Forecast: W 5-10 kt, seas near 2 ft today; W 10-15 kt tonight, seas 2-3 ft. Advisory conditions expected Thursday evening onward.",
-    "storm_outlook": "NHC 1 AM forecast: no Atlantic, Caribbean or Gulf formation expected in 7 days. No active Atlantic tropical cyclone."
+    "marine_summary": "Forecast: W 15 kt, seas 2-3 ft today. Tonight NW 20 kt, seas 2-4 ft. Advisory 7 PM-7 AM Friday includes gusts to 30 kt.",
+    "storm_outlook": "NHC 1 AM forecast: no Atlantic, Caribbean or Gulf formation expected within 7 days. No active Atlantic tropical cyclone."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "US-China AI risk dialogue moves forward",
-      "summary": "Bessent said a bilateral dialogue will address advanced-model testing and serious-incident reporting. Cooperation on risks does not imply agreement on strategic competition or a binding AI-safety framework.",
+      "headline": "Leadership uncertainty rattles Nvidia",
+      "summary": "Reuters reports Nvidia's board is weighing Jensen Huang's future. Investors worry a leadership change could affect its AI investments and customer financing. No removal is confirmed in the report.",
       "source_name": "Reuters",
-      "published_at": "2026-11-10T20:25:19-05:00",
-      "source_url": "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/"
+      "published_at": "2026-11-12T01:26:00-05:00",
+      "source_url": "https://www.reuters.com/business/finance/investors-worry-ai-trade-needs-nvidias-huang-its-largesse-2026-11-12/"
     },
     {
       "category": "AI & Technology",
-      "headline": "SoftBank reports $7 billion quarterly loss",
-      "summary": "SoftBank reported a $7 billion quarterly loss, including a $3.7 billion data-centre equipment charge. Financing costs more than doubled; potential future rebates could offset part of the equipment loss.",
+      "headline": "Anthropic IPO targets up to $64.4 billion",
+      "summary": "Reuters reports a planned $70-$78 share range and fundraising target up to $64.4 billion. Index-linked demand could influence early trading; neither a successful offering nor future returns is assured.",
       "source_name": "Reuters",
-      "published_at": "2026-11-10T01:37:34-05:00",
-      "source_url": "https://www.reuters.com/world/asia-pacific/softbank-swings-7-billion-net-loss-second-quarter-2026-11-10/"
+      "published_at": "2026-11-12T00:06:13-05:00",
+      "source_url": "https://www.reuters.com/business/spacex-anthropic-markets-have-new-playbook-mega-share-debuts-2026-11-12/"
     },
     {
       "category": "US",
-      "headline": "House blocks Hegseth impeachment effort",
-      "summary": "House Republicans blocked the effort to impeach Defense Secretary Pete Hegseth. The procedural reprieve is not a Senate acquittal or a finding on the allegations; another effort remains possible.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-10T08:16:00-05:00",
-      "source_url": "https://www.reuters.com/world/pentagon-chief-hegseth-calls-moves-impeach-him-farce-that-will-fail-2026-11-10/"
+      "headline": "US consumer prices rose 0.4% in October",
+      "summary": "BLS reports seasonally adjusted CPI rose 0.4% in October; core CPI rose 0.3%. Missing October 2025 survey data prevent many year-over-year comparisons. These are monthly changes, not annual inflation rates.",
+      "source_name": "Bureau of Labor Statistics",
+      "published_at": "2026-11-10T08:30:00-05:00",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm"
     },
     {
       "category": "World",
-      "headline": "Ukraine peace talks enter a second day",
-      "summary": "Russian, Ukrainian and US negotiators resumed talks in Abu Dhabi. Officials described constructive discussions, but there is no confirmed breakthrough; territory and security guarantees remain disputed.",
+      "headline": "Russia and Ukraine agree to prisoner exchange",
+      "summary": "Negotiators agreed in principle to a major prisoner exchange, with numbers still to be determined. Territorial disputes remain unresolved; the humanitarian agreement is not a peace settlement.",
       "source_name": "Reuters",
-      "published_at": "2026-11-11T05:12:24-05:00",
+      "published_at": "2026-11-11T05:12:00-05:00",
       "source_url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
     },
     {
       "category": "World",
-      "headline": "Iran nuclear stance clouds de-escalation hopes",
-      "summary": "Iran's security chief rejected sending enriched material abroad. Oil rose as hopes for rapid de-escalation weakened, while Strait of Hormuz shipping risks persisted. No peace agreement is confirmed.",
+      "headline": "Hormuz risks persist despite lower oil prices",
+      "summary": "Oil edged lower as rising output offset geopolitical risks. Iran reported further mine damage to tankers; that account remains attributed. Nuclear disagreements and shipping disruption continue.",
       "source_name": "Reuters",
-      "published_at": "2026-11-10T21:10:08-05:00",
-      "source_url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+      "published_at": "2026-11-11T20:52:00-05:00",
+      "source_url": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/"
     }
   ],
-  "sources_checked_at": "2026-11-11T06:30:10-05:00"
+  "sources_checked_at": "2026-11-12T06:31:20-05:00"
 }
