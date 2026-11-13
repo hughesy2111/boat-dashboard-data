@@ -1,48 +1,48 @@
 {
   "schema_version": 3,
-  "briefing_date": "2026-11-12",
-  "generated_at": "2026-11-12T06:31:20-05:00",
+  "briefing_date": "2026-11-13",
+  "generated_at": "2026-11-13T06:40:00-05:00",
   "timezone": "America/New_York",
   "region": "Coastal Georgia",
   "at_a_glance": {
-    "condition": "Observed clear at 6:15 AM; visibility 10 miles",
-    "temperature_f": 61,
-    "forecast_wind_min_kt": 6,
-    "forecast_wind_max_kt": 15,
-    "forecast_gust_max_kt": 23,
-    "forecast_wind_direction_start": "WSW",
-    "forecast_wind_direction_end": "W",
-    "storm_timing": "Forecast: rain chance 0-5% through 6 PM; no local thunder period identified.",
-    "alert_status": "Small Craft Advisory issued: 7 PM today-7 AM Friday; marine gusts up to 30 kt expected.",
-    "best_window": "Forecast: morning is less windy; not a passage clearance",
+    "condition": "Clear; observed 6:15 AM, visibility 10 mi",
+    "temperature_f": 50,
+    "forecast_wind_min_kt": 4,
+    "forecast_wind_max_kt": 12,
+    "forecast_gust_max_kt": 19,
+    "forecast_wind_direction_start": "WNW",
+    "forecast_wind_direction_end": "WNW",
+    "storm_timing": "Forecast: dry today; no local thunderstorms forecast.",
+    "alert_status": "Earlier marine advisory canceled. New Small Craft Advisory 6 PM today–8 AM Saturday; no active land alerts.",
+    "best_window": "Morning has less wind; not a passage clearance.",
     "confidence_10": 7,
     "recheck_at": "11:00 AM",
     "tides": [
       {
         "type": "low",
-        "time": "3:59 AM",
-        "height_ft": 1.03
+        "time": "4:40 AM",
+        "height_ft": 1.24
       },
       {
         "type": "high",
-        "time": "10:08 AM",
-        "height_ft": 7.99
+        "time": "10:48 AM",
+        "height_ft": 7.76
       },
       {
         "type": "low",
-        "time": "4:39 PM",
-        "height_ft": 1.18
+        "time": "5:21 PM",
+        "height_ft": 1.38
       },
       {
         "type": "high",
-        "time": "10:25 PM",
-        "height_ft": 6.64
+        "time": "11:07 PM",
+        "height_ft": 6.48
       }
     ]
   },
   "day_ahead": {
     "forecast_source": "NWS NDFD",
-    "forecast_updated_at": "2026-11-12T05:01:21-05:00",
+    "forecast_updated_at": "2026-11-13T03:01:26-05:00",
     "secondary_models_checked": [
       "NBM",
       "HRRR",
@@ -51,84 +51,84 @@
     "timeline": [
       {
         "time": "NOW",
-        "wind_kt": 6,
-        "gust_kt": 9,
-        "wind_direction": "WSW",
+        "wind_kt": 4,
+        "gust_kt": 8,
+        "wind_direction": "WNW",
         "rain_percent": 0
       },
       {
         "time": "9 AM",
-        "wind_kt": 11,
-        "gust_kt": 17,
-        "wind_direction": "W",
+        "wind_kt": 6,
+        "gust_kt": 10,
+        "wind_direction": "WNW",
         "rain_percent": 0
       },
       {
         "time": "NOON",
-        "wind_kt": 14,
-        "gust_kt": 21,
-        "wind_direction": "WSW",
+        "wind_kt": 10,
+        "gust_kt": 17,
+        "wind_direction": "WNW",
         "rain_percent": 0
       },
       {
         "time": "3 PM",
-        "wind_kt": 15,
-        "gust_kt": 23,
+        "wind_kt": 12,
+        "gust_kt": 19,
         "wind_direction": "W",
         "rain_percent": 0
       },
       {
         "time": "6 PM",
-        "wind_kt": 11,
+        "wind_kt": 9,
         "gust_kt": 17,
-        "wind_direction": "W",
-        "rain_percent": 1
+        "wind_direction": "WNW",
+        "rain_percent": 0
       }
     ],
-    "marine_summary": "Forecast: W 15 kt, seas 2-3 ft today. Tonight NW 20 kt, seas 2-4 ft. Advisory 7 PM-7 AM Friday includes gusts to 30 kt.",
-    "storm_outlook": "NHC 1 AM forecast: no Atlantic, Caribbean or Gulf formation expected within 7 days. No active Atlantic tropical cyclone."
+    "marine_summary": "Forecast: W 15–20 kt this afternoon; NW 20–25 kt tonight, seas 3–5 ft. Small Craft Advisory starts 6 PM. Offshore wind exceeds land forecast.",
+    "storm_outlook": "NHC 1 AM forecast: no tropical cyclone formation expected in the Atlantic, Caribbean or Gulf over seven days; no active Atlantic named storm."
   },
   "stories": [
     {
       "category": "AI & Technology",
-      "headline": "Leadership uncertainty rattles Nvidia",
-      "summary": "Reuters reports Nvidia's board is weighing Jensen Huang's future. Investors worry a leadership change could affect its AI investments and customer financing. No removal is confirmed in the report.",
-      "source_name": "Reuters",
-      "published_at": "2026-11-12T01:26:00-05:00",
-      "source_url": "https://www.reuters.com/business/finance/investors-worry-ai-trade-needs-nvidias-huang-its-largesse-2026-11-12/"
+      "headline": "Nvidia confirms immediate CEO transition",
+      "summary": "Nvidia confirmed Jensen Huang left its CEO and board roles. CFO Colette Kress is interim CEO while retaining her finance role; the company is searching for a permanent successor.",
+      "source_name": "Reuters / Nvidia",
+      "published_at": "2026-11-12T08:52:00-05:00",
+      "source_url": "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
     },
     {
       "category": "AI & Technology",
-      "headline": "Anthropic IPO targets up to $64.4 billion",
-      "summary": "Reuters reports a planned $70-$78 share range and fundraising target up to $64.4 billion. Index-linked demand could influence early trading; neither a successful offering nor future returns is assured.",
+      "headline": "Microsoft 365 disruption stretches past 12 hours",
+      "summary": "Reuters' latest report describes a prolonged disruption affecting Outlook, Teams and Copilot. Microsoft reported stabilization measures; full recovery at briefing time was not independently confirmed.",
       "source_name": "Reuters",
-      "published_at": "2026-11-12T00:06:13-05:00",
-      "source_url": "https://www.reuters.com/business/spacex-anthropic-markets-have-new-playbook-mega-share-debuts-2026-11-12/"
+      "published_at": "2026-11-12T13:32:00-05:00",
+      "source_url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
     },
     {
-      "category": "US",
-      "headline": "US consumer prices rose 0.4% in October",
-      "summary": "BLS reports seasonally adjusted CPI rose 0.4% in October; core CPI rose 0.3%. Missing October 2025 survey data prevent many year-over-year comparisons. These are monthly changes, not annual inflation rates.",
-      "source_name": "Bureau of Labor Statistics",
-      "published_at": "2026-11-10T08:30:00-05:00",
-      "source_url": "https://www.bls.gov/news.release/cpi.htm"
+      "category": "US News",
+      "headline": "US AI task force discusses cyberattack reporting",
+      "summary": "The White House AI task force discussed AI-powered cyberattacks, critical infrastructure vulnerabilities and incident-reporting standards. These are discussions, not a newly enacted reporting mandate.",
+      "source_name": "Reuters",
+      "published_at": "2026-11-12T21:54:44-05:00",
+      "source_url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/"
     },
     {
-      "category": "World",
-      "headline": "Russia and Ukraine agree to prisoner exchange",
-      "summary": "Negotiators agreed in principle to a major prisoner exchange, with numbers still to be determined. Territorial disputes remain unresolved; the humanitarian agreement is not a peace settlement.",
+      "category": "World News",
+      "headline": "Iran claims attack on US radar in Bahrain",
+      "summary": "Iran's Revolutionary Guards said they targeted a US early-warning radar in Bahrain. The report did not independently establish a successful hit or damage; no immediate US or Bahraini response was reported.",
       "source_name": "Reuters",
-      "published_at": "2026-11-11T05:12:00-05:00",
-      "source_url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+      "published_at": "2026-11-12T21:51:00-05:00",
+      "source_url": "https://www.reuters.com/world/middle-east/irans-guards-say-they-targeted-us-early-warning-radar-bahrain-2026-11-13/"
     },
     {
-      "category": "World",
-      "headline": "Hormuz risks persist despite lower oil prices",
-      "summary": "Oil edged lower as rising output offset geopolitical risks. Iran reported further mine damage to tankers; that account remains attributed. Nuclear disagreements and shipping disruption continue.",
+      "category": "World News",
+      "headline": "US envoy reports Ukraine talks and exchange plans",
+      "summary": "Jared Kushner said Russia and Ukraine agreed to include European nations in upcoming talks. He described work toward a major prisoner exchange; planned releases are not completed releases, and territorial disputes remain.",
       "source_name": "Reuters",
-      "published_at": "2026-11-11T20:52:00-05:00",
-      "source_url": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/"
+      "published_at": "2026-11-12T20:39:00-05:00",
+      "source_url": "https://www.reuters.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-russias-war-ukraine-2026-11-13/"
     }
   ],
-  "sources_checked_at": "2026-11-12T06:31:20-05:00"
+  "sources_checked_at": "2026-11-13T06:39:00-05:00"
 }
